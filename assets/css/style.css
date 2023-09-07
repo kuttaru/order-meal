@@ -1,0 +1,29 @@
+html { line-height: 1.5; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; font-weight: normal; color: #000; font-size: 15px; }
+body { color: #000; line-height: 1.6; font-size: 16px; -webkit-font-smoothing: antialiased; font-family: 'Open Sans', sans-serif; }
+p { display: block; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; }
+.container { max-width: 1120px; padding: 0 20px; width: auto; }
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.btn:focus, .btn:active:focus, .btn.active:focus { outline: none; outline: none; outline-offset: 0; box-shadow: none; }
+input:focus, textarea:focus, select:focus { outline: none; }
+a:focus, a:hover, a:active { outline: none !important; }
+::-webkit-input-placeholder { color: #000; opacity: 1 !important; }
+:-moz-placeholder { color: #000; opacity: 1 !important; }
+::-moz-placeholder { color: #000; opacity: 1 !important; }
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Unbounded', cursive; font-weight: bold; }
+h1 { font-size: 4.68rem; line-height: 110%; margin: 2.8rem 0 1.68rem 0 }
+h2 { font-size: 2.8rem; line-height: 110%; margin: 2.3733333333rem 0 1.424rem 0 }
+h3 { font-size: 2.14rem; line-height: 110%; margin: 1.9466666667rem 0 1.168rem 0 }
+h4 { font-size: 1.6rem; line-height: 110%; margin: 1.52rem 0 .912rem 0; font-family: 'Open Sans', sans-serif; }
+h5 { font-size: 1.64rem; line-height: 110%; margin: 1.0933333333rem 0 .656rem 0 }
+h6 { font-size: 1.15rem; line-height: 110%; margin: .7666666667rem 0 .46rem 0 }
+a { color: #BDE738 }
+img { max-width: 100% }
+a.know-btn { background: #BDE738; display: inline-block; padding: 12px 25px; border-radius: 50px; padding-right: 60px; color: #000; position: relative; font-weight: 600; }
+a.know-btn:after { content: ''; display: block; width: 20px; height: 20px; position: absolute; top: 19px; right: 26px; background: url(../images/right-arrow.svg) no-repeat; -moz-transition: all .4s ease; transition: all .4s ease; }
+a.know-btn:hover:after { transform: translate(7px, 0px); }
+.lear-btn { padding-right: 50px; position: relative; font-weight: 600; }
+.lear-btn:after { content: ''; display: block; width: 20px; height: 20px; position: absolute; top: 5px; right: 20px; background: url(../images/learn.svg) no-repeat; -moz-transition: all .4s ease; transition: all .4s ease; }
+.lear-btn:hover:after { transform: translate(7px, 0px); }
+.owl-carousel .owl-stage-outer{cursor: grab;}
+
