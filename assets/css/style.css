@@ -2,10 +2,10 @@
 width:1366px
 */
 
-/*.landing-page{ background:url(../images/pages/home.png) no-repeat 15px 0px ;
-width:1366px; position:relative; height:5420px;  
-}
-*/
+/*body{ background:url(../images/pages/signup.png) no-repeat 0px 0px ;
+width:1366px; position:relative; height:5420px; border-right: 2px solid #f00; 
+}*/
+
 
 html { line-height: 1.5; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; font-weight: normal; color: #000; font-size: 15px; }
 body { color: #000; line-height: 1.6; font-size: 14px; -webkit-font-smoothing: antialiased; font-family: 'Inter', sans-serif; }
@@ -36,20 +36,45 @@ img{ max-width:100%; display:block; }
 .middle { display: flex; justify-content: center; flex-direction: column; }
 .btn{ background:#FC6143; color:#fff; }
 .btn:hover{ background:#000; color:#fff; }
-/*----- header -------*/
-#header{ padding:20px 0; }
-#header .container{ display:flex; justify-content:space-between; }
-#header.ovly-header { position:absolute; width:100%; left:0; top:0; }
-.landing-page #header{ padding-top:50px; }
-#header .logo-wrap {width: 272px;}
 
+
+/*--- input ---*/
+.input-field { margin-bottom: 20px; }
+.form-control { background: #F1F1F1; border: none; border-radius: 0px; color: #000; }
+.checkbox-wrap a{color:#FC6143; }
+
+
+/*----- header_transparent -------*/
+#header_transparent{ padding:20px 0; }
+#header_transparent .container{ display:flex; justify-content:space-between; }
+#header_transparent.ovly-header { position:absolute; width:100%; left:0; top:0; }
+.landing-page #header_transparent{ padding-top:50px; }
+#header_transparent .logo-wrap {width: 272px;}
 .signbtn{ padding-top:8px }
 .signbtn a{ text-decoration:none; font-weight:bold; padding:0px 10px; }
 .signbtn a.brd-right{ border-right:2px solid #000 }
+.btn.grey{ background:#f1f1f1; color:#000; }
+
+/*----- header -------*/
+#header {padding: 27px 0px;box-shadow: 0px 0px 3px rgb(0 0 0 / 40%);}
+#header .container { max-width: 96%; }
+#header .flexrow { display: flex; }
+#header .hamburger_menu { width: 30px; padding: 5px 0px; margin-right: 24px;cursor: pointer; }
+#header .hamburger_menu hr { display: block; height: 3px; border: none; background: #FC6143; margin: 5px 0; opacity: 1; border-radius: 10px;  }
+#header .logo-wrap { width: 216px; }
+#header .logo-wrap img { display: block; }
+
+
+
+/* ------- #main-content ------- */
+#main-content { min-height: calc(100vh - 596px); }
+.signin-page #main-content { background: url(../images/login-bg.png) no-repeat; background-size: cover; }
+
+
 
 
 /*---switch---*/
-#header .switch { width: 200px }
+#header_transparent .switch { width: 200px }
 .switch { display: flex; background: #f1f1f1; position: relative; left: 0; top: 0; border-radius: 30px; overflow: hidden; }
 .switch input { position: absolute; z-index: 9; top: 0; left: 0; }
 .switch span { display: block; padding: 10px 20px; position: relative; z-index: 3; width: 50%; border-radius: 30px; text-align: center; cursor: pointer; font-weight:bold; }
@@ -164,7 +189,9 @@ img{ max-width:100%; display:block; }
 
 /* ========================================= */
 
-#footer{padding-top: 80px; background: #000;}
+#footer{ min-height:504px; }
+
+#footer{padding-top: 80px; background: #000; color: #fff; padding-bottom: 40px}
 #footer ul{ padding:0; margin:0; list-style:none; }
 #footer ul li a{ font-weight: bold; color: #fff;}
 #footer ul li a:hover{color: #FC6143;}
@@ -194,7 +221,8 @@ img{ max-width:100%; display:block; }
 
 #footer .top-citys ul.city_links { column-count: 4; column-gap: 15px; }
 #footer .top-citys ul.city_links li { margin: 0; display: grid; grid-template-rows: 1fr auto; margin-bottom: 10px; break-inside: avoid; width: auto; }
-#copyright {padding-top: 80px;padding-bottom: 40px; background: #000}
+
+#copyright {padding: 40px 0 0; background: #000}
 #copyright ul { display: flex; justify-content: center; }
 #copyright ul li { position: relative; }
 #copyright ul li:before { content: ''; display: block; width: 1px; background: #fff; height: 12px; position: absolute; right: 0; top: 5px; }
@@ -202,8 +230,14 @@ img{ max-width:100%; display:block; }
 #copyright ul li:last-child:before { content: normal; }
 
 
+/* ============ Pages ============ */
 
-
+/* --- Signin pages --- */
+.sign-form { width:90%; max-width: 490px;  margin: 20px auto; padding: 30px; }
+.sign-form { background: #fff; border-radius: 20px; }
+.sign-form h3 { margin: 0 0 20px; font-size: 22px; color: #FC6143; font-weight: 500; }
+.sign-form .frgt-pas a { color: #FC6143; }
+.sign-form .btn-wrap .btn { width: 100%; border-radius: 20px; padding: 10px 20px; }
 
 
 

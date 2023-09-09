@@ -1,6 +1,6 @@
 @media (max-width:740px) {
-    #header .logo-wrap { width: 172px; }
-    .landing-page #header { padding-top: 30px; }
+    #header_transparent .logo-wrap { width: 172px; }
+    .landing-page #header_transparent { padding-top: 30px; }
     .find-rest .btn-wrap .loc-me { display: none; }
     .find-rest .form-control { padding-right: 160px; }
     .find-rest .btn-wrap .btn { padding: 0 14px; }
@@ -40,7 +40,10 @@
     #footer .quick-links ul.qu_links li, #footer .top-citys ul.city_links li { display: block; }
     #footer .links_wrap ul { display: none; }
     #footer .links_wrap.show ul { display: block; }
+
     #footer .quick-links.show { padding-bottom: 20px; border-bottom: 2px solid rgb(255 255 255 / 10%); margin-bottom: 20px; }
+    #footer .quick-links.show { padding-bottom: 20px; border-bottom: 2px solid rgb(255 255 255 / 10%); margin-bottom: 20px; }
+
     #footer .links_wrap h3 { position: relative; }
     #footer .links_wrap h3:before { content: ''; display: block; width: 0px; height: 0px; border-style: solid; border-width: 5px 0 5px 10px; border-color: transparent transparent transparent #FC6143; position: absolute; left: -18px; top: 5px; -moz-transition: all .4s ease; transition: all .4s ease; }
     #footer .links_wrap.show h3:before { transform: rotate(90deg); top: 7px; }
