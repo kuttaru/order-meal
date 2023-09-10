@@ -13,7 +13,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-    <link type="text/css" rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/swiper.min.css" />
     <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
     <link type="text/css" rel="stylesheet" href="assets/css/responsive.css" />
 
@@ -21,7 +21,7 @@
     
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/swiper.min.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
 
 
@@ -42,20 +42,45 @@
 
 
 <div id="banner">
-<div class="container">
-    <h2>Hungry?</h2>
-    <h3 class="normal">Order food from your nearby Restaurants</h3>
-        <div class="find-rest">
-            <div class="form-item">
-                <input type="text" class="form-control" placeholder="Enter your location" name="">
-            </div>
-            <div class="btn-wrap">
-                <span class="loc-me">Locate me</span>
-                <button class="btn">Find Restaurant</button>
+    <div class="container">
+        <div class="inner">
+            <h2>Hungry?</h2>
+            <h3 class="normal">Order food from your nearby Restaurants</h3>
+            <div class="find-rest">
+                <div class="form-item">
+                    <input type="text" class="form-control" placeholder="Enter your location" name="">
+                </div>
+                <div class="btn-wrap">
+                    <span class="loc-me">Locate me</span>
+                    <button class="btn">Find Restaurant</button>
+                </div>
             </div>
         </div>
+
+
+      <div class="swiper meal-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="imgwrap slide1"><img src="assets/images/slide1-1.png" alt=""></div>
+            <div class="imgwrap slide2"><img src="assets/images/slide1-2.png" alt=""></div>
+            
+          </div>
+          <div class="swiper-slide">
+            <div class="imgwrap slide1"><img src="assets/images/slide2-1.png" alt=""></div>
+            <div class="imgwrap slide2"><img src="assets/images/slide2-2.png" alt=""></div>
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+
 </div>
-</div>
+
+
+
+
+
 
 <div id="hmbox">
     <div class="container">
@@ -86,11 +111,15 @@
 <div id="giftcard-wrap">
     <div class="container">
         <div class="gift_card">
-            <h3>Now grab your gift cards</h3>
-            <h1>$10 to $ 100</h1>
-            <p>Redeem your gift card now !</p>
+            <div class="inner">
+                <h3>Now grab your gift cards</h3>
+                <h1>$10 to $ 100</h1>
+                <p>Redeem your gift card now !</p>
+            </div>
+            <i class="gift-img"></i>
         </div>
     </div>
+
 </div>
 
 <div id="order_cat">

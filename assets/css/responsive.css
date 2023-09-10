@@ -1,6 +1,10 @@
 @media (max-width:740px) {
     #header_transparent .logo-wrap { width: 172px; }
     .landing-page #header_transparent { padding-top: 30px; }
+    #banner h3 { font-size: 16px }
+    .meal-slider .slide1 { top: 80px; width: 220px; right: -30%; }
+    .meal-slider .slide2 { top: 376px; width: 250px; left: 50%; right: auto; margin-left: -125px; }
+    #banner .container { height: auto; padding-top: 180px; padding-bottom: 60px; }
     .find-rest .btn-wrap .loc-me { display: none; }
     .find-rest .form-control { padding-right: 160px; }
     .find-rest .btn-wrap .btn { padding: 0 14px; }
@@ -10,6 +14,7 @@
     .gift_card h3 { font-size: 20px; }
     .gift_card h1 { margin: 4px 0 5px; font-size: 24px; }
     .gift_card p { font-size: 12px; }
+    .gift_card .gift-img { width: 100%; top: 10px; background-size: 70%; background-position: 90px 30px; }
     #order_cat .flexwrap { overflow: scroll; padding-top: 20px; }
     #order_cat h3 { font-size: 16px; }
     #order_cat .item { min-width: 80px; padding-bottom: 20px; }
