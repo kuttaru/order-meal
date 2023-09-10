@@ -19,17 +19,24 @@
     #order_cat h3 { font-size: 16px; }
     #order_cat .item { min-width: 80px; padding-bottom: 20px; }
     #order_cat .item h4 { font-size: 12px; }
-    #download_wrap .dwn-bg { min-height: 250px; }
+    #download_wrap .flexrow { flex-wrap: wrap; }
+    #download_wrap .flexrow .item { width: 44%; margin-bottom: 16px; }
+    #download_wrap .download_content { padding: 10px 0 20px; }
+    #download_wrap .dwn-bg { min-height: 340px; background-size: 100%; background-position: top center; margin-top: -90px; }
+    #service-wrap {padding: 40px 0;}
     #service-wrap .imgwrap { position: relative; top: auto; right: auto; }
     #service-wrap .inner { padding: 20px; }
     #service-wrap .imgwrap { padding-top: 20px; margin: 0 auto; }
     #service-wrap .inner h3 br { display: none; }
     #add-resturant { padding: 30px 0; }
+    .food_burger,.food_french,.drink_soda {  display: none;}
+    #find-city .flexrow {margin-top: 40px;}
     #find-city .flexrow { display: block; }
     #find-city .flexrow .city-wrap { padding: 20px; }
     #find-city .logoimg { position: relative; top: auto; left: auto; }
     #find-city .flexrow .city-wrap, #find-city .flexrow .city-links { width: auto; }
     #find-city .flexrow .city-links { border-radius: 20px; }
+    #delivery-wrap {margin-top: 40px;}
     #footer .quick-links ul.qu_links { column-count: 1; column-gap: 0; }
     #footer .top-citys ul.city_links { column-count: 1; column-gap: 0; }
     #footer .flexrow { flex-wrap: wrap; }

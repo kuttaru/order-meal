@@ -84,6 +84,17 @@ img{ max-width:100%; display:block; }
 .switch input:checked + span +span { background: #fc6143; color: #fff; }
 
 
+/* ==== Menu ========= */
+#main-menu .modal-dialog { margin: 0; background: #fff;  position: fixed; top: 0; left: 0; height:100%;transform: translate(0, 0); }
+#main-menu .modal-content { margin: 0; width: 360px; position: fixed; height: 100%; padding: 20px; border-radius: 0; }
+
+
+
+#main-menu.modal.fade .modal-content { transition: transform .3s ease-out; transform: translate(-360px, 0px); -moz-transition: all 1s ease; transition: all 1s ease; }
+#main-menu.modal.fade.show .modal-content { transition: transform .3s ease-out; transform: translate(0px, 0px); }
+
+#main-menu .btn-close { position: absolute; top: 20px; right: 20px; cursor: pointer; }
+#main-menu ul li a { font-weight: bold; display: block; padding: 10px 20px }
 
 /*--- Banner ------*/
 /**/
@@ -149,7 +160,7 @@ img{ max-width:100%; display:block; }
 
 
 
-/*--movetop, --moveleft*/
+
 
 
 /*--- Service wrap ----*/
