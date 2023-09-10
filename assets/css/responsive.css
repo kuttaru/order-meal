@@ -1,10 +1,14 @@
 @media (max-width:740px) {
-    #header_transparent .logo-wrap { width: 172px; }
+    #header_transparent .logo-wrap { width: 120px; }
+    .signbtn {padding-top: 0px;}
+    #header .logo-wrap {width: 120px;padding-top: 8px;}
+    #header { padding: 12px 0px; }
     .landing-page #header_transparent { padding-top: 30px; }
     #banner h3 { font-size: 16px }
     .meal-slider .slide1 { top: 80px; width: 220px; right: -30%; }
     .meal-slider .slide2 { top: 376px; width: 250px; left: 50%; right: auto; margin-left: -125px; }
     #banner .container { height: auto; padding-top: 180px; padding-bottom: 60px; }
+    #banner h2 {margin-bottom: 12px;}
     .find-rest .btn-wrap .loc-me { display: none; }
     .find-rest .form-control { padding-right: 160px; }
     .find-rest .btn-wrap .btn { padding: 0 14px; }
@@ -23,11 +27,14 @@
     #download_wrap .flexrow .item { width: 44%; margin-bottom: 16px; }
     #download_wrap .download_content { padding: 10px 0 20px; }
     #download_wrap .dwn-bg { min-height: 340px; background-size: 100%; background-position: top center; margin-top: -90px; }
+    #download_wrap h4 {font-size: 15px;}
+    #download_wrap p {font-size: 14px;}
     #service-wrap {padding: 40px 0;}
     #service-wrap .imgwrap { position: relative; top: auto; right: auto; }
     #service-wrap .inner { padding: 20px; }
     #service-wrap .imgwrap { padding-top: 20px; margin: 0 auto; }
     #service-wrap .inner h3 br { display: none; }
+    #service-wrap p {font-size: 14px;}
     #add-resturant { padding: 30px 0; }
     .food_burger,.food_french,.drink_soda {  display: none;}
     #find-city .flexrow {margin-top: 40px;}
@@ -36,7 +43,11 @@
     #find-city .logoimg { position: relative; top: auto; left: auto; }
     #find-city .flexrow .city-wrap, #find-city .flexrow .city-links { width: auto; }
     #find-city .flexrow .city-links { border-radius: 20px; }
+    .city-links ul li a { text-decoration: none; font-size: 14px; padding-left: 20px; }
+    .city-links ul li a:before { top: 14px; }
     #delivery-wrap {margin-top: 40px;}
+    #delivery-wrap p {font-size: 14px;}
+    #delivery-wrap h3 br{ display:none; }
     #footer .quick-links ul.qu_links { column-count: 1; column-gap: 0; }
     #footer .top-citys ul.city_links { column-count: 1; column-gap: 0; }
     #footer .flexrow { flex-wrap: wrap; }

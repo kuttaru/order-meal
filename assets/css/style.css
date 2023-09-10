@@ -86,7 +86,7 @@ img{ max-width:100%; display:block; }
 
 /* ==== Menu ========= */
 #main-menu .modal-dialog { margin: 0; background: #fff;  position: fixed; top: 0; left: 0; height:100%;transform: translate(0, 0); }
-#main-menu .modal-content { margin: 0; width: 360px; position: fixed; height: 100%; padding: 20px; border-radius: 0; }
+#main-menu .modal-content { margin: 0; width: 280px; position: fixed; height: 100%; padding: 20px; border-radius: 0; }
 
 
 
@@ -100,7 +100,7 @@ img{ max-width:100%; display:block; }
 /**/
 #banner {  background: #f1f1f1 url(../images/bnrbg-trs.svg);  }
 #banner .inner {position: relative;z-index: 5;}
-#banner h2 { margin-bottom: 0; }
+#banner h2 { margin-bottom: 10px; }
 #banner h3 { font-weight: normal; margin: 0; }
 .find-rest { position: relative; margin: 28px 0; max-width: 550px}
 .find-rest .btn-wrap { position: absolute; top: 0; right: 0; z-index: 3; }
@@ -120,6 +120,7 @@ img{ max-width:100%; display:block; }
 #hmbox { padding: 110px 0 69px; }
 #hmbox .inner { display: flex; padding: 20px; min-height: 125px; background: #f1f1f1; border-radius: 20px; }
 #hmbox .inner .imgwrap { width: 130px; text-align: center; }
+#hmbox .inner .imgwrap img {margin: 0 auto;}
 #hmbox .inner.ord_box .imgwrap { width: 86px; }
 #hmbox .inner.fast_box .imgwrap { padding-top: 21px; }
 #hmbox .inner.ord_box .imgwrap { padding-top: 10px; }
