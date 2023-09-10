@@ -34,14 +34,19 @@ ul{ padding:0; margin:0; list-style:none; }
 .form-control:focus { border-color: #fc6143; outline: 0; box-shadow: 0 0 0 .25rem rgb(252 97 67 / 30%); }
 img{ max-width:100%; display:block; }
 .middle { display: flex; justify-content: center; flex-direction: column; }
-.btn{ background:#FC6143; color:#fff; }
+.btn{ background:#FC6143; color:#fff;border-radius:30px; padding:10px 20px; }
 .btn:hover{ background:#000; color:#fff; }
 
 
 /*--- input ---*/
 .input-field { margin-bottom: 20px; }
-.form-control { background: #F1F1F1; border: none; border-radius: 0px; color: #000; font-weight:bold; }
+.form-control { background: #F1F1F1; border: none; border-radius: 0px; color: #000; font-weight:bold; padding:.5rem .75rem }
 .checkbox-wrap a{color:#FC6143; }
+.checkbox [type="checkbox"] { position: absolute; opacity: 0; pointer-events: none; }
+.checkbox span { position: relative; padding-left: 30px; cursor: pointer; display: inline-block; height: 25px; line-height: 25px; font-size: 1rem; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; font-weight: bold; }
+.checkbox span:before { content: ''; position: absolute; top: 0; left: 0; width: 18px; height: 18px; z-index: 0; border: 2px solid #FC6143; border-radius: 5px; margin-top: 3px; -webkit-transition: .2s; transition: .2s; }
+.checkbox [type="checkbox"]:checked+span:before { background: #FC6143; }
+
 
 
 /*----- header_transparent -------*/
@@ -58,7 +63,7 @@ img{ max-width:100%; display:block; }
 
 /*----- header -------*/
 #header {padding: 27px 0px;box-shadow: 0px 0px 3px rgb(0 0 0 / 40%);}
-#header .container { max-width: 96%; }
+#header .container,.container-full { max-width: 94%; margin:0 auto; padding: 0 20px; }
 #header .flexrow { display: flex; justify-content:space-between; }
 #header .hamburger_menu { width: 30px; padding: 5px 0px; margin-right: 24px;cursor: pointer; }
 #header .hamburger_menu hr { display: block; height: 3px; border: none; background: #FC6143; margin: 5px 0; opacity: 1; border-radius: 10px;  }
@@ -76,7 +81,7 @@ img{ max-width:100%; display:block; }
 
 
 /* ------- #main-content ------- */
-#main-content { min-height: calc(100vh - 596px); }
+#main-content { min-height: 80vh }
 .signin-page #main-content { background: url(../images/login-bg.png) no-repeat; background-size: cover; }
 
 
@@ -86,7 +91,7 @@ img{ max-width:100%; display:block; }
 #header_transparent .switch { width: 200px }
 .switch { display: flex; background: #f1f1f1; position: relative; left: 0; top: 0; border-radius: 30px; overflow: hidden; }
 .switch input { position: absolute; z-index: 9; top: 0; left: 0; }
-.switch span { display: block; padding: 14px 30px; position: relative; z-index: 3; width: 50%; border-radius: 30px; text-align: center; cursor: pointer; font-weight:bold; }
+.switch span { display: block; padding: 14px 20px; position: relative; z-index: 3; width: 50%; border-radius: 30px; text-align: center; cursor: pointer; font-weight:bold; }
 .switch span.deli { background: #fc6143; color: #fff; }
 .switch input { display: none; }
 .switch input:checked + span.deli { background: none; color: #000; }
@@ -276,10 +281,10 @@ img{ max-width:100%; display:block; }
 .sign-form .btn-wrap .btn { width: 100%; border-radius: 20px; padding: 10px 20px; }
 
 
-
-
-
-
+/* --- Home --- */
+#order_cat.hm_cat { padding-top: 20px; margin-bottom:40px }
+#order_cat.hm_cat .flexwrap { padding-top: 20px; }
+.filter-wrap ul li {padding: 5px 0;}
 
 
 
@@ -323,3 +328,5 @@ img{ max-width:100%; display:block; }
     50% { transform: translate(100px, 10px) scale(1.2); }
     100% { transform: translate(0px, 0px) scale(1); }
 }
+
+
