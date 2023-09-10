@@ -1,7 +1,7 @@
 @media (max-width:740px) {
     #header_transparent .logo-wrap { width: 120px; }
     .signbtn {padding-top: 0px;}
-    #header .logo-wrap {width: 120px;padding-top: 8px;}
+    #header .logo-wrap .logo {width: 120px;padding-top: 8px;}
     #header { padding: 12px 0px; }
     .landing-page #header_transparent { padding-top: 30px; }
     #banner h3 { font-size: 16px }
@@ -47,6 +47,7 @@
     .city-links ul li a:before { top: 14px; }
     #delivery-wrap {margin-top: 40px;}
     #delivery-wrap p {font-size: 14px;}
+    #delivery-wrap h3{ font-size:22px; }
     #delivery-wrap h3 br{ display:none; }
     #footer .quick-links ul.qu_links { column-count: 1; column-gap: 0; }
     #footer .top-citys ul.city_links { column-count: 1; column-gap: 0; }
