@@ -30,9 +30,6 @@
     
 
 
-
-
-
   var swiper = new Swiper(".meal-slider", {
     spaceBetween: 0,
     slidesPerView: 1,

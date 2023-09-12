@@ -32,8 +32,10 @@
 </head>
 
 
-<body class="signin-page" ng-app="">
+<body class="home-page" ng-app="">
     
+
+
 <div id="header" class="ovly-header">
     <div class="container">
         <div class="flexrow">
@@ -41,6 +43,30 @@
                 <div class="hamburger_menu" data-bs-toggle="modal" data-bs-target="#main-menu"><hr/><hr/><hr/></div>
                 <div class="logo"><a href="/"><img src="assets/images/logo.svg" alt=""/></a></div>
             </div>
+            <div class="right-section">
+                <div class="hdr_frm">
+                  
+                    <div class="addr-wrap">
+                        <input type="text" value="Auckland, Fri Aug 3, 12:00 pm - 12:45 pm" class="form-control addr_inp">
+                    </div>
+                    <div class="find-restu">
+                        <input type="text" placeholder="Find Restaurants" class="form-control find_res">
+                        <div class="show_filter"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sin_wrap">
+                <a href="#" class="cart-count">99</a>
+                <div class="signbtn"><a href="/signin.html">Sign In</a></div>
+            </div>
+
+
+
+
+
+
+
         </div>
     </div>
 </div>
@@ -64,46 +90,184 @@
     </div>
 </div>
 
-<div id="main-content" class="middle">
-    <div class="sign-form">
-        <h3>Log in to Order Meal</h3>
+<div id="restaurant-banner">
+    <div class="imgwrap"><img src="assets/images/resturant-banner.png" /></div>
 
-        <form>
-            <div class="row">
-                <div class="input-field col-md-6">
-                  <input placeholder="First Name" type="text" class="form-control">
+<div class="container-full">
+    <div class="resturant-details">
+        <div class="restur-logo"><img src="assets/images/resturant-logo.png" /></div>
+        <h2>Chand Torbay</h2>
+        <p>Phone: 09 473 6259 • <span href="#" data-bs-toggle="modal" data-bs-target="#rest_info">More info</span></p>
+    </div>
+</div>
+
+
+</div>
+<div class="modal fade" id="rest_info" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="imgwrap"><img src="assets/images/prdt_popup.png"></div>
+            <span  class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+            <div class="addcart-wrap">
+                <div class="item">
+                    <h3>Chand Indian Restaurant</h3>
                 </div>
-                <div class="input-field col-md-6">
-                  <input placeholder="Surname" type="text" class="form-control">
+                    <div class="item">
+                        <p class="phone_icon">09 473 6259</p>
+                    </div>                    
+                    <div class="item">
+                        <p class="location_icon">1028 Beach Road, Torbay</p>
+                    </div>                    
+                    <div class="item">
+                        <p class="time_icon">Open Now ⋅ Closes 09:30 PM</p>
+                    </div>
+
+
+
+
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div id="main-content">
+    <div class="container-full">
+        <div class="row left_sidebar">
+            <div class="left-sidebar">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                
+            </div>
+            <div class="content">
+
+
+            <div class="top_filter row">
+                <div class="col-md-6">
+                    <div class="flexrow">
+                        <div class="ofer_you">
+                            <select  class="form-control">
+                                <option value="1">Offer for you</option>
+                                <option value="2">Option 2</option>
+                                <option value="3">Option 3</option>
+                            </select>
+                        </div>
+                        <div id="datepicker">
+                            <input id="startDate" class="form-control" type="date">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="switch-wrap pick_del">
+                        <label class="switch">
+                            <input type="checkbox" checked="checked" />
+                            <span class="deli">Delivery</span>
+                            <span>Pickup</span>
+                        </label>
+                    </div>
                 </div>
             </div>
 
-            <div class="input-field">
-              <input placeholder="Mobile Number" type="text" class="form-control">
-            </div>
-            <div class="input-field">
-              <input placeholder="Email Address" type="text" class="form-control">
-            </div>
-            <div class="input-field">
-              <input placeholder="Password" type="password" class="form-control">
-            </div>
-            <div class="input-field">
-              <input placeholder="Confirm Password" type="password" class="form-control">
-            </div>
-            <div class="input-field">
-                <div class="checkbox-wrap">
-                    <label><input name="checkbox" type="checkbox" value="rabbit"> I agree to the <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a></label>
+
+
+<div class="modal fade" id="addtocart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="imgwrap"><img src="assets/images/prdt_popup.png"></div>
+            <span  class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+            <div class="addcart-wrap">
+                <div class="item">
+                    <h3>Balti Chutney Chicken / Beef</h3>
+                    <p class="grey">Pieces cooked with garlic, ginger, mango chutney and spices.</p>
                 </div>
+                <div class="item pref_wrap">
+                    <p>Preference</p>
+                    <p>(Optional)</p>
+                </div>
+                <div class="item">
+                    <p class="orange-text">Select your choice to continue</p>
+                    <p><b>Meat Type</b></p>
+                </div>
+
+
+
+
+
+
             </div>
-            <div class="input-field">
-                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-                 <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+
+
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+<h3>Entree</h3>
+<div class="swiper prdtSwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="imgwrap"><img src="assets/images/food/food.jpg" /></div>
+        <div class="inner prdt_box">
+            <h4>Papadums Platter 4pc</h4>
+            <h4 class="price_wrap">$10.00</h4>
+            <p>Served with mango chutney & raita</p>
+            <div class="add_btn btn" data-bs-toggle="modal" data-bs-target="#addtocart">Add</div>
+        </div>
+      </div>      
+
+      
+
+      
+
+
+      
+
+
+
+
+
+
+
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <!-- <div class="swiper-pagination"></div> -->
+</div>
+
+
+
+
+
+
+
+<div class="viewall"><a href="#" class="btn">View More</a></div>
+
+
+
+
+
+
             </div>
-            <div class="btn-wrap">
-              <button type="submit" class="btn">Create an account</button>
-              <p><a href="/signin.html" class="btn grey">Log in</a></p>
-            </div>
-        </form>
+        </div>
+
+
+
     </div>
 </div>
 
@@ -179,7 +343,6 @@
         </div>
     </div>
 </div>
-
 
 </body>
 

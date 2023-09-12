@@ -1,13 +1,19 @@
-@media (max-width:992px) {
+/*  @media (max-width: 1470px) and (min-width: 1300px) {} */
+
+@media (max-width:1470px) {
+.addr-wrap .addr_inp { min-width: 220px; }
+
+}
+
+
+@media (max-width:1024px) {
     #order_cat .flexwrap { overflow: scroll; padding-top: 20px; }
     #order_cat .item { min-width: 80px; padding-bottom: 20px; }
     #order_cat .item h4 { font-size: 12px; }
-    .hm-page .filter-content { width: 100%; }
-    .hm-page .content { width: 100%; border-left: none; padding:10px; }
-    .filter-wrap { display: none; background: #fff; padding: 20px; position: absolute; top: 207px; z-index: 5; left: 0; }
-
+    .left_sidebar .filter-content { width: 100%; }
+    .left_sidebar .content { width: 100%; border-left: none; padding:10px; }
+    .filter-wrap { display: none; background: #fff; padding: 20px; position: absolute; top: 207px; z-index: 5; left: 0; width:100% }
     body.active_filter .filter-content .filter-wrap { display: block; }
-
     #header .flexrow { flex-wrap: wrap; justify-content: space-between; }
     #header .right-section { order: 3; width:100% }
     .signbtn { margin-left: auto; }
@@ -22,7 +28,6 @@
     .find-restu { width: 100%; padding-top: 20px; margin: 0; position:relative; }
     #header .hdr_frm{ min-width:100%; margin:20px -20px 0 }
     .show_filter { width: 60px; height: 50px; background: url(../images/filter_icon.svg) no-repeat; position: absolute; top: 20px; right: 0; z-index: 2; cursor: pointer; background-size: 20px; background-position: 15px 16px; }
-
 }
 
 
