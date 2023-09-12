@@ -23,12 +23,6 @@
     #header .hdr_frm{ min-width:100%; margin:20px -20px 0 }
     .show_filter { width: 60px; height: 50px; background: url(../images/filter_icon.svg) no-repeat; position: absolute; top: 20px; right: 0; z-index: 2; cursor: pointer; background-size: 20px; background-position: 15px 16px; }
 
-
-
-
-
-
-/*    .switch-wrap, .addr-wrap, .find-restu { display: none; }*/
 }
 
 
