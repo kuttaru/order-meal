@@ -1,3 +1,38 @@
+@media (max-width:992px) {
+    #order_cat .flexwrap { overflow: scroll; padding-top: 20px; }
+    #order_cat .item { min-width: 80px; padding-bottom: 20px; }
+    #order_cat .item h4 { font-size: 12px; }
+    .hm-page .filter-content { width: 100%; }
+    .hm-page .content { width: 100%; border-left: none; padding:10px; }
+    .filter-wrap { display: none; background: #fff; padding: 20px; position: absolute; top: 207px; z-index: 5; left: 0; }
+
+    body.active_filter .filter-content .filter-wrap { display: block; }
+
+    #header .flexrow { flex-wrap: wrap; justify-content: space-between; }
+    #header .right-section { order: 3; width:100% }
+    .signbtn { margin-left: auto; }
+    .home-page #header { box-shadow: none; }
+    .mob_addr { display: block; width: 50%; }
+    .mob_addr h4 { margin: 0; font-size: 14px; padding: 0; }
+    .adr_sele select { border: none; font-size: 10px; }
+    .switch-wrap { width: 50%; padding-left: 50px;    max-width: 200px; margin-left:auto; }
+    .switch span { padding: 5px 14px; font-size: 10px; }
+    .addr-wrap { display: none; }
+    .hdr_frm { border-top: 1px solid #707070; margin-top: 20px; padding: 20px; flex-wrap: wrap; }
+    .find-restu { width: 100%; padding-top: 20px; margin: 0; position:relative; }
+    #header .hdr_frm{ min-width:100%; margin:20px -20px 0 }
+    .show_filter { width: 60px; height: 50px; background: url(../images/filter_icon.svg) no-repeat; position: absolute; top: 20px; right: 0; z-index: 2; cursor: pointer; background-size: 20px; background-position: 15px 16px; }
+
+
+
+
+
+
+/*    .switch-wrap, .addr-wrap, .find-restu { display: none; }*/
+}
+
+
+
 @media (max-width:740px) {
     .row > div[class*="col-md-"]{ margin-bottom:16px; }
     #header .container, .container-full {max-width: 100%;}
@@ -22,10 +57,7 @@
     .gift_card h1 { margin: 4px 0 5px; font-size: 24px; }
     .gift_card p { font-size: 12px; }
     .gift_card .gift-img { width: 100%; top: 10px; background-size: 70%; background-position: 90px 30px; }
-    #order_cat .flexwrap { overflow: scroll; padding-top: 20px; }
     #order_cat h3 { font-size: 16px; }
-    #order_cat .item { min-width: 80px; padding-bottom: 20px; }
-    #order_cat .item h4 { font-size: 12px; }
     #download_wrap .flexrow { flex-wrap: wrap; }
     #download_wrap .flexrow .item { width: 44%; margin-bottom: 16px; }
     #download_wrap .download_content { padding: 10px 0 20px; }
@@ -76,7 +108,7 @@
     #footer .links_wrap.show h3:before { transform: rotate(90deg); top: 7px; }
     .drink_soda { right: 10px; }
 
-    .switch-wrap, .addr-wrap, .find-restu{ display:none; }
+    
 
 
 

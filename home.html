@@ -44,8 +44,22 @@
                 <div class="logo"><a href="/"><img src="assets/images/logo.svg" alt=""/></a></div>
             </div>
             <div class="right-section">
-                <div class="flexrow">
+                <div class="hdr_frm">
+                    <div class="mob_addr">
+                        <a href="#">
+                        <h4>Pickup Now</h4>
+                        <div class="adr_sele">
+                            <select>
+                              <option value="1">547 Great South Road, Otahuhu</option>
+                              <option value="2">Option 2</option>
+                              <option value="3">Option 3</option>
+                            </select>
+                        </div>
 
+
+                        </a>
+
+                    </div>
                     <div class="switch-wrap">
                       <label class="switch">
                         <input type="checkbox" checked="checked" />
@@ -58,10 +72,14 @@
                     </div>
                     <div class="find-restu">
                         <input type="text" placeholder="Find Restaurants" class="form-control find_res">
+                        <div class="show_filter"></div>
                     </div>
-                    <a href="#" class="cart-count">99</a>
-                    <div class="signbtn"><a href="/signin.html">Sign In</a></div>
                 </div>
+            </div>
+
+            <div class="sin_wrap">
+                <a href="#" class="cart-count">99</a>
+                <div class="signbtn"><a href="/signin.html">Sign In</a></div>
             </div>
 
 
@@ -244,18 +262,20 @@
       <div class="swiper-slide">
         <div class="imgwrap"><img src="assets/images/food/food.jpg" /></div>
         <div class="inner">
-            <h4>Paramount Indian Cuisine</h4>
+            <h4>Sriracha Eatery</h4>
             <div class="store_time">10:00 AM - 09:00 PM</div>
             <div class="deliv_time">10:00 AM - 09:00 PM</div>
+            <div class="discount-wrap">Discount 10%</div>
         </div>
       </div>
 
       <div class="swiper-slide">
         <div class="imgwrap"><img src="assets/images/food/food.jpg" /></div>
         <div class="inner">
-            <h4>Paramount Indian Cuisine</h4>
+            <h4>Khanz Fusion</h4>
             <div class="store_time">10:00 AM - 09:00 PM</div>
             <div class="deliv_time">10:00 AM - 09:00 PM</div>
+            <div class="deal-wrap">New Deal</div>
         </div>
       </div>
 
@@ -290,7 +310,7 @@
       <div class="swiper-slide">
         <div class="imgwrap"><img src="assets/images/food/food.jpg" /></div>
         <div class="inner">
-            <h4>Paramount Indian Cuisine</h4>
+            <h4>Namaste Indian Restaurant</h4>
             <div class="store_time">10:00 AM - 09:00 PM</div>
             <div class="deliv_time">10:00 AM - 09:00 PM</div>
         </div>
@@ -299,11 +319,21 @@
       <div class="swiper-slide">
         <div class="imgwrap"><img src="assets/images/food/food.jpg" /></div>
         <div class="inner">
-            <h4>Paramount Indian Cuisine</h4>
+            <h4>Choice Indian Restaurant</h4>
             <div class="store_time">10:00 AM - 09:00 PM</div>
             <div class="deliv_time">10:00 AM - 09:00 PM</div>
         </div>
       </div>
+
+      <div class="swiper-slide">
+        <div class="imgwrap"><img src="assets/images/food/food.jpg" /></div>
+        <div class="inner">
+            <h4>Curry Palace Papatoetoe</h4>
+            <div class="store_time">10:00 AM - 09:00 PM</div>
+            <div class="deliv_time">10:00 AM - 09:00 PM</div>
+        </div>
+      </div>
+
 
       <div class="swiper-slide">
         <div class="imgwrap"><img src="assets/images/food/food.jpg" /></div>
@@ -314,6 +344,45 @@
         </div>
       </div>
 
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <!-- <div class="swiper-pagination"></div> -->
+</div>
+
+<h3>Featured Restaurants</h3>
+
+
+<div class="swiper prdtSwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="imgwrap"><img src="assets/images/food/food.jpg" /></div>
+        <div class="inner">
+            <h4>The Food Hut</h4>
+            <div class="store_time">10:00 AM - 09:00 PM</div>
+            <div class="deliv_time">10:00 AM - 09:00 PM</div>
+        </div>
+      </div>      
+
+      <div class="swiper-slide">
+        <div class="imgwrap"><img src="assets/images/food/food.jpg" /></div>
+        <div class="inner">
+            <h4>Brothers Kebab</h4>
+            <div class="store_time">10:00 AM - 09:00 PM</div>
+            <div class="deliv_time">10:00 AM - 09:00 PM</div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="imgwrap"><img src="assets/images/food/food.jpg" /></div>
+        <div class="inner">
+            <h4>Bombay Spices</h4>
+            <div class="store_time">10:00 AM - 09:00 PM</div>
+            <div class="deliv_time">10:00 AM - 09:00 PM</div>
+        </div>
+      </div>
+
 
       <div class="swiper-slide">
         <div class="imgwrap"><img src="assets/images/food/food.jpg" /></div>
@@ -323,12 +392,6 @@
             <div class="deliv_time">10:00 AM - 09:00 PM</div>
         </div>
       </div>
-
-
-
-
-
-
 
     </div>
 
@@ -340,6 +403,57 @@
 
 
 
+<h3 class="badge_icon">Highest rated restaurants </h3>
+<div class="swiper prdtSwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="imgwrap"><img src="assets/images/food/food.jpg" /></div>
+        <div class="inner">
+            <h4>The Food Hut</h4>
+            <div class="store_time">10:00 AM - 09:00 PM</div>
+            <div class="deliv_time">10:00 AM - 09:00 PM</div>
+        </div>
+      </div>      
+
+      <div class="swiper-slide">
+        <div class="imgwrap"><img src="assets/images/food/food.jpg" /></div>
+        <div class="inner">
+            <h4>Brothers Kebab</h4>
+            <div class="store_time">10:00 AM - 09:00 PM</div>
+            <div class="deliv_time">10:00 AM - 09:00 PM</div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="imgwrap"><img src="assets/images/food/food.jpg" /></div>
+        <div class="inner">
+            <h4>Bombay Spices</h4>
+            <div class="store_time">10:00 AM - 09:00 PM</div>
+            <div class="deliv_time">10:00 AM - 09:00 PM</div>
+        </div>
+      </div>
+
+
+      <div class="swiper-slide">
+        <div class="imgwrap"><img src="assets/images/food/food.jpg" /></div>
+        <div class="inner">
+            <h4>Paramount Indian Cuisine</h4>
+            <div class="store_time">10:00 AM - 09:00 PM</div>
+            <div class="deliv_time">10:00 AM - 09:00 PM</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <!-- <div class="swiper-pagination"></div> -->
+</div>
+
+
+
+
+<div class="viewall"><a href="#" class="btn">View More</a></div>
 
 
 

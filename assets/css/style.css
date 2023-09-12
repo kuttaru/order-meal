@@ -64,7 +64,7 @@ img{ max-width:100%; display:block; }
 /*----- header -------*/
 #header {padding: 20px 0px;box-shadow: 0px 0px 3px rgb(0 0 0 / 40%);}
 #header .container,.container-full { max-width: 94%; margin:0 auto; padding: 0 20px; }
-#header .flexrow { display: flex; justify-content:space-between; }
+#header .flexrow { display: flex;justify-content: space-between; }
 #header .hamburger_menu { width: 30px; padding: 5px 0px; margin-right: 24px;cursor: pointer; }
 #header .hamburger_menu hr { display: block; height: 3px; border: none; background: #FC6143; margin: 5px 0; opacity: 1; border-radius: 10px;  }
 #header .logo-wrap{ display:flex; }
@@ -72,12 +72,19 @@ img{ max-width:100%; display:block; }
 #header .logo-wrap img { display: block; }
 #header .cart-count { background: #FC6143 url(../images/cart.svg) no-repeat; background-position: 18px 16px; color: #fff; font-weight: bold; font-size: 16px; padding: 12px 20px; border-radius: 30px; width: 100px; padding-left: 40px; text-align: center; }
 
+#header .right-section { display: flex; margin-left:auto; }
+#header .hdr_frm { display: flex; }
+#header .sin_wrap { display: flex; }
+
+
+
+
 .find-restu { margin: 0 15px; }
 .find-restu .find_res { background: #f1f1f1 url(../images/search_icon.svg) no-repeat; background-position: 16px 17px; padding: 14px 30px; border-radius: 30px; padding-left: 40px; font-weight:bold; }
 
 .addr-wrap { margin: 0 15px; }
 .addr-wrap .addr_inp { background: #f1f1f1 url(../images/location_orange.svg) no-repeat; background-position: 18px 17px; padding: 14px 30px; border-radius: 30px; padding-left: 40px; min-width:400px; font-weight:bold; }
-
+.mob_addr{ display:none; }
 
 
 /* ------- #main-content ------- */
@@ -89,7 +96,7 @@ img{ max-width:100%; display:block; }
 
 /*---switch---*/
 #header_transparent .switch { width: 200px }
-.switch { display: flex; background: #f1f1f1; position: relative; left: 0; top: 0; border-radius: 30px; overflow: hidden; cursor:pointer;padding-top: 4px; }
+.switch { display: flex; background: #f1f1f1; position: relative; left: 0; top: 0; border-radius: 30px; overflow: hidden; cursor:pointer;margin-top: 4px; }
 .switch input { position: absolute; z-index: 9; top: 0; left: 0; }
 .switch span { display: block; padding: 10px 20px; position: relative; z-index: 3; width: 50%; border-radius: 30px; text-align: center; font-weight:bold; }
 .switch span.deli { background: #fc6143; color: #fff; }
@@ -301,6 +308,15 @@ img{ max-width:100%; display:block; }
 .prdtSwiper .inner { padding: 2px 10px; }
 .prdtSwiper img { border-radius: 20px; }
 .prdtSwiper h4{ font-size:16px; margin-bottom:5px }
+
+
+.prdtSwiper .swiper-slide{ position:relative; }
+.discount-wrap { background: #5CF676; color: #000; font-weight: bold; position: absolute; top: 30px; left: 0; z-index: 2; padding: 4px 14px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; }
+.deal-wrap { background: #5CF676; color: #000; font-weight: bold; position: absolute; top: 30px; left: 14px; z-index: 2; padding: 4px 14px; border-radius:20px; }
+.badge_icon { background: url(../images/badge_approved.png) no-repeat; background-size: 40px; background-position: 0px 10px; padding: 15px 0px  12px 50px; }
+
+.viewall{ text-align:center; padding:40px 0 }
+.viewall .btn{ font-weight:bold; }
 
 
 /* ------ Move ----- */

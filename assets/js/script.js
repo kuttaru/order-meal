@@ -20,6 +20,18 @@
     }
   });
     
+  $(document.body).on('click', '.show_filter' ,function(){
+    if ($('body').hasClass('active_filter')) {
+      $('body').removeClass("active_filter");
+    } else {
+      $('body').addClass("active_filter");
+    }
+  });
+    
+
+
+
+
 
   var swiper = new Swiper(".meal-slider", {
     spaceBetween: 0,
@@ -48,7 +60,7 @@ var swiper = new Swiper(".prdtSwiper", {
   },
   breakpoints: {
       40: {
-        slidesPerView: 1,
+        slidesPerView: 1.5,
       },
       740: {
         slidesPerView: 3,
