@@ -11,9 +11,6 @@
 
 
 
-
-
-
     
   $(document.body).on('click', '.links_wrap h3' ,function(){
     if ($(this).parent('.links_wrap').hasClass('show')) {
@@ -35,6 +32,35 @@
     },
 
   });
+
+
+var swiper = new Swiper(".prdtSwiper", {
+  slidesPerView: 3,
+  spaceBetween: 14,
+  // loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+      40: {
+        slidesPerView: 1,
+      },
+      740: {
+        slidesPerView: 3,
+      }
+    }
+
+
+});
+
+
+
+
 
 
 
