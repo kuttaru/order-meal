@@ -62,7 +62,7 @@ img{ max-width:100%; display:block; }
 .btn.grey{ background:#f1f1f1; color:#000; }
 
 /*----- header -------*/
-#header {padding: 12px 0px;box-shadow: 0px 0px 3px rgb(0 0 0 / 40%);}
+#header {padding: 20px 0px;box-shadow: 0px 0px 3px rgb(0 0 0 / 40%);}
 #header .container,.container-full { max-width: 94%; margin:0 auto; padding: 0 20px; }
 #header .flexrow { display: flex; justify-content:space-between; }
 #header .hamburger_menu { width: 30px; padding: 5px 0px; margin-right: 24px;cursor: pointer; }
@@ -89,9 +89,9 @@ img{ max-width:100%; display:block; }
 
 /*---switch---*/
 #header_transparent .switch { width: 200px }
-.switch { display: flex; background: #f1f1f1; position: relative; left: 0; top: 0; border-radius: 30px; overflow: hidden; cursor:pointer; }
+.switch { display: flex; background: #f1f1f1; position: relative; left: 0; top: 0; border-radius: 30px; overflow: hidden; cursor:pointer;padding-top: 4px; }
 .switch input { position: absolute; z-index: 9; top: 0; left: 0; }
-.switch span { display: block; padding: 14px 20px; position: relative; z-index: 3; width: 50%; border-radius: 30px; text-align: center; font-weight:bold; }
+.switch span { display: block; padding: 10px 20px; position: relative; z-index: 3; width: 50%; border-radius: 30px; text-align: center; font-weight:bold; }
 .switch span.deli { background: #fc6143; color: #fff; }
 .switch input { display: none; }
 .switch input:checked + span.deli { background: none; color: #000; }
