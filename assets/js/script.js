@@ -70,6 +70,25 @@ var swiper = new Swiper(".prdtSwiper", {
 
 
 
+  $(".count_input span").on("click", function() {
+    var $button = $(this);
+    var oldValue = parseInt($button.parent().find("input").val());
+    var newVal;
+
+    if ($button.text() === "+") {
+      newVal = oldValue + 1;
+    } else {
+      // Don't allow decrementing below zero
+      newVal = (oldValue > 1) ? oldValue - 1 : 1;
+    }
+    $button.parent().find("input").val(newVal);
+  });
+
+
+
+
+
+
 
 
 
