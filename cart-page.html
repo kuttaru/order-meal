@@ -76,9 +76,33 @@
 </div>
 
 
+<div class="modal fade" id="deliver_to" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="imgwrap"><img src="assets/images/prdt_popup.png"></div>
+            <span  class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+            <div class="addcart-wrap">
+                <div class="item">
+                    <h3>Deliver to</h3>
+                </div>
+                <div class="item">
+                    <p class="location_icon">Enter delivery Address</p>
+                </div>                
+                <div class="item">
+                    <p class="location_icon">Chand Indian Resturant Beach Road, Torbay</p>
+                </div>                
+                <div class="item done-btn">
+                    <button class="btn">Done</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <div id="main-content">
-
     <div class="container">
         <div class="row cart-details">
             <div class="col-md-7">
@@ -96,7 +120,7 @@
                         <p class="restu_icon">Chand Torbay</p>
                         <img src="assets/images/resturant-logo.png" />
                     </div>
-                    <div class="loc_wrap">
+                    <div class="loc_wrap" data-bs-toggle="modal" data-bs-target="#deliver_to">
                         <p class="location_icon">1028 Beach Road, Torbay</p>
                     </div>
                     <h3>Delivery Estimate</h3>
