@@ -32,7 +32,7 @@
 </head>
 
 
-<body class="approved-page" ng-app="">
+<body class="feedback-page" ng-app="">
     
 
 
@@ -76,13 +76,50 @@
 
 
 
-<div id="main-content">
+<div id="main-content" class="feedback-img">
+    <div class="img_form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 middle"></div>
+                <div class="col-md-6">
+                    <div class="form-wrap">
+                        <h3>Feedback</h3>
+                        <form>
 
+                            <div class="input-field">
+                                <p>By clicking the send button, you agree to receive an email or a phone call from Order Meal to process your application further.</p>
+                            </div>                              
+                            <div class="input-field">
+                                <input placeholder="Feedback regarding" type="text" class="form-control">
+                            </div>                                
+                            <div class="input-field">
+                                <input placeholder="Name" type="text" class="form-control">
+                            </div>
 
-Demo page
+                            <div class="input-field">
+                                <input placeholder="Email Address" type="text" class="form-control">
+                            </div>
+                            <div class="input-field">
+                                <input placeholder="Phone" type="text" class="form-control">
+                            </div>                            
+                            <div class="input-field">
+                                <textarea placeholder="Comments" class="form-control"></textarea>
+                            </div>
 
-
-
+                            <div class="input-field">
+                                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                                <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                            </div>
+                            <div class="btn-wrap">
+                                <button type="submit" class="btn full">Submit</button>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 
