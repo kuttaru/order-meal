@@ -1,13 +1,12 @@
 (function($) {
   $(document).ready(function() {
 
-/*
   $('body a').each(function(){ 
     var oldUrl = $(this).attr("href"); 
     var newUrl = ("/order-meal" + oldUrl );
     $(this).attr("href", newUrl);
   });
-*/
+
 
 
 
