@@ -32,7 +32,7 @@
 </head>
 
 
-<body class="approved-page" ng-app="">
+<body class="myorder-page" ng-app="">
     
 
 
@@ -78,8 +78,36 @@
 
 <div id="main-content">
 
-
-Demo page
+<div class="myorder-tab">
+    <ul class="nav" id="myTab" role="tablist">
+        <li>
+            <b class="active" data-bs-toggle="tab" data-bs-target="#home-tab-pane">My Orders</b>
+        </li>
+        <li>
+            <b data-bs-toggle="tab" data-bs-target="#profile-tab-pane">My Profile</b>
+        </li>
+        <li>
+            <b data-bs-toggle="tab" data-bs-target="#contact-tab-pane">Change Password</b>
+        </li>
+        <li>
+            <b data-bs-toggle="tab" data-bs-target="#asd-tab-pane">Order Now</b>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <h1>my order</h1>
+        </div>
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            <h1>my profile</h1>
+        </div>
+        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+            <h1>Change password</h1>
+        </div>
+        <div class="tab-pane fade" id="asd-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+            <h1>Change password</h1>
+        </div>
+    </div>
+</div>
 
 
 
