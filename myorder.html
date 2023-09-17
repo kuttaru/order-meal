@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Order Meal">
-    <title>Order Meal</title>
+    <title>My Order</title>
     <link rel="icon" href="assets/images/favicon.png">
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
@@ -79,32 +79,175 @@
 <div id="main-content">
 
 <div class="myorder-tab">
-    <ul class="nav" id="myTab" role="tablist">
+    <ul class="nav" id="ordertab" role="tablist">
         <li>
-            <b class="active" data-bs-toggle="tab" data-bs-target="#home-tab-pane">My Orders</b>
+            <b class="active" data-bs-toggle="tab" data-bs-target="#home-tab-pane"><i class="myorder_icn"></i>My Orders</b>
         </li>
         <li>
-            <b data-bs-toggle="tab" data-bs-target="#profile-tab-pane">My Profile</b>
+            <b data-bs-toggle="tab" data-bs-target="#profile-tab-pane"><i class="myprofile_icn"></i>My Profile</b>
         </li>
         <li>
-            <b data-bs-toggle="tab" data-bs-target="#contact-tab-pane">Change Password</b>
+            <b data-bs-toggle="tab" data-bs-target="#contact-tab-pane"><i class="chagepas_icn"></i>Change Password</b>
         </li>
         <li>
-            <b data-bs-toggle="tab" data-bs-target="#asd-tab-pane">Order Now</b>
+            <b data-bs-toggle="tab" data-bs-target="#asd-tab-pane"><i class="ordernw_icn"></i>Order Now</b>
         </li>
     </ul>
-    <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-            <h1>my order</h1>
+    <div class="tab-content" id="order-content">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" tabindex="0">
+ <h3>Your Orders</h3>
+
+
+
+<div class="container">
+    <div class="myorder-list">
+        <ul class="nav" id="order-subtab" role="tablist">
+            <li>
+                <b class="btn active" data-bs-toggle="tab" data-bs-target="#curnt-order">Current Orders</b>
+            </li>
+            <li>
+                <b class="btn" data-bs-toggle="tab" data-bs-target="#cancel-order">Cancelled Orders</b>
+            </li>
+            <li>
+                <a href="/restaurant-details.html" class="btn">Buy Again</b></a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="curnt-order" role="tabpanel"  tabindex="0">
+                <div class="odr_list">
+                    <div class="item">
+                        <div class="odr-smr">
+                            <p>Butter chicken Delhi style</p>
+                            <p>1 x $19.99</p>
+                            <p>From Paramount Indian Cuisine Otahuhu</p>
+                        </div>
+                        <div class="status"><p>Preparing for Dispatch</p></div>
+                        <div class="price"><p>$19.99</p></div>
+                    </div>
+                    <div class="item">
+                        <div class="odr-smr">
+                            <p>Butter chicken Delhi style</p>
+                            <p>1 x $19.99</p>
+                            <p>From Paramount Indian Cuisine Otahuhu</p>
+                        </div>
+                        <div class="status"><p>Preparing for Dispatch</p></div>
+                        <div class="price"><p>$19.99</p></div>
+                    </div>
+                    <div class="item">
+                        <div class="odr-smr">
+                            <p>Butter chicken Delhi style</p>
+                            <p>1 x $19.99</p>
+                            <p>From Paramount Indian Cuisine Otahuhu</p>
+                        </div>
+                        <div class="status"><p>Preparing for Dispatch</p></div>
+                        <div class="price"><p>$19.99</p></div>
+                    </div>
+                    <div class="item">
+                        <div class="odr-smr">
+                            <p>Butter chicken Delhi style</p>
+                            <p>1 x $19.99</p>
+                            <p>From Paramount Indian Cuisine Otahuhu</p>
+                        </div>
+                        <div class="status"><p>Preparing for Dispatch</p></div>
+                        <div class="price"><p>$19.99</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="cancel-order" role="tabpanel" tabindex="0">
+                <div class="odr_list">
+                    <div class="item">
+                        <div class="odr-smr">
+                            <p>Butter chicken Delhi style</p>
+                            <p>1 x $19.99</p>
+                            <p>From Paramount Indian Cuisine Otahuhu</p>
+                        </div>
+                        <div class="status"><p>Cancelled</p></div>
+                        <div class="price"><p>$19.99</p></div>
+                    </div>
+                    <div class="item">
+                        <div class="odr-smr">
+                            <p>Butter chicken Delhi style</p>
+                            <p>1 x $19.99</p>
+                            <p>From Paramount Indian Cuisine Otahuhu</p>
+                        </div>
+                        <div class="status"><p>Cancelled</p></div>
+                        <div class="price"><p>$19.99</p></div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
         <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-            <h1>my profile</h1>
+           
+<div class="manage-profile">
+  <div class="form-wrap">
+    <h3>Manage Profile</h3>
+    <div class="input-field">
+      <input placeholder="Name"type="text"class="form-control">
+      <span class="edit">Edit</span>
+    </div>
+    <div class="input-field">
+      <input placeholder="Phone"type="text"class="form-control">
+      <span class="edit">Edit</span>
+    </div>
+    <div class="input-field">
+      <input placeholder="Email Address"type="text"class="form-control">
+      <span class="edit">Edit</span>
+    </div>
+    <div class="btn-wrap">
+      <button class="btn full">Apply</button>
+    </div>
+  </div>
+</div>
+
+
+           
         </div>
         <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-            <h1>Change password</h1>
+
+<div class="change-password">
+  <div class="form-wrap">
+    <h3>Change your password</h3>
+    <div class="input-field">
+      <input placeholder="Current Password"type="text"class="form-control">
+    </div>
+    <div class="input-field">
+      <input placeholder="New Password"type="text"class="form-control">
+    </div>
+    <div class="input-field">
+      <input placeholder="Confirm Password"type="text"class="form-control">
+    </div>
+    <div class="btn-wrap">
+      <button class="btn full">Change Password</button>
+    </div>
+  </div>
+</div>
+
+
+
         </div>
         <div class="tab-pane fade" id="asd-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-            <h1>Change password</h1>
+            <div class="container">
+            <h1>Order Now</h1>
+            <p>Suspendisse eget consectetur lacus, eget pellentesque dolor. Fusce facilisis velit eget massa consectetur facilisis. Mauris cursus ipsum vitae eros dictum facilisis. Duis pellentesque erat malesuada efficitur viverra. Nullam mattis nisl eu consequat molestie. Aenean rutrum ipsum arcu, ac viverra nibh mollis at. Suspendisse non lorem tellus. In at sapien quis velit interdum facilisis. Sed laoreet massa sed tortor ultricies, a dictum sem elementum. Vivamus rutrum ornare leo, at malesuada neque dignissim et. Ut congue hendrerit lectus id vestibulum. Aliquam porta consequat fringilla. Cras sit amet mi lectus. Nullam facilisis turpis quis leo gravida aliquam. Aliquam malesuada tellus ex, eget condimentum odio posuere sit amet.</p>
+        </div>
         </div>
     </div>
 </div>
