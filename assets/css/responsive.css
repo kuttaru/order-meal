@@ -1,84 +1,66 @@
 /*  @media (max-width: 1470px) and (min-width: 1300px) {} */
-
-
-
-
-
-
-
-
-
 @media (max-width:1470px) {
-.addr-wrap .addr_inp { min-width: 220px; }
-
+    .addr-wrap .addr_inp { min-width: 220px; }
 }
-
-
 @media (max-width:1024px) {
     #order_cat .flexwrap { overflow: scroll; padding-top: 20px; }
     #order_cat .item { min-width: 80px; padding-bottom: 20px; }
     #order_cat .item h4 { font-size: 12px; }
     .left_sidebar-page .filter-content, .left-sidebar { width: 100%; }
-    .resturant_details-page .left-sidebar{ width:100%; }
-    .left_sidebar-page .content { width: 100%; border-left: none; padding:10px; }
-    .filter-wrap { display: none; background: #fff; padding: 20px; position: absolute; top: 207px; z-index: 5; left: 0; width:100% }
+    .resturant_details-page .left-sidebar { width: 100%; }
+    .left_sidebar-page .content { width: 100%; border-left: none; padding: 10px; }
+    .filter-wrap { display: none; background: #fff; padding: 20px; position: absolute; top: 207px; z-index: 5; left: 0; width: 100% }
     body.active_filter .filter-content .filter-wrap { display: block; }
     #header .flexrow { flex-wrap: wrap; justify-content: space-between; }
-    #header .right-section { order: 3; width:100%; display:block; }
+    #header .right-section { order: 3; width: 100%; display: block; }
     .signbtn { margin-left: auto; }
     .home-page #header { box-shadow: none; }
     .mob_addr { display: block; width: 50%; }
     .mob_addr h4 { margin: 0; font-size: 14px; padding: 0; }
     .adr_sele select { border: none; font-size: 10px; }
-    .switch-wrap { width: 50%; padding-left: 50px;    max-width: 200px; margin-left:auto; }
+    .switch-wrap { width: 50%; padding-left: 50px; max-width: 200px; margin-left: auto; }
     .switch span { padding: 10px 16px; font-size: 10px; }
     .addr-wrap { display: none; }
     .hdr_frm { border-top: 1px solid #707070; margin-top: 20px; padding: 20px; flex-wrap: wrap; }
-    .find-restu { width: 100%; padding-top: 20px; margin: 0; position:relative; }
-    #header .hdr_frm{ min-width:100%; margin:20px -20px 0 }
+    .find-restu { width: 100%; padding-top: 20px; margin: 0; position: relative; }
+    #header .hdr_frm { min-width: 100%; margin: 20px -20px 0 }
     .show_filter { width: 60px; height: 50px; background: url(../images/filter_icon.svg) no-repeat; position: absolute; top: 20px; right: 0; z-index: 2; cursor: pointer; background-size: 20px; background-position: 15px 16px; }
-
-
     #restaurant-banner .resturant-details h2 { margin: 0; font-size: 12px; }
     #restaurant-banner .resturant-details { padding: 10px 0; padding-left: 110px; left: 0px; }
-    #restaurant-banner .restur-logo { width: 80px; height: 80px; top: 0px; left:16px; }
+    #restaurant-banner .restur-logo { width: 80px; height: 80px; top: 0px; left: 16px; }
     #restaurant-banner .resturant-details p { font-size: 10px; margin: 0; }
     #restaurant-banner .resturant-details p span { font-size: 10px; padding: 2px 10px; margin-left: 6px; }
-
     .top_filter .ofer_you, .top_filter #datepicker { display: none; }
     #restaurant-banner .imgwrap { height: 200px; overflow: hidden; display: flex; flex-flow: row nowrap; justify-content: stretch; }
     #restaurant-banner .imgwrap img { object-fit: cover; object-position: center; min-width: 100%; height: auto; min-height: 100%; }
     #restaurant-banner { margin-bottom: 0px; }
-    .resturant_details-page .left-sidebar h4{ display:none; }
+    .resturant_details-page .left-sidebar h4 { display: none; }
     ul.restu_menu { display: flex; overflow-y: scroll; white-space: nowrap; padding-bottom: 16px; }
     ul.restu_menu li a { padding: 2px 10px; }
-
-
-
+    .addrestu-img .container-full { max-width: 96%; }
+    .swiper-button-next, .swiper-button-prev {top: 76px;}
+    .gift-wrap .col-md-6{ width:100%; }
+    .giftcard-wrap {margin-right: 0px;}
 
 }
-
 
 
 @media (max-width:992px) {
     .cart_wrap { display: flex; }
     .cart_wrap .col-md-3 { width: 40%; }
     .cart_wrap .col-md-9 { width: 60%; }
-
     .addcart-wrap .item { padding: 16px 20px; }
     .deals_info b { display: none; }
     .deals_info b:nth-child(2) { display: flex; }
     .deals_info b:after { margin-left: 5px; }
     .deals_info span { padding: 15px 15px; background-position: 12px 18px; padding-left: 34px; margin-right: 0; }
-
-    .resturant_details-page .left-sidebar { display:none; }
-    .mob_menu{ display:block; }
-    .row > div[class*="col-md-"]{ margin-bottom:16px; }
-    #header .container, .container-full {max-width: 100%;}
-
+    .resturant_details-page .left-sidebar { display: none; }
+    .mob_menu { display: block; }
+    .row > div[class*="col-md-"] { margin-bottom: 16px; }
+    #header .container, .container-full { max-width: 100%; }
     #header_transparent .logo-wrap { width: 120px; }
-    .signbtn {padding-top: 0px;}
-    #header .logo-wrap .logo {width: 120px;padding-top: 8px;}
+    .signbtn { padding-top: 0px; }
+    #header .logo-wrap .logo { width: 120px; padding-top: 8px; }
     #header { padding: 12px 0px; }
     #header .cart-count { background-position: 11px 11px; padding: 6px 20px; width: 68px; padding-left: 34px; }
     .landing-page #header_transparent { padding-top: 30px; }
@@ -86,7 +68,7 @@
     .meal-slider .slide1 { top: 80px; width: 220px; right: -30%; }
     .meal-slider .slide2 { top: 376px; width: 250px; left: 50%; right: auto; margin-left: -125px; }
     #banner .container { height: auto; padding-top: 180px; padding-bottom: 60px; }
-    #banner h2 {margin-bottom: 12px;}
+    #banner h2 { margin-bottom: 12px; }
     .find-rest .btn-wrap .loc-me { display: none; }
     .find-rest .form-control { padding-right: 160px; }
     .find-rest .btn-wrap .btn { padding: 0 14px; }
@@ -101,17 +83,17 @@
     #download_wrap .flexrow .item { width: 44%; margin-bottom: 16px; }
     #download_wrap .download_content { padding: 10px 0 20px; }
     #download_wrap .dwn-bg { min-height: 340px; background-size: 100%; background-position: top center; margin-top: -90px; }
-    #download_wrap h4 {font-size: 15px;}
-    #download_wrap p {font-size: 14px;}
-    #service-wrap {padding: 40px 0;}
+    #download_wrap h4 { font-size: 15px; }
+    #download_wrap p { font-size: 14px; }
+    #service-wrap { padding: 40px 0; }
     #service-wrap .imgwrap { position: relative; top: auto; right: auto; }
     #service-wrap .inner { padding: 20px; }
     #service-wrap .imgwrap { padding-top: 20px; margin: 0 auto; }
     #service-wrap .inner h3 br { display: none; }
-    #service-wrap p {font-size: 14px;}
+    #service-wrap p { font-size: 14px; }
     #add-resturant { padding: 30px 0; }
-    .food_burger,.food_french,.drink_soda {  display: none;}
-    #find-city .flexrow {margin-top: 40px;}
+    .food_burger, .food_french, .drink_soda { display: none; }
+    #find-city .flexrow { margin-top: 40px; }
     #find-city .flexrow { display: block; }
     #find-city .flexrow .city-wrap { padding: 20px; }
     #find-city .logoimg { position: relative; top: auto; left: auto; }
@@ -119,10 +101,10 @@
     #find-city .flexrow .city-links { border-radius: 20px; }
     .city-links ul li a { text-decoration: none; font-size: 14px; padding-left: 20px; }
     .city-links ul li a:before { top: 14px; }
-    #delivery-wrap {margin-top: 40px;}
-    #delivery-wrap p {font-size: 14px;}
-    #delivery-wrap h3{ font-size:22px; }
-    #delivery-wrap h3 br{ display:none; }
+    #delivery-wrap { margin-top: 40px; }
+    #delivery-wrap p { font-size: 14px; }
+    #delivery-wrap h3 { font-size: 22px; }
+    #delivery-wrap h3 br { display: none; }
     #footer .quick-links ul.qu_links { column-count: 1; column-gap: 0; }
     #footer .top-citys ul.city_links { column-count: 1; column-gap: 0; }
     #footer .flexrow { flex-wrap: wrap; }
@@ -138,81 +120,61 @@
     #footer .quick-links ul.qu_links li, #footer .top-citys ul.city_links li { display: block; }
     #footer .links_wrap ul { display: none; }
     #footer .links_wrap.show ul { display: block; }
-
     #footer .quick-links.show { padding-bottom: 20px; border-bottom: 2px solid rgb(255 255 255 / 10%); margin-bottom: 20px; }
     #footer .quick-links.show { padding-bottom: 20px; border-bottom: 2px solid rgb(255 255 255 / 10%); margin-bottom: 20px; }
-
     #footer .links_wrap h3 { position: relative; }
     #footer .links_wrap h3:before { content: ''; display: block; width: 0px; height: 0px; border-style: solid; border-width: 5px 0 5px 10px; border-color: transparent transparent transparent #FC6143; position: absolute; left: -18px; top: 5px; -moz-transition: all .4s ease; transition: all .4s ease; }
     #footer .links_wrap.show h3:before { transform: rotate(90deg); top: 7px; }
     .drink_soda { right: 10px; }
-
     .row .top_filter .col-md-6 { margin-bottom: 0 }
-
     .top_filter { padding-top: 1px; padding-bottom: 30px; padding-left: 0px; }
     .resturant_details-page .left-sidebar { padding-top: 10px; }
-    .deals_info {margin-bottom: 40px;}
-
-
-.personal-details {margin-right: 0px;}
-.deli-head{ display:block; }
-body.cart-page #main-content { padding: 40px 0; }
-
-
-
-
-
-
-
-
-
-
-
+    .deals_info { margin-bottom: 40px; }
+    .personal-details { margin-right: 0px; }
+    .deli-head { display: block; }
+    body.cart-page #main-content { padding: 40px 0; }
+    #main-content .accordion-body .row .col-md-6 { padding: 0px 10px; }
 }
+
 /* ==================== Mobile =============== */
 @media (max-width:740px) {
-#cart-bag .modal-content { width: 320px; padding: 6px; }
-.cart-wrap {padding: 10px;}
-.cart-wrap .restdetails {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-right: 10px;
-}
-
-.cart-wrap .prdt-info h3 {
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.prdtSwiper{ padding:0; }
-
-
-.modal-dialog {margin: 20px;}
-
-.modal-dialog .btn-close { top: 10px !important; right: 10px !important; }
-
-.addcart-wrap h3{ margin-top:0; }
-
-.accordion-item { margin-top: 0px; }
-.cart-wrap .btn-wrap .btn { padding: 12px 20px; border-radius: 12px; }
-
-.driver_notification { width: 90%; padding: 20px; left: 5%; bottom: 30px; }
-
-.img_form { padding: 40px 0; }
-
-
-.odr-received {
-
-    width: 90%;
-    padding: 20px 40px;
-    left: 5%;
-    top: 70px;
-}
-.odr-received .help-text { padding:0px;
+    #cart-bag .modal-content { width: 320px; padding: 6px; }
+    .cart-wrap { padding: 10px; }
+    .cart-wrap .restdetails { margin-top: 10px; margin-bottom: 10px; padding-right: 10px; }
+    .cart-wrap .prdt-info h3 { font-size: 14px; font-weight: bold; }
+    .prdtSwiper { padding: 0; }
+    .modal-dialog { margin: 20px; }
+    .modal-dialog .btn-close { top: 10px !important; right: 10px !important; }
+    .addcart-wrap h3 { margin-top: 0; }
+    .accordion-item { margin-top: 0px; }
+    .cart-wrap .btn-wrap .btn { padding: 12px 20px; border-radius: 12px; }
+    .driver_notification { width: 90%; padding: 20px; left: 5%; bottom: 30px; }
+    .img_form { padding: 40px 0; }
+    .odr-received { width: 90%; padding: 20px 40px; left: 5%; top: 70px; }
+    .odr-received .help-text { padding: 0px; }
+    .myorder-tab { display: block; }
+    .myorder-tab #ordertab { width: auto; min-height: auto; padding: 0; }
+    .myorder-tab #order-content { width: 100%; }
+    .odr_list .item { padding: 10px }
+    #order-subtab { padding: 10px 0 }
+    .tab-content .container { padding-top: 0px; }
+    #order-subtab li { margin: 4px }
+    .manage-profile, .change-password { margin-left: 0; margin-top: 12px; }
+    .myorder-tab #ordertab { padding-bottom: 60px; position: relative; }
+    .myorder-tab #ordertab li b.active { position: absolute; width: 100%; bottom: 0; left: 0; }
+    .myorder-tab #ordertab li b.active:after { content: ''; display: block; width: 20px; height: 20px; position: absolute; bottom: -11px; left: 60px; transform: rotate(45deg); background: #f1f1f1; border-top: 1px solid #ccc; border-left: 1px solid #ccc; }
+    .page-banner .bnrtext h1 { margin-bottom: 10px; font-size: 18px; }
+    .blog-details .row { margin: 40px 0; }
+    .service-box { display: block; margin: 0; }
+    .service-box li { width: 80%; margin: 16px auto; }
+    .gift-wrap .inner { margin: 0 0 16px; }
+    .giftcard-wrap { margin-right: 0px; }
+    .addrestu-img .container-full { max-width: 100%; }
 }
 
 
 
-
-
+@media (max-width: 1024px) and (min-width: 767px) {
+    .giftcad-main .col-md-8 { width: 55%; }
+    .giftcad-main .col-md-4 { width: 45%; }
 }

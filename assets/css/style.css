@@ -562,7 +562,7 @@ border-top-right-radius: 20px; padding: 30px; }
 .accordion-body { padding: 20px 0 60px; }
 .abt-toptext{ padding-top:20px; }
 .abt-toptext h3{ font-size:18px }
-.accordion-item .acd-title { margin: 0; border-top: 1px solid #000; font-size: 18px; padding: 40px 0; cursor: pointer; font-weight:500; position:relative; }
+.accordion-item .acd-title { margin: 0; border-top: 1px solid #000; font-size: 18px; padding: 40px 0; cursor: pointer; font-weight:500; position:relative; padding-right:90px; }
 .accordion-item:first-child .acd-title{ border: none; }
 .accordion-item .acd-title .clps_icon { width: 50px; height: 50px; display: block; border: 3px solid #000; border-radius: 50%; position: absolute; top: 25px; right: 20px; }
 .accordion-item .acd-title .clps_icon:after, .accordion-item .acd-title .clps_icon:before { content: ''; display: block; width: 20px; height: 3px; background: #000; position: absolute; top: 20px; left: 12px; -moz-transition: all .4s ease; transition: all .4s ease; }
@@ -682,9 +682,6 @@ border-top-right-radius: 20px; padding: 30px; }
 .giftcad-main { padding-bottom: 40px; }
 .giftcard-wrap { border-radius: 20px; margin-right: 20px; }
 .giftcad-main h1 { font-size: 36px; }
-.giftcad-main .row { margin-top: 36px }
-.gift-wrap { display: flex; flex-wrap: wrap; }
-.gift-wrap .item { width: 50%; }
 .gift-wrap .inner { background: #fff; border-radius: 20px; padding: 24px; position: relative; margin: 0 16px 32px; }
 .gift-wrap .om-logo { width: 120px; position: absolute; top: 37px; right: 44px; }
 .gift-wrap h3 { font-size: 18px; margin: 0; }
