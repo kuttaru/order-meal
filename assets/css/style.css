@@ -714,20 +714,62 @@ border-top-right-radius: 20px; padding: 30px; }
 
 
 /*=====================  =====================*/
+.gift-page { background:#f1f1f1; }
+.giftcad-main{ padding-bottom:40px; }
+.giftcard-wrap { border-radius: 20px; margin-right: 20px; }
+.giftcad-main h1 { font-size: 36px; }
+.giftcad-main .row { margin-top: 36px }
+.gift-wrap { display: flex; flex-wrap: wrap; }
+.gift-wrap .item { width: 50%; }
+.gift-wrap .inner { background: #fff; border-radius: 20px; padding: 24px; position: relative;margin: 0 16px 32px;  }
+.gift-wrap .om-logo { width: 120px; position: absolute; top: 37px; right: 44px; }
+.gift-wrap h3 { font-size: 18px; margin: 0; }
+.gift-wrap h1 { color: #FC6143; font-size: 62px; margin: 0; }
+.gift-wrap .site { margin: 0 }
+.gift-wrap .gift-img img { width: 86%; margin: 0 auto; }
+.gift-wrap h4 { margin: 24px 0; text-align: center; }
+.gift-wrap .btn { border-radius: 14px; }
 
-.giftcard-wrap { background: #fff; border-radius: 20px; padding: 30px; margin-right: 20px; }
+
+.gift-page .order-summery h3 {
+    font-size: 22px;
+    margin-top: 12px;
+}
+.gift-page .order-summery .voucher-code {
+    margin-bottom: 12px;
+}
+
+.gift-page .order-summery .order-list .item p{
+	margin:0;
+}
+.gift-page .order-summery .servi-info {
+    padding: 0;
+    text-align: center;
+}
 
 
+.gift-page .order-summery .item.total-wrap{
+	margin: 0;
+	display: block;
+	text-align: center;
+	color: #000;
+}
+.gift-page .order-summery .allergy-info{
+	text-align: center;
 
-
-
-
-
+}
 
 
 
 /* =========================== 
-body{ background:url(../images/pages/body.png) no-repeat 0px 0px ;
+html body{ background:url(../images/pages/body.png) no-repeat 0px 0px !important;
 width:1366px; position:relative; height:5420px; border-right: 2px solid #f00;
 }
+
+/*
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<div ng-include="'content.html'"></div>
+
+*/
+
 
