@@ -170,6 +170,9 @@
     .gift-wrap .inner { margin: 0 0 16px; }
     .giftcard-wrap { margin-right: 0px; }
     .addrestu-img .container-full { max-width: 100%; }
+    .org-info { align-items: flex-start; align-content: flex-start; }
+
+
 }
 
 
