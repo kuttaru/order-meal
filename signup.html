@@ -33,95 +33,28 @@
 
 
 <body class="signin-page" ng-app="">
-    
-<div id="header" class="ovly-header">
-    <div class="container">
-        <div class="flexrow">
-            <div class="logo-wrap">
-                <div class="hamburger_menu" data-bs-toggle="modal" data-bs-target="#main-menu"><hr/><hr/><hr/></div>
-                <div class="logo"><a href="/"><img src="assets/images/logo.svg" alt=""/></a></div>
+
+    <div id="header" class="ovly-header">
+        <div class="container">
+            <div class="flexrow">
+                <div class="logo-wrap">
+                    <div class="hamburger_menu" data-bs-toggle="modal" data-bs-target="#main-menu">
+                        <hr />
+                        <hr />
+                        <hr />
+                    </div>
+                    <div class="logo"><a href="/"><img src="assets/images/logo.svg" alt="" /></a></div>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="modal fade" id="main-menu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <span  class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
-            <ul>
-                <li><a href="/home.html">Home</a></li>
-                <li><a href="/about.html">About Us</a></li>
-                <li><a href="/contact.html">Contact Order Meal</a></li>
-                <li><a href="/blogs.html">Our Blog</a></li>
-                <li><a href="/services.html">Our Services</a></li>
-                <li><a href="/add-restaurant.html">Add your Restaurant</a></li>
-                <li><a href="/driver-form.html">Signup for Driver</a></li>
-                <li><a href="/giftcard.html">Buy OM Gift Cards</a></li>
-                <li><a href="/feedback.html">Feedback</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<div id="main-content" class="middle">
-    <div class="sign-form">
-        <h3>Log in to Order Meal</h3>
-
-        <form>
-            <div class="row">
-                <div class="input-field col-md-6">
-                  <input placeholder="First Name" type="text" class="form-control">
-                </div>
-                <div class="input-field col-md-6">
-                  <input placeholder="Surname" type="text" class="form-control">
-                </div>
-            </div>
-
-            <div class="input-field">
-              <input placeholder="Mobile Number" type="text" class="form-control">
-            </div>
-            <div class="input-field">
-              <input placeholder="Email Address" type="text" class="form-control">
-            </div>
-            <div class="input-field">
-              <input placeholder="Password" type="password" class="form-control">
-            </div>
-            <div class="input-field">
-              <input placeholder="Confirm Password" type="password" class="form-control">
-            </div>
-            <div class="input-field">
-                <div class="checkbox-wrap">
-                    <label><input name="checkbox" type="checkbox" value="rabbit"> I agree to the <a href="#">Terms & Conditions</a> and <a href="/privacy.html">Privacy Policy</a></label>
-                </div>
-            </div>
-            <div class="input-field">
-                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-                 <div class="g-recaptcha" data-sitekey="your_site_key"></div>
-            </div>
-            <div class="btn-wrap">
-              <button type="submit" class="btn">Create an account</button>
-              <p><a href="/signin.html" class="btn grey">Log in</a></p>
-            </div>
-        </form>
-    </div>
-</div>
-
-
-
-<div id="footer">
-    <div class="container">
-        <div class="flexrow links_row">
-            <div class="appwrap">
-                <div class="imgwrap"><img src="assets/images/logo-white.svg" alt=""></div>
-                <div class="get-app">
-                    <a href="#"><img src="assets/images/gpay.png" alt=""></a>
-                    <a href="#"><img src="assets/images/ios.png" alt=""></a>
-                </div>
-            </div>
-            <div class="links_wrap quick-links">
-                <h3>Quick Links</h3>
-                <ul class="qu_links">
+    <div class="modal fade" id="main-menu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+                <ul>
+                    <li><a href="/home.html">Home</a></li>
                     <li><a href="/about.html">About Us</a></li>
                     <li><a href="/contact.html">Contact Order Meal</a></li>
                     <li><a href="/blogs.html">Our Blog</a></li>
@@ -132,53 +65,126 @@
                     <li><a href="/feedback.html">Feedback</a></li>
                 </ul>
             </div>
-            <div class="social-media">
-                <ul>
-                    <li class="fb"><a href="#"><img src="assets/images/facebook.png" alt="" /></a></li>
-                    <li><a href="#"><img src="assets/images/insta.png" alt="" /></a></li>
-                </ul>
-            </div>
         </div>
-        <div class="flexrow cities_row">
-            <div class="appwrap">
-                <div class="paycars">
-                    <a href="#"><img src="assets/images/visa.png" alt=""></a>
-                    <a href="#"><img src="assets/images/mastercard.png" alt=""></a>
-                    <a href="#"><img src="assets/images/americanexpress.png" alt=""></a>
-                    <a href="#"><img src="assets/images/golepay.png" alt=""></a>
-                    <a href="#"><img src="assets/images/apple_pay.png" alt=""></a>
-                    <a href="#"><img src="assets/images/windcave.png" alt=""></a>
+    </div>
+
+    <div id="main-content" class="middle">
+        <div class="sign-form">
+            <h3>Log in to Order Meal</h3>
+
+            <form>
+                <div class="row">
+                    <div class="input-field col-md-6">
+                        <input placeholder="First Name" type="text" class="form-control">
+                    </div>
+                    <div class="input-field col-md-6">
+                        <input placeholder="Surname" type="text" class="form-control">
+                    </div>
+                </div>
+
+                <div class="input-field">
+                    <input placeholder="Mobile Number" type="text" class="form-control">
+                </div>
+                <div class="input-field">
+                    <input placeholder="Email Address" type="text" class="form-control">
+                </div>
+                <div class="input-field">
+                    <input placeholder="Password" type="password" class="form-control">
+                </div>
+                <div class="input-field">
+                    <input placeholder="Confirm Password" type="password" class="form-control">
+                </div>
+                <div class="input-field">
+                    <div class="checkbox-wrap">
+                        <label><input name="checkbox" type="checkbox" value="rabbit">
+                            <span> I agree to the <a href="#">Terms & Conditions</a> and <a href="/privacy.html">Privacy
+                                    Policy</a></span></label>
+                    </div>
+                </div>
+                <div class="input-field">
+                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                    <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                </div>
+                <div class="btn-wrap">
+                    <button type="submit" class="btn">Create an account</button>
+                    <p><a href="/signin.html" class="btn grey">Log in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div id="footer">
+        <div class="container">
+            <div class="flexrow links_row">
+                <div class="appwrap">
+                    <div class="imgwrap"><img src="assets/images/logo-white.svg" alt=""></div>
+                    <div class="get-app">
+                        <a href="#"><img src="assets/images/gpay.png" alt=""></a>
+                        <a href="#"><img src="assets/images/ios.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="links_wrap quick-links">
+                    <h3>Quick Links</h3>
+                    <ul class="qu_links">
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/contact.html">Contact Order Meal</a></li>
+                        <li><a href="/blogs.html">Our Blog</a></li>
+                        <li><a href="/services.html">Our Services</a></li>
+                        <li><a href="/add-restaurant.html">Add your Restaurant</a></li>
+                        <li><a href="/driver-form.html">Signup for Driver</a></li>
+                        <li><a href="/giftcard.html">Buy OM Gift Cards</a></li>
+                        <li><a href="/feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <ul>
+                        <li class="fb"><a href="#"><img src="assets/images/facebook.png" alt="" /></a></li>
+                        <li><a href="#"><img src="assets/images/insta.png" alt="" /></a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="links_wrap top-citys">
-                <h3>Our Top Cities</h3>
-                <ul class="city_links">
-                    <li><a href="#">Auckland</a></li>
-                    <li><a href="#">Christchurch</a></li>
-                    <li><a href="#">Wellington</a></li>
-                    <li><a href="#">Hamilton</a></li>
-                    <li><a href="#">Tauranga</a></li>
-                    <li><a href="#">Lower Hutt</a></li>
-                    <li><a href="#">Dunedin</a></li>
-                    <li><a href="#">Northland</a></li>
-                    <li><a href="#">Bay of Plenty</a></li>
-                    <li><a href="#">Rodney</a></li>
-                    <li><a href="#">Hauraki</a></li>
-                    <li><a href="#">Rotorua</a></li>
+            <div class="flexrow cities_row">
+                <div class="appwrap">
+                    <div class="paycars">
+                        <a href="#"><img src="assets/images/visa.png" alt=""></a>
+                        <a href="#"><img src="assets/images/mastercard.png" alt=""></a>
+                        <a href="#"><img src="assets/images/americanexpress.png" alt=""></a>
+                        <a href="#"><img src="assets/images/golepay.png" alt=""></a>
+                        <a href="#"><img src="assets/images/apple_pay.png" alt=""></a>
+                        <a href="#"><img src="assets/images/windcave.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="links_wrap top-citys">
+                    <h3>Our Top Cities</h3>
+                    <ul class="city_links">
+                        <li><a href="#">Auckland</a></li>
+                        <li><a href="#">Christchurch</a></li>
+                        <li><a href="#">Wellington</a></li>
+                        <li><a href="#">Hamilton</a></li>
+                        <li><a href="#">Tauranga</a></li>
+                        <li><a href="#">Lower Hutt</a></li>
+                        <li><a href="#">Dunedin</a></li>
+                        <li><a href="#">Northland</a></li>
+                        <li><a href="#">Bay of Plenty</a></li>
+                        <li><a href="#">Rodney</a></li>
+                        <li><a href="#">Hauraki</a></li>
+                        <li><a href="#">Rotorua</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="copyright">
+            <div class="container">
+                <ul>
+                    <li><a href="/privacy.html">Privacy Policy</a></li>
+                    <li><a href="/terms.html">Terms and Conditions</a></li>
+                    <li><a href="/feedback.html">Feedback</a></li>
                 </ul>
             </div>
         </div>
     </div>
-    <div id="copyright">
-        <div class="container">
-            <ul>
-                <li><a href="/privacy.html">Privacy Policy</a></li>
-                <li><a href="/terms.html">Terms and Conditions</a></li>
-                <li><a href="/feedback.html">Feedback</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 
 
 </body>
