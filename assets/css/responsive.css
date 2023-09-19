@@ -31,7 +31,7 @@
     .mob_addr h4 { margin: 0; font-size: 14px; padding: 0; }
     .adr_sele select { border: none; font-size: 10px; }
     .switch-wrap { width: 50%; padding-left: 50px;    max-width: 200px; margin-left:auto; }
-    .switch span { padding: 5px 14px; font-size: 10px; }
+    .switch span { padding: 10px 16px; font-size: 10px; }
     .addr-wrap { display: none; }
     .hdr_frm { border-top: 1px solid #707070; margin-top: 20px; padding: 20px; flex-wrap: wrap; }
     .find-restu { width: 100%; padding-top: 20px; margin: 0; position:relative; }
@@ -152,6 +152,66 @@
     .top_filter { padding-top: 1px; padding-bottom: 30px; padding-left: 0px; }
     .resturant_details-page .left-sidebar { padding-top: 10px; }
     .deals_info {margin-bottom: 40px;}
+
+
+.personal-details {margin-right: 0px;}
+.deli-head{ display:block; }
+body.cart-page #main-content { padding: 40px 0; }
+
+
+
+
+
+
+
+
+
+
+
+}
+/* ==================== Mobile =============== */
+@media (max-width:740px) {
+#cart-bag .modal-content { width: 320px; padding: 6px; }
+.cart-wrap {padding: 10px;}
+.cart-wrap .restdetails {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+.cart-wrap .prdt-info h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.prdtSwiper{ padding:0; }
+
+
+.modal-dialog {margin: 20px;}
+
+.modal-dialog .btn-close { top: 10px !important; right: 10px !important; }
+
+.addcart-wrap h3{ margin-top:0; }
+
+.accordion-item { margin-top: 0px; }
+.cart-wrap .btn-wrap .btn { padding: 12px 20px; border-radius: 12px; }
+
+.driver_notification { width: 90%; padding: 20px; left: 5%; bottom: 30px; }
+
+.img_form { padding: 40px 0; }
+
+
+.odr-received {
+
+    width: 90%;
+    padding: 20px 40px;
+    left: 5%;
+    top: 70px;
+}
+.odr-received .help-text { padding:0px;
+}
+
+
 
 
 
