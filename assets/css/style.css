@@ -175,12 +175,6 @@ input::-webkit-inner-spin-button {-webkit-appearance: none;}
 .cart-wrap .addbtn:before { content: ''; display: block; width: 20px; height: 2px; background: #000; position: absolute; top: 12px; left: 5px; }
 .cart-wrap .addbtn:after { content: ''; display: block; width: 2px; height: 20px; background: #000; position: absolute; top: 3px; left: 14px; }
 ul.dropdown-menu {box-shadow: 0px 4px 10px rgb(0 0 0 / 20%);}
-
-
-
-
-
-
 /*--- Banner ------*/
 #banner {  background: #f1f1f1 url(../images/bnrbg-trs.svg);  }
 #banner .inner {position: relative;z-index: 5;}
@@ -566,15 +560,17 @@ border-top-right-radius: 20px; padding: 30px; }
 
 
 /*--- Aboutus ---*/
-.accordion-item { border: none; }
+.accordion-item { border: none; margin-top:20px; }
 .accordion-body { padding: 20px 0 60px; }
+.abt-toptext{ padding-top:20px; }
+.abt-toptext h3{ font-size:18px }
 .accordion-item .acd-title { margin: 0; border-top: 1px solid #000; font-size: 18px; padding: 40px 0; cursor: pointer; font-weight:500; position:relative; }
 .accordion-item:first-child .acd-title{ border: none; }
 .accordion-item .acd-title .clps_icon { width: 50px; height: 50px; display: block; border: 3px solid #000; border-radius: 50%; position: absolute; top: 25px; right: 20px; }
 .accordion-item .acd-title .clps_icon:after, .accordion-item .acd-title .clps_icon:before { content: ''; display: block; width: 20px; height: 3px; background: #000; position: absolute; top: 20px; left: 12px; -moz-transition: all .4s ease; transition: all .4s ease; }
 .accordion-item .acd-title.collapsed .clps_icon:after { transform: rotate(90deg); }
 .accordion-item img{ border-radius:20px; width:100%; }
-
+.accordion-body .row .col-md-6:last-child{ padding-left:60px; }
 
 /* ====== formpages -> Contact, driver-form, feedback ===== */
 .img_form { padding-top: 140px; padding-bottom: 60px }
