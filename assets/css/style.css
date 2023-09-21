@@ -663,17 +663,17 @@ border-top-right-radius: 20px; padding: 30px; }
 #order-subtab li { margin: 0 4px; }
 .tab-content .container { max-width: 840px; padding: 0; padding-top: 30px; }
 .odr_list .item { display: flex; padding: 25px 62px; border-bottom: 1px solid rgb(112 112 112 / 30%); }
-.odr_list .item p { margin: 0; font-weight:bold; }
+.odr_list .item p { margin: 0; }
 .odr_list .odr-smr { width: 48%; }
 .odr_list .status { width: 36%; color: #888888; }
-.odr_list .price { width: 16%; text-align: right; }
-.odr_list .status p { padding-left: 35px; background: url(../images/odr-status_icn.svg) no-repeat; background-position: 12px 2px; }
+.odr_list .price { width: 16%; text-align: right; font-weight:500; }
+.odr_list .status p { padding-left: 35px; background: url(../images/odr-status_icn.svg) no-repeat; background-position: 12px 2px; font-weight:500; }
 #order-subtab li b, #order-subtab li a { background: #ccc; }
 #order-subtab li a:hover, #order-subtab li b.active { background: #FC6143; }
 /* --- manage-profile --- */
 .manage-profile { background: #fff; max-width: 417px; margin-left: 170px; margin-top: 52px; padding: 30px; border-radius: 20px; }
 .manage-profile h3 { margin: 0 0 20px; }
-.manage-profile .form-control { font-weight: bold; padding: 17px 90px 17px 20px; }
+.manage-profile .form-control { padding: 17px 90px 17px 20px; }
 .manage-profile .input-field .edit { background: #fff; padding: 7px 20px; position: absolute; border-radius: 20px; color: #0c0c0c; top: 11px; right: 15px; }
 .manage-profile .btn { border-radius: 20px; padding: 18px 0; }
 .manage-profile h3 { font-size: 24px; text-align: center; }
