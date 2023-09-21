@@ -112,6 +112,15 @@
     </div>
 </div>
 
+<script type="text/javascript">
+(function($) {
+  $(document).ready(function() {
+    $('.cartbag').hover(function() {
+      $('#cart-bag').modal('show');
+    });
+  });
+})(jQuery);
+</script>
 
 <div class="modal fade" id="cart-bag" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">

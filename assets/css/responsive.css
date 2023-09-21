@@ -18,13 +18,13 @@
     .mob_addr { display: block; width: 50%; }
     .mob_addr h4 { margin: 0; font-size: 14px; padding: 0; }
     .adr_sele select { border: none; font-size: 10px; }
-    .switch-wrap { width: 50%; padding-left: 50px; max-width: 200px; margin-left: auto; }
+    .switch-wrap { padding-left: 0px; margin-left: auto; }
     .switch span { padding: 10px 16px; font-size: 10px; }
     .addr-wrap { display: none; }
     .hdr_frm { border-top: 1px solid #707070; margin-top: 20px; padding: 20px; flex-wrap: wrap; }
     .find-restu { width: 100%; padding-top: 20px; margin: 0; position: relative; }
     #header .hdr_frm { min-width: 100%; margin: 20px -20px 0 }
-    .show_filter { width: 60px; height: 50px; background: url(../images/filter_icon.svg) no-repeat; position: absolute; top: 20px; right: 0; z-index: 2; cursor: pointer; background-size: 20px; background-position: 15px 16px; }
+    .show_filter { width: 60px; height: 42px; background: url(../images/filter_icon.svg) no-repeat; position: absolute; top: 20px; right: 0; z-index: 2; cursor: pointer; background-size: 20px; background-position: 18px 12px; }
     #restaurant-banner .resturant-details h2 { margin: 0; font-size: 12px; }
     #restaurant-banner .resturant-details { padding: 10px 0; padding-left: 110px; left: 0px; }
     #restaurant-banner .restur-logo { width: 80px; height: 80px; top: 0px; left: 16px; }
@@ -58,7 +58,7 @@
     .mob_menu { display: block; }
     .row > div[class*="col-md-"] { margin-bottom: 16px; }
     #header .container, .container-full { max-width: 100%; }
-    #header_transparent .logo-wrap { width: 120px; }
+    #header_transparent .logo-wrap { width: 120px;    padding-top: 10px; }
     .signbtn { padding-top: 0px; }
     #header .logo-wrap .logo { width: 120px; padding-top: 8px; }
     #header { padding: 12px 0px; }
@@ -171,13 +171,22 @@
     .giftcard-wrap { margin-right: 0px; }
     .addrestu-img .container-full { max-width: 100%; }
     .org-info { align-items: flex-start; align-content: flex-start; }
+    .switch-wrap,.switch {width: 140px;}
+    .pick_del .switch{ width:140px; }
 
 
 }
 
-
+@media (max-width:400px) {
+    .find-rest .form-control { font-size: 12px; padding-right: 110px; }
+    .find-rest .btn-wrap .btn { font-size: 10px; }
+    #header .btn { padding: 10px; }
+}
 
 @media (max-width: 1024px) and (min-width: 767px) {
     .giftcad-main .col-md-8 { width: 55%; }
     .giftcad-main .col-md-4 { width: 45%; }
 }
+
+
+

@@ -58,7 +58,7 @@
 
             <div class="sin_wrap">
 
-                <div class="cartbag" data-bs-toggle="modal" data-bs-target="#cart-bag">
+                <div class="cartbag" data-bs-toggle="modal" data-bs-target="#cart-bag" >
                     <span class="cart-count">99</span>
                 </div>
 
@@ -67,6 +67,7 @@
         </div>
     </div>
 </div>
+
 
 <div class="modal fade" id="main-menu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -88,9 +89,21 @@
 </div>
 
 
+<script type="text/javascript">
+(function($) {
+  $(document).ready(function() {
+    $('.cartbag').hover(function() {
+      $('#cart-bag').modal('show');
+    });
+  });
+})(jQuery);
+</script>
+
+
 <div class="modal fade" id="cart-bag" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
+            <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
 
 
 
