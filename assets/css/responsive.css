@@ -1,6 +1,11 @@
-/*  @media (max-width: 1470px) and (min-width: 1300px) {} */
+
+
+
+
+
 @media (max-width:1470px) {
     .addr-wrap .addr_inp { min-width: 220px; }
+    #main-content {min-height: 58vh;}
 }
 @media (max-width:1024px) {
     #order_cat .flexwrap { overflow: scroll; padding-top: 20px; }
@@ -11,6 +16,7 @@
     .left_sidebar-page .content { width: 100%; border-left: none; padding: 10px; }
     .filter-wrap { display: none; background: #fff; padding: 20px; position: absolute; top: 207px; z-index: 5; left: 0; width: 100% }
     body.active_filter .filter-content .filter-wrap { display: block; }
+    body.resturant_details-page.active_filter .filter-content{display: block;}
     #header .flexrow { flex-wrap: wrap; justify-content: space-between; }
     #header .right-section { order: 3; width: 100%; display: block; }
     .signbtn { margin-left: auto; }
@@ -137,6 +143,16 @@
     #cart-bag .cart-wrap { padding: 10px 20px; max-height: 93vh; overflow: auto; }
     .form-wrap .col-md-6{ width:50%; }
 
+    .myorder-tab { display: block; }
+    .myorder-tab #ordertab { width: auto; min-height: auto; padding: 0; }
+    .myorder-tab #order-content { width: 100%; }
+
+    .myorder-tab #ordertab { display: flex; justify-content: center; flex-wrap: nowrap; overflow-y: auto; background: #f1f1f1; border: none; padding: 20px 0; }
+    .myorder-tab #ordertab li b { padding: 10px; padding-left: 39px; white-space: nowrap; border: none; border-bottom: 2px solid #f1f1f1; }
+    .myorder-tab #ordertab li b.active { border-bottom: 2px solid #FC6143; }
+    .myorder-tab #ordertab li i { left: 14px !important; top: 10px; }
+
+
 }
 
 /* ==================== Mobile =============== */
@@ -155,17 +171,12 @@
     .img_form { padding: 40px 0; }
     .odr-received { width: 90%; padding: 20px 40px; left: 5%; top: 70px; }
     .odr-received .help-text { padding: 0px; }
-    .myorder-tab { display: block; }
-    .myorder-tab #ordertab { width: auto; min-height: auto; padding: 0; }
-    .myorder-tab #order-content { width: 100%; }
+
     .odr_list .item { padding: 10px }
     #order-subtab { padding: 10px 0 }
     .tab-content .container { padding-top: 0px; }
     #order-subtab li { margin: 4px }
     .manage-profile, .change-password { margin-left: 0; margin-top: 12px; }
-    .myorder-tab #ordertab { padding-bottom: 60px; position: relative; }
-    .myorder-tab #ordertab li b.active { position: absolute; width: 100%; bottom: 0; left: 0; }
-    .myorder-tab #ordertab li b.active:after { content: ''; display: block; width: 20px; height: 20px; position: absolute; bottom: -11px; left: 60px; transform: rotate(45deg); background: #f1f1f1; border-top: 1px solid #ccc; border-left: 1px solid #ccc; }
     .page-banner .bnrtext h1 { margin-bottom: 10px; font-size: 18px; }
     .blog-details .row { margin: 40px 0; }
     .service-box { display: block; margin: 0; }
@@ -178,6 +189,7 @@
     .pick_del .switch{ width:140px; }
     .roundimg {border-radius: 12px;}
     .img_form .form-wrap h3 br{ display:none; }
+     .myorder-tab #ordertab { justify-content: left;}
 
 
 }
@@ -209,5 +221,10 @@
     .giftcad-main .col-md-4 { width: 45%; }
 }
 
-
+@media (max-width: 1370px) and (min-width: 1024px) {
+    .swiper-button-next, .swiper-button-prev {top: 98px;}
+    .top_filter {padding-bottom: 30px;}
+    .resturant_details-page .left-sidebar {padding-top: 50px;}
+    .deals_info {margin-bottom: 30px;}
+}
 

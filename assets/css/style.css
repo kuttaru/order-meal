@@ -193,7 +193,7 @@ ul.dropdown-menu {box-shadow: 0px 4px 10px rgb(0 0 0 / 20%);}
 #hmbox .inner.fast_box .imgwrap { padding-top: 8px; }
 #hmbox .inner.ord_box .imgwrap { padding-top: 10px; }
 #hmbox .inner h3 { margin: 0; display: flex; justify-content: center; flex-direction: column; font-size: 18px; }
-#hmbox .inner .imgwrap { max-width: 80px; margin-right: 10px; }
+#hmbox .inner .imgwrap { max-width: 80px; margin-right: 24px; }
 /*---gift_card ---*/
 .gift_card { padding: 25px; border-radius: 20px; background: #FC6143 url(../images/bnrbg-trs.svg);  position: relative; overflow: hidden;}
 .gift_card .inner{ position:relative; z-index: 5;}
@@ -745,6 +745,6 @@ border-top-right-radius: 20px; padding: 30px; }
     padding-right: 20px;
 }
 
-
+.resturant_details-page .filter-content{display: none;}
 
 
