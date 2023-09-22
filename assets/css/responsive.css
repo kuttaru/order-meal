@@ -1,8 +1,3 @@
-
-
-
-
-
 @media (max-width:1470px) {
     .addr-wrap .addr_inp { min-width: 220px; }
     #main-content {min-height: 58vh;}
@@ -47,6 +42,8 @@
     .swiper-button-next, .swiper-button-prev {top: 76px;}
     .gift-wrap .col-md-6{ width:100%; }
     .giftcard-wrap {margin-right: 0px;}
+    #order-content h3{ margin-top:0 }
+    .odr_list .item {padding: 20px;}
 
 }
 
@@ -147,10 +144,11 @@
     .myorder-tab #ordertab { width: auto; min-height: auto; padding: 0; }
     .myorder-tab #order-content { width: 100%; }
 
-    .myorder-tab #ordertab { display: flex; justify-content: center; flex-wrap: nowrap; overflow-y: auto; background: #f1f1f1; border: none; padding: 20px 0; }
-    .myorder-tab #ordertab li b { padding: 10px; padding-left: 39px; white-space: nowrap; border: none; border-bottom: 2px solid #f1f1f1; }
+    .myorder-tab #ordertab { display: flex; justify-content: center; flex-wrap: nowrap; overflow-y: auto; background: #f1f1f1; border: none; padding: 20px 0;margin-left: 24px; }
+    .myorder-tab #ordertab li b { padding: 10px; padding-left: 26px; white-space: nowrap; padding-right: 0; border: none; border-bottom: 2px solid #f1f1f1; }
     .myorder-tab #ordertab li b.active { border-bottom: 2px solid #FC6143; }
-    .myorder-tab #ordertab li i { left: 14px !important; top: 10px; }
+    .myorder-tab #ordertab li i { left: 0px !important; top: 10px; }
+    .myorder-tab #ordertab li {padding-right: 24px;}
 
 
 }
@@ -216,15 +214,18 @@
     .deals_info b {font-size: 12px;}
 }
 
-@media (max-width: 1024px) and (min-width: 767px) {
-    .giftcad-main .col-md-8 { width: 55%; }
-    .giftcad-main .col-md-4 { width: 45%; }
-}
 
 @media (max-width: 1370px) and (min-width: 1024px) {
     .swiper-button-next, .swiper-button-prev {top: 98px;}
     .top_filter {padding-bottom: 30px;}
     .resturant_details-page .left-sidebar {padding-top: 50px;}
     .deals_info {margin-bottom: 30px;}
+    .manage-profile, .change-password {margin: 30px auto 0;}
 }
+
+@media (max-width: 1024px) and (min-width: 767px) {
+    .giftcad-main .col-md-8 { width: 55%; }
+    .giftcad-main .col-md-4 { width: 45%; }
+}
+
 

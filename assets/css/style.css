@@ -11,8 +11,6 @@ a{ text-decoration:none;-moz-transition: all .4s ease; transition: all .4s ease;
 a:focus, a:hover, a:active { outline: none !important; }
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active { background: #000; color: #fff;}
 
-
-
 h1, h2, h3, h4, h5, h6 {font-family: 'Inter', sans-serif; font-weight:bold;  }
 h1 { font-size: 40px; margin: 2.8rem 0 1.68rem 0 }
 h2 { font-size: 31px; margin: 2.3733333333rem 0 1.424rem 0 }
@@ -653,6 +651,7 @@ border-top-right-radius: 20px; padding: 30px; }
 #order-subtab li { margin: 0 4px; }
 .tab-content .container { max-width: 840px; padding: 0; padding-top: 30px; }
 .odr_list .item { display: flex; padding: 25px 62px; border-bottom: 1px solid rgb(112 112 112 / 30%); }
+body.myorder-page{ background:#f1f1f1; }
 .odr_list .item p { margin: 0; }
 .odr_list .odr-smr { width: 48%; }
 .odr_list .status { width: 36%; color: #888888; }
@@ -746,5 +745,6 @@ border-top-right-radius: 20px; padding: 30px; }
 }
 
 .resturant_details-page .filter-content{display: none;}
-
+#ordertab::-webkit-scrollbar { display: none; }
+#ordertab { -ms-overflow-style: none; scrollbar-width: none; }
 
