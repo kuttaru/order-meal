@@ -65,7 +65,7 @@
     #header .cart-count { background-position: 11px 11px; padding: 6px 20px; width: 68px; padding-left: 34px; }
     .landing-page #header_transparent { padding-top: 30px; }
     #banner h3 { font-size: 16px }
-    .meal-slider .slide1 { top: 80px; width: 220px; right: -30%; }
+    .meal-slider .slide1 { top: 80px; width: 220px; right: -60px; }
     .meal-slider .slide2 { top: 376px; width: 250px; left: 50%; right: auto; margin-left: -125px; }
     #banner .container { height: auto; padding-top: 180px; padding-bottom: 60px; }
     #banner h2 { margin-bottom: 12px; }
@@ -141,6 +141,7 @@
 
 /* ==================== Mobile =============== */
 @media (max-width:740px) {
+    .meal-slider .slide1 { right: -30%; }
     #cart-bag .modal-content { width: 320px; padding: 6px;    padding-top: 30px; }
     .cart-wrap .restdetails { margin-top: 10px; margin-bottom: 10px; padding-right: 10px; }
     .cart-wrap .prdt-info h3 { font-size: 14px; font-weight: bold; }

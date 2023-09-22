@@ -224,7 +224,7 @@ ul.dropdown-menu {box-shadow: 0px 4px 10px rgb(0 0 0 / 20%);}
 #download_wrap h3 { margin-bottom: 36px; }
 #download_wrap .download_content { padding: 70px 0 90px; }
 #download_wrap p { font-size: 18px; font-weight: 500; max-width: 410px; margin-top:4px; }
-#download_wrap .container { padding: 0 47px; }
+#download_wrap .container { padding: 0 47px; overflow:hidden; }
 #download_wrap h4{ margin-bottom:0; }
 #download_wrap h4.orange-text { color: #FC6143; margin-top: 0; }
 #download_wrap .dwn-bg { background: url(../images/download_bg.png) no-repeat center; background-size: cover; }
