@@ -200,6 +200,7 @@
     .org-info .info { border-radius: 12px; padding: 2px 12px; margin-left: 10px; }
     .voucher-code input {font-size: 12px;}
     .voucher-code .btn { top: 7px; }
+    .deals_info b {font-size: 12px;}
 }
 
 @media (max-width: 1024px) and (min-width: 767px) {
