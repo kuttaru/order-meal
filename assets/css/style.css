@@ -70,8 +70,8 @@ input::-webkit-inner-spin-button {-webkit-appearance: none;}
 #header_transparent{ padding:20px 0; }
 #header_transparent .container{ display:flex; justify-content:space-between; }
 #header_transparent.ovly-header { position:absolute; width:100%; left:0; top:0; z-index: 9;}
-.landing-page #header_transparent{ padding-top:50px; }
-#header_transparent .logo-wrap {width: 272px;}
+.landing-page #header_transparent{ padding-top:24px; }
+#header_transparent .logo-wrap {width: 214px;}
 .signbtn a { text-decoration: none; font-weight: bold; padding:10px; display: inline-block; }
 .signbtn a.brd-right{ position:relative; }
 .signbtn a.brd-right:before { content: ''; display: block; width: 2px; height: 17px; background: #000; position: absolute; top: 11px; right: 0; }
@@ -183,7 +183,7 @@ ul.dropdown-menu {box-shadow: 0px 4px 10px rgb(0 0 0 / 20%);}
 
 
 /*--- Homepage 3 box -----*/
-#hmbox { padding: 110px 0 69px; }
+#hmbox { padding: 40px 0; }
 #hmbox .inner { display: flex; padding: 20px; min-height: 125px; background: #f1f1f1; border-radius: 20px; }
 #hmbox .inner .imgwrap { width: 130px; text-align: center; }
 #hmbox .inner .imgwrap img {margin: 0 auto;}
