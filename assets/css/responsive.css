@@ -31,7 +31,7 @@
     #restaurant-banner .restur-logo { width: 80px; height: 80px; top: 0px; left: 16px; }
     #restaurant-banner .resturant-details p { font-size: 10px; margin: 0; }
     #restaurant-banner .resturant-details p span { font-size: 10px; padding: 2px 10px; margin-left: 6px; }
-    .top_filter .ofer_you, .top_filter #datepicker { display: none; }
+    .top_filter .ofer_you, .top_filter #datepicker,.top_filter #time-wrap { display: none; }
     #restaurant-banner .imgwrap { height: 200px; overflow: hidden; display: flex; flex-flow: row nowrap; justify-content: stretch; }
     #restaurant-banner .imgwrap img { object-fit: cover; object-position: center; min-width: 100%; height: auto; min-height: 100%; }
     #restaurant-banner { margin-bottom: 0px; }

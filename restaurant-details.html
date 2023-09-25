@@ -25,6 +25,9 @@
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+
+
     <script type="text/javascript" src="assets/js/swiper.min.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
 
@@ -336,7 +339,7 @@
             <div class="content">
 
             <div class="top_filter row">
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <div class="flexrow">
                         <div class="ofer_you">
                             <select  class="form-control">
@@ -348,9 +351,21 @@
                         <div id="datepicker">
                             <input id="startDate" class="form-control" placeholder="Schedule" type="text">
                         </div>
+
+                        <div id="time-wrap">
+                            <input id="timePicker" class="form-control timePicker" placeholder="Time" type="text">
+                        </div>
+
+
+
+
+
+
+
+
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="switch-wrap pick_del">
                         <label class="switch">
                             <input type="checkbox" checked="checked" />
@@ -803,10 +818,45 @@
         </div>
     </div>
 </div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+
+
 <script type="text/javascript">
 (function($) {
   $(document).ready(function() {
-   $('#startDate').datepicker(); 
+
+   $('#startDate').datepicker();
+
+
+
+    var firstOpen = true;
+    var time;
+
+    $('#timePicker').datetimepicker({
+        useCurrent: false,
+        format: "hh:mm A"
+    }).on('dp.show', function() {
+        if(firstOpen) {
+            time = moment().startOf('day');
+            firstOpen = false;
+        } else {
+            time = "01:00 PM"
+        }        
+        $(this).data('DateTimePicker').date(time);
+    });
+
+
+
+
+
+
+
+
+
   });
 })(jQuery);
 </script>

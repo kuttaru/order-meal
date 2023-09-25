@@ -371,16 +371,18 @@ ul.dropdown-menu {box-shadow: 0px 4px 10px rgb(0 0 0 / 20%);}
 
 .resturant_details-page .content { width: calc(100% - 218px);}
 .resturant_details-page .left-sidebar h4{ margin-bottom:30px; }
-
-
 .top_filter .flexrow{ display:flex; }
-.top_filter #datepicker{ margin-left:30px }
+.top_filter #datepicker{ margin-left:20px; margin-right:20px; }
 .top_filter .form-control { border-radius: 30px; padding: 12px 22px; }
 #startDate { -webkit-appearance: none; background: #f1f1f1 url(../images/calendar-icn.svg) no-repeat; background-size: 16px; background-position: 120px 16px; width: 160px; }
 .datepicker { padding: 20px; }
 .datepicker th { background: #f1f1f1; }
 .datepicker th, .datepicker td { padding: 5px 10px; border: 1px solid #eee; text-align: center; }
 .datepicker td { cursor: pointer;}
+.top_filter #time-wrap{position: relative; max-width: 140px;}
+
+
+
 .top_filter select.form-control { background: #f1f1f1 url(../images/sel-arw.svg) no-repeat; background-size: 11px; background-position: 120px 18px; padding-right: 36px; }
 .deals_info { display: flex; background: #D8E6CC; border-radius: 8px; margin-bottom:70px; }
 .deals_info span { background: #60A429 url("../images/discount.svg") no-repeat 30px 20px; display: block; padding: 16px 40px; border-radius: 8px; color: #fff; padding-left: 60px; margin-right: 20px; }
@@ -748,3 +750,21 @@ body.myorder-page{ background:#f1f1f1; }
 #ordertab::-webkit-scrollbar { display: none; }
 #ordertab { -ms-overflow-style: none; scrollbar-width: none; }
 
+
+
+
+
+.timepicker { padding: 4px 10px; text-align: center; }
+.timepicker .btn { background: none; border-radius: 0; padding: 0; }
+.timepicker .btn:hover, .timepicker .btn:focus { background: none;}
+.timepicker .btn span { display: block; width: 60px; height: 36px; position: relative; }
+.timepicker .btn.btn-primary { background: #e96b4d; padding: 8px 20px; border: none; }
+.timepicker .glyphicon:after { content: ''; display: block; width: 12px; height: 12px; position: absolute; }
+.timepicker .glyphicon.glyphicon-chevron-up:after { border-top: 2px solid #333; border-left: 2px solid #333; transform: rotate(45deg); top: 16px; left: 26px; }
+.timepicker .glyphicon.glyphicon-chevron-down:after { border-right: 2px solid #333; border-bottom: 2px solid #333; transform: rotate(45deg); top: 10px; left: 26px; }
+
+ #timePicker {
+    background: #f1f1f1 url(../images/clock.svg) no-repeat;
+    background-size: 16px;
+    background-position: 108px 14px;
+}
