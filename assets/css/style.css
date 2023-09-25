@@ -183,7 +183,7 @@ ul.dropdown-menu {box-shadow: 0px 4px 10px rgb(0 0 0 / 20%);}
 
 
 /*--- Homepage 3 box -----*/
-#hmbox { padding: 40px 0; }
+#hmbox { padding: 70px 0; }
 #hmbox .inner { display: flex; padding: 20px; min-height: 125px; background: #f1f1f1; border-radius: 20px; }
 #hmbox .inner .imgwrap { width: 130px; text-align: center; }
 #hmbox .inner .imgwrap img {margin: 0 auto;}
