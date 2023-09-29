@@ -349,12 +349,26 @@
                             </select>
                         </div>
                         <div id="datepicker">
-                            <input id="startDate" class="form-control" placeholder="Schedule" type="text">
+                            <div class="dropdown">
+                                <input id="date_time" class="form-control" placeholder="Schedule" type="text" data-bs-toggle="dropdown" aria-expanded="false" />
+                                  <div id="datetim-picker" class="dropdown-menu">
+                                    <div class="inner">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua.
+                                    </div>
+                                  </div>
+                            </div>
                         </div>
 
-                        <div id="time-wrap">
+
+
+
+
+
+<!--                         <div id="time-wrap">
                             <input id="timePicker" class="form-control timePicker" placeholder="Time" type="text">
-                        </div>
+                        </div> -->
+
 
 
 
@@ -821,45 +835,7 @@
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
 
-
-<script type="text/javascript">
-(function($) {
-  $(document).ready(function() {
-
-   $('#startDate').datepicker();
-
-
-
-    var firstOpen = true;
-    var time;
-
-    $('#timePicker').datetimepicker({
-        useCurrent: false,
-        format: "hh:mm A"
-    }).on('dp.show', function() {
-        if(firstOpen) {
-            time = moment().startOf('day');
-            firstOpen = false;
-        } else {
-            time = "01:00 PM"
-        }        
-        $(this).data('DateTimePicker').date(time);
-    });
-
-
-
-
-
-
-
-
-
-  });
-})(jQuery);
-</script>
 </body>
 
 </html>

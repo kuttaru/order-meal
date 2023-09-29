@@ -4,7 +4,7 @@
 }
 @media (max-width:1024px) {
     #order_cat .flexwrap { overflow: scroll; padding-top: 20px; }
-    #order_cat .item { min-width: 80px; padding-bottom: 20px; }
+    #order_cat .item { min-width: 80px;}
     #order_cat .item h4 { font-size: 12px; }
     .left_sidebar-page .filter-content, .left-sidebar { width: 100%; }
     .resturant_details-page .left-sidebar { width: 100%; }
@@ -75,7 +75,6 @@
     .find-rest .btn-wrap .loc-me { display: none; }
     .find-rest .form-control { padding-right: 160px; }
     .find-rest .btn-wrap .btn { padding: 0 14px; }
-    #hmbox { padding: 50px 0 30px; }
     .gift_card { border-radius: 20px; background-position: -500px -10px; background-size: 870px; }
     .gift_card h3 { font-size: 20px; }
     .gift_card h1 { margin: 4px 0 5px; font-size: 24px; }
@@ -88,7 +87,6 @@
     #download_wrap .dwn-bg { min-height: 340px; background-size: 100%; background-position: top center; margin-top: -90px; }
     #download_wrap h4 { font-size: 15px; }
     #download_wrap p { font-size: 14px; }
-    #service-wrap { padding: 40px 0; }
     #service-wrap .imgwrap { position: relative; top: auto; right: auto; }
     #service-wrap .inner { padding: 20px; }
     #service-wrap .imgwrap { padding-top: 20px; margin: 0 auto; }
@@ -96,7 +94,6 @@
     #service-wrap p { font-size: 14px; }
     #add-resturant { padding: 30px 0; }
     .food_burger, .food_french, .drink_soda { display: none; }
-    #find-city .flexrow { margin-top: 40px; }
     #find-city .flexrow { display: block; }
     #find-city .flexrow .city-wrap { padding: 20px; }
     #find-city .logoimg { position: relative; top: auto; left: auto; }
@@ -104,7 +101,7 @@
     #find-city .flexrow .city-links { border-radius: 20px; }
     .city-links ul li a { text-decoration: none; font-size: 14px; padding-left: 20px; }
     .city-links ul li a:before { top: 14px; }
-    #delivery-wrap { margin-top: 40px; }
+    #delivery-wrap { margin-top: 20px; }
     #delivery-wrap p { font-size: 14px; }
     #delivery-wrap h3 { font-size: 22px; }
     #delivery-wrap h3 br { display: none; }
@@ -112,22 +109,18 @@
     #footer .top-citys ul.city_links { column-count: 1; column-gap: 0; }
     #footer .flexrow { flex-wrap: wrap; }
     #footer .appwrap, #footer .social-media { width: 50%; }
-    #footer .quick-links { order: 3; width: 100%; padding-top: 40px; padding-left: 40px; }
+    #footer .quick-links { order: 3; width: 100%; padding-top: 40px; padding-left: 20px; }
     #footer .get-app { display: none; }
     #footer .cities_row .appwrap { order: 3; }
     #footer .cities_row .appwrap, #footer .top-citys { width: 100%; }
-    #footer .top-citys { padding-left: 40px; }
+    #footer .top-citys { padding-left: 20px; }
     #copyright ul li a { padding: 0px 10px; font-size: 11px; }
     #footer .links_row { padding-bottom: 0px; border-bottom: none; margin-bottom: 10px; }
     #footer .paycars { padding-top: 30px; }
     #footer .quick-links ul.qu_links li, #footer .top-citys ul.city_links li { display: block; }
-    #footer .links_wrap ul { display: none; }
-    #footer .links_wrap.show ul { display: block; }
     #footer .quick-links.show { padding-bottom: 20px; border-bottom: 2px solid rgb(255 255 255 / 10%); margin-bottom: 20px; }
     #footer .quick-links.show { padding-bottom: 20px; border-bottom: 2px solid rgb(255 255 255 / 10%); margin-bottom: 20px; }
     #footer .links_wrap h3 { position: relative; }
-    #footer .links_wrap h3:before { content: ''; display: block; width: 0px; height: 0px; border-style: solid; border-width: 5px 0 5px 10px; border-color: transparent transparent transparent #FC6143; position: absolute; left: -18px; top: 5px; -moz-transition: all .4s ease; transition: all .4s ease; }
-    #footer .links_wrap.show h3:before { transform: rotate(90deg); top: 7px; }
     .drink_soda { right: 10px; }
     .row .top_filter .col-md-6 { margin-bottom: 0 }
     .top_filter { padding-top: 1px; padding-bottom: 30px; padding-left: 0px; }
@@ -188,6 +181,7 @@
     .roundimg {border-radius: 12px;}
     .img_form .form-wrap h3 br{ display:none; }
      .myorder-tab #ordertab { justify-content: left;}
+    #footer ul li a { color: rgb(255 255 255 / 65%); }
 
 
 }
