@@ -33,15 +33,47 @@
 
 <body class="landing-page" ng-app="">
 
-    <div id="header_transparent" class="ovly-header">
-        <div class="container">
-            <div class="logo-wrap"><a href="/"><img src="assets/images/logo.svg" alt="" /></a></div>
-            <div class="signbtn">
-                <a href="/signin.html" class="brd-right">Sign In</a> <a href="/signup.html">Sign Up</a>
-            </div>
 
+    <div id="header" class="header_transparent">
+        <div class="container">
+            <div class="flexrow">
+                <div class="logo-wrap">
+                    <div class="hamburger_menu" data-bs-toggle="modal" data-bs-target="#main-menu"><hr/><hr/><hr/></div>
+                    <div class="logo"><a href="/"><img src="assets/images/logo.svg" alt=""/></a></div>
+                </div>
+
+                <div class="right_menu">
+                    <div class="signbtn">
+                        <a href="/signin.html" class="brd-right">Sign In</a> <a href="/signup.html">Sign Up</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+
+
+<div class="modal fade" id="main-menu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <span  class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/about.html">About Us</a></li>
+                <li><a href="/contact.html">Contact Order Meal</a></li>
+                <li><a href="/blogs.html">Our Blog</a></li>
+                <li><a href="/services.html">Our Services</a></li>
+                <li><a href="/add-restaurant.html">Add your Restaurant</a></li>
+                <li><a href="/driver-form.html">Signup for Driver</a></li>
+                <li><a href="/giftcard.html">Buy OM Gift Cards</a></li>
+                <li><a href="/feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
 
 
 
@@ -82,52 +114,79 @@
 <div id="order_cat">
         <div class="container">
             <h3>Order now your favourite food & drinks</h3>
+            
             <div class="flexwrap">
                 <div class="item">
-                    <div class="imgwrap"><img src="assets/images/indian.svg"></div>
-                    <h4>Indian</h4>
+                    <a href="/restaurant-details.html">
+                        <div class="imgwrap"><img src="assets/images/indian.svg"></div>
+                        <h4>Indian</h4>
+                    </a>
                 </div>
                 <div class="item">
-                    <div class="imgwrap"><img src="assets/images/liquor.svg"></div>
-                    <h4>Liquor</h4>
+                    <a href="/restaurant-details.html">
+                        <div class="imgwrap"><img src="assets/images/liquor.svg"></div>
+                        <h4>Liquor</h4>
+                    </a>
                 </div>
                 <div class="item">
-                    <div class="imgwrap"><img src="assets/images/sushi.svg"></div>
-                    <h4>Sushi</h4>
+                    <a href="/restaurant-details.html">
+                        <div class="imgwrap"><img src="assets/images/sushi.svg"></div>
+                        <h4>Sushi</h4>
+                    </a>
                 </div>
                 <div class="item">
-                    <div class="imgwrap"><img src="assets/images/cafe.svg"></div>
-                    <h4>Cafe</h4>
+                    <a href="/restaurant-details.html">
+                        <div class="imgwrap"><img src="assets/images/cafe.svg"></div>
+                        <h4>Cafe</h4>
+                    </a>
                 </div>
                 <div class="item">
-                    <div class="imgwrap"><img src="assets/images/european.svg"></div>
-                    <h4>European</h4>
+                    <a href="/restaurant-details.html">
+                        <div class="imgwrap"><img src="assets/images/european.svg"></div>
+                        <h4>European</h4>
+                    </a>
                 </div>
                 <div class="item">
-                    <div class="imgwrap"><img src="assets/images/burgers.svg"></div>
-                    <h4>Burgers</h4>
+                    <a href="/restaurant-details.html">
+                        <div class="imgwrap"><img src="assets/images/burgers.svg"></div>
+                        <h4>Burgers</h4>
+                    </a>
                 </div>
                 <div class="item">
-                    <div class="imgwrap"><img src="assets/images/kebabs.svg"></div>
-                    <h4>Kebabs</h4>
+                    <a href="/restaurant-details.html">
+                        <div class="imgwrap"><img src="assets/images/kebabs.svg"></div>
+                        <h4>Kebabs</h4>
+                    </a>
                 </div>
                 <div class="item">
-                    <div class="imgwrap"><img src="assets/images/pizza.svg"></div>
-                    <h4>Pizza</h4>
+                    <a href="/restaurant-details.html">
+                        <div class="imgwrap"><img src="assets/images/pizza.svg"></div>
+                        <h4>Pizza</h4>
+                    </a>
                 </div>
                 <div class="item">
-                    <div class="imgwrap"><img src="assets/images/japanese.svg"></div>
-                    <h4>Japanese</h4>
+                    <a href="/restaurant-details.html">
+                        <div class="imgwrap"><img src="assets/images/japanese.svg"></div>
+                        <h4>Japanese</h4>
+                    </a>
                 </div>
                 <div class="item">
-                    <div class="imgwrap"><img src="assets/images/thai.svg"></div>
-                    <h4>Thai</h4>
+                    <a href="/restaurant-details.html">
+                        <div class="imgwrap"><img src="assets/images/thai.svg"></div>
+                        <h4>Thai</h4>
+                    </a>
                 </div>
                 <div class="item">
-                    <div class="imgwrap"><img src="assets/images/chinese.svg"></div>
-                    <h4>Chinese</h4>
+                    <a href="/restaurant-details.html">
+                        <div class="imgwrap"><img src="assets/images/chinese.svg"></div>
+                        <h4>Chinese</h4>
+                    </a>
                 </div>
             </div>
+
+
+
+            
         </div>
     </div>
 
