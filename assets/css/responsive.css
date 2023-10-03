@@ -14,6 +14,8 @@
     body.resturant_details-page.active_filter .filter-content{display: block;}
     #header .flexrow { flex-wrap: wrap; justify-content: space-between; }
     #header .right-section { order: 3; width: 100%; display: block; }
+    #header .logo-wrap {width: 65%; justify-content: space-between;}
+    #header.header_transparent .logo-wrap {width: 50%;}
     .signbtn { margin-left: auto; }
     .home-page #header { box-shadow: none; }
     .mob_addr { display: block; width: 50%; }

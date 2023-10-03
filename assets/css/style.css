@@ -121,7 +121,7 @@ input::-webkit-inner-spin-button {-webkit-appearance: none;}
 #main-menu.modal.fade.show .modal-content { transition: transform .3s ease-out; transform: translate(0px, 0px); }
 
 #main-menu .btn-close { position: absolute; top: 20px; right: 20px; cursor: pointer; }
-#main-menu ul li a { font-weight: bold; display: block; padding: 10px 20px; border-bottom:1px solid rgb(0 0 0 / 24%) }
+#main-menu ul li a { font-weight: bold; display: block; }
 
 /* ==== Menu ========= */
 #cart-bag .modal-dialog { margin: 0; background: #fff;  position: fixed; top: 0; right: 0; height:100%;transform: translate(0, 0); }
@@ -784,7 +784,86 @@ body.myorder-page{ background:#f1f1f1; }
 }
 
 
+.main-nav li a{
+	position: relative;
+	padding: 10px 20px; 
+	border-bottom:1px solid rgb(0 0 0 / 24%);
+	padding-left: 50px;
+}
 
+.main-nav li a:before {
+    content: '';
+    display: block;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    background: url(../images/menu-icon.svg) no-repeat;
+    background-size: 68px;
+    -moz-transition: all .4s ease;
+  	transition: all .4s ease;
+}
+
+.main-nav li a.home:before {
+    background-position: 0px -40px;
+}
+.main-nav li a.about:before {
+    background-position: 0px 3px;
+}
+.main-nav li a.om:before {
+    background-position: 0px -81px;
+}
+.main-nav li a.blog:before {
+    background-position: 0px -208px;
+}
+.main-nav li a.srvice:before {
+    background-position: 0px -164px;
+}
+.main-nav li a.rest:before {
+    background-position: 0px -252px;
+}
+.main-nav li a.signup:before {
+    background-position: 0px -337px;
+}
+.main-nav li a.gift:before {
+    background-position: 1px -294px;
+}
+
+
+.main-nav li a:hover.home:before {
+    background-position: -44px -40px;
+}
+.main-nav li a:hover.about:before {
+    background-position: -44px 3px;
+}
+.main-nav li a:hover.om:before {
+    background-position: -43px -81px;
+}
+.main-nav li a:hover.blog:before {
+    background-position: -43px -208px;
+}
+.main-nav li a:hover.srvice:before {
+    background-position: -43px -164px;
+}
+.main-nav li a:hover.rest:before {
+    background-position: -43px -252px;
+}
+.main-nav li a:hover.signup:before {
+    background-position: -42px -337px;
+}
+.main-nav li a:hover.gift:before {
+    background-position: -42px -294px;
+}
+.main-nav li a:hover.fdback:before {
+    background-position: -44px -126px;
+}
+
+
+
+.main-nav li a.fdback:before {
+    background-position: 0px -126px;
+}
 
 
 
