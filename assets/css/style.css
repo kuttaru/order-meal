@@ -89,8 +89,8 @@ input::-webkit-inner-spin-button {-webkit-appearance: none;}
 #header .btn{ font-weight:bold;padding:10px 20px }
 #header .blk-sign a{ background:none; color:#000; border:none; }
 
-.main-nav li a { position: relative; padding: 10px 20px; border-bottom: 1px solid rgb(0 0 0 / 24%); padding-left: 50px; }
-.main-nav li a:before { content: ''; display: block; width: 26px; height: 26px; position: absolute; top: 10px; left: 6px; background: url(../images/menu-icon.svg) no-repeat; background-size: 68px; -moz-transition: all .4s ease; transition: all .4s ease; }
+.main-nav li a { position: relative; padding: 16px 20px; border-bottom: 1px solid rgb(0 0 0 / 24%); padding-left: 50px; }
+.main-nav li a:before { content: ''; display: block; width: 26px; height: 26px; position: absolute; top: 16px; left: 6px; background: url(../images/menu-icon.svg) no-repeat; background-size: 68px; -moz-transition: all .4s ease; transition: all .4s ease; }
 .main-nav li a.home:before { background-position: 0px -40px; }
 .main-nav li a.about:before { background-position: 0px 3px; }
 .main-nav li a.om:before { background-position: 0px -81px; }
@@ -814,3 +814,31 @@ body.myorder-page{ background:#f1f1f1; }
 .resturant_details-page  .home-page .filter-wrap { top: 30px; }
 body.active_filter .filter-content .filter-wrap { display: block; }
 body.resturant_details-page.active_filter .filter-content { display: block; }
+
+
+
+
+.cart-restu{
+	padding-bottom: 30px;
+}
+
+.cart-restu .resturant-details{
+	display: flex;
+}
+.cart-restu .restur-logo img{
+	width: 60px;
+}
+.cart-restu h2 {
+    margin: 0;
+    font-size: 20px;
+    padding-left: 16px;
+}
+
+
+
+
+
+
+
+
+
