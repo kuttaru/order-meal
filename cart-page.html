@@ -139,7 +139,19 @@
                         <p class="location_icon">1028 Beach Road, Torbay</p>
                     </div>
                     <h3>Delivery Estimate</h3>
-                    <div class="schedule-wrap">Schedule</div>
+                    <div class="schedule-wrap">
+                        <div id="datepicker">
+                            <div class="dropdown">
+                                <input id="date_time" class="form-control" placeholder="Schedule" type="text" data-bs-toggle="dropdown" aria-expanded="false" />
+                                  <div id="datetim-picker" class="dropdown-menu">
+                                    <div class="inner">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua.
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="person-form">
                         <h3>Your Details</h3>
@@ -160,24 +172,6 @@
                                 <textarea placeholder="Any special instructions" value="00 64 9 123 4567" type="text" class="form-control"></textarea>
                             </div>
                         </div>
-                    </div>
-                    <h3>Choose Payment Method</h3>
-                    <div class="radio_wrap bank_choose">
-                        <label>
-                            <input name="group1" type="radio" checked="">
-                            <span class="card_icon">Card</span>
-                            <p>Debit/Visa/Master Card/Amex or (Apple Pay/ Google Pay)</p>
-                        </label>
-                        <label>
-                            <input name="group1" type="radio">
-                            <span class="bank_icon">Account2Account</span>
-                            <p>(Pay from your bank account, ANZ, ASB, BNZ, Kiwibank, Westpac )</p>
-                        </label>
-                    </div>
-                    <p>There will be an extra 2% surcharge for online payment processing (for payments made by all Eftpos Debit Cards & Credit Cards) - Extra 2% surcharge on this order will be $1.22</p>
-                    <div class="checkbox-wrap">
-                        <label><input name="checkbox" type="checkbox" value="rabbit">
-                        <span>I agree to the <a href="/order-meal#">Terms &amp; Conditions</a> and <a href="/order-meal#">Privacy Policy</a></span></label>
                     </div>
                 </div>
             </div>
@@ -225,11 +219,30 @@
 
 
 
+                 <h4>Choose Payment Method</h4>
+                    <div class="radio_wrap bank_choose">
+                        <label>
+                            <input name="group1" type="radio" checked="">
+                            <span class="card_icon">Card</span>
+                            <p>Debit/Visa/Master Card/Amex or (Apple Pay/ Google Pay)</p>
+                        </label>
+                        <label>
+                            <input name="group1" type="radio">
+                            <span class="bank_icon">Account2Account</span>
+                            <p>(Pay from your bank account, ANZ, ASB, BNZ, Kiwibank, Westpac )</p>
+                        </label>
+                    </div>
+                    <p>There will be an extra 2% surcharge for online payment processing (for payments made by all Eftpos Debit Cards & Credit Cards) - Extra 2% surcharge on this order will be $1.22</p>
+
+
                         <div class="btn-wrap">
-                            <button class="btn full">Pay Now</button>
+                            <button class="btn full" data-bs-toggle="modal" data-bs-target="#thank_you">Pay Now</button>
                         </div>
 
-
+                    <div class="checkbox-wrap agree-wrap">
+                        <label><input name="checkbox" type="checkbox" value="rabbit">
+                        <span>I agree to the <a href="/order-meal#">Terms &amp; Conditions</a> and <a href="/order-meal#">Privacy Policy</a></span></label>
+                    </div>
 
 
                     <div class="allergy-info">
@@ -242,14 +255,21 @@
                   <div class="order_bg"><img src="assets/images/order-bg.svg" /></div>
             </div>
         </div>
-
-
-
-
     </div>
-    
 </div>
 
+
+<div class="modal fade" id="thank_you" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="imgwrap"><img src="assets/images/thank_you.png"></div>
+            <!-- <span  class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span> -->
+            <h4>Thank you</h4>
+            <p>Thanks for your booking request, your reference is #TE6385F5. You will get a booking confirmation from the restaurant.</p>
+            
+        </div>
+    </div>
+</div>
 
 
 <div id="footer">
