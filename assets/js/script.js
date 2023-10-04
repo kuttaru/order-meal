@@ -1,12 +1,13 @@
 (function($) {
   $(document).ready(function() {
 
-
+/*
   $('body a').each(function(){ 
     var oldUrl = $(this).attr("href"); 
     var newUrl = ("/order-meal" + oldUrl );
     $(this).attr("href", newUrl);
   });
+*/
 
 
 
@@ -34,7 +35,7 @@
   });
 
 
-var swiper = new Swiper(".prdtSwiper", {
+var swiper = new Swiper(".dateslide", {
   slidesPerView: 3,
   spaceBetween: 14,
   // loop: true,
@@ -48,10 +49,10 @@ var swiper = new Swiper(".prdtSwiper", {
   },
   breakpoints: {
       40: {
-        slidesPerView: 1.5,
+        slidesPerView: 3,
       },
       740: {
-        slidesPerView: 3,
+        slidesPerView: 3.5,
       }
     }
 
