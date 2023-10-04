@@ -849,4 +849,41 @@ body.resturant_details-page.active_filter .filter-content { display: block; }
 }
 
 
+
+#thank_you h4 {
+    color: #000;
+    text-align: center;
+    border-bottom: 1px solid #c9c9c9;
+    padding-bottom: 16px;
+    margin: 0 -23px;
 }
+#thank_you p {
+    text-align: center;
+    padding: 10px 40px;
+    color: #707070;
+
+}
+#thank_you .modal-dialog{
+	max-width: 360px;
+	position: relative;
+	overflow: hidden;
+	padding: 0px 18px;
+	border-radius: 10px;
+}
+
+#thank_you .left-brd, #thank_you .right-brd {
+    position: absolute;
+    top: -45px;
+    width: 26px;
+}
+#thank_you .left-brd{
+	left: 0;
+}
+#thank_you .right-brd {
+	right: 0;
+}
+#thank_you .modal-content{
+	border:none;
+}
+
+
