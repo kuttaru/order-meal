@@ -467,7 +467,7 @@ body.cart-page #main-content{ padding:80px 0 }
 .deli-head h3 { margin: 10px 0px; }
 .deli-head .switch { width: 170px; }
 .cart-details .loc_wrap { background: #f1f1f1; margin-top: 35px; margin-bottom: 54px; padding:1px;padding-left: 17px; }
-.cart-details .location_icon { padding: 10px 0; padding-left: 44px; background-position: 0px -72px; }
+.cart-details .location_icon { padding: 10px 0; padding-left: 44px; background-position: 0px -72px; margin:5px 0 }
 
 
 .person-form { padding-bottom: 40px;}
