@@ -233,14 +233,14 @@
                         </label>
                     </div>
                     <p>There will be an extra 2% surcharge for online payment processing (for payments made by all Eftpos Debit Cards & Credit Cards) - Extra 2% surcharge on this order will be $1.22</p>
-                    
+
                     <div class="checkbox-wrap agree-wrap">
                         <label><input name="checkbox" type="checkbox" value="rabbit">
                         <span>I agree to the <a href="/order-meal#">Terms &amp; Conditions</a> and <a href="/order-meal#">Privacy Policy</a></span></label>
                     </div>
 
                         <div class="btn-wrap">
-                            <button class="btn full" data-bs-toggle="modal" data-bs-target="#thank_you">Pay Now</button>
+                            <button class="btn full paynow">Pay Now</button>
                         </div>
 
 
@@ -259,6 +259,15 @@
     </div>
 </div>
 
+
+
+<script type="text/javascript">
+    $("body").on('click', '.paynow', function () {
+        setTimeout(function() {
+            $('#thank_you').modal('show');
+        }, 3000);
+    });
+</script>
 
 <div class="modal fade" id="thank_you" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
