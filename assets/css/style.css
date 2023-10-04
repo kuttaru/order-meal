@@ -383,7 +383,7 @@ ul.dropdown-menu {box-shadow: 0px 4px 10px rgb(0 0 0 / 20%);}
 .top_filter .flexrow{ display:flex; }
 .top_filter #datepicker{ margin-left:20px; margin-right:20px; }
 .top_filter .form-control { border-radius: 30px; padding: 12px 22px; }
-#date_time { -webkit-appearance: none; background: #f1f1f1 url(../images/calendar-icn.svg) no-repeat; background-size: 16px; background-position: 120px 16px; width: 160px; }
+#date_time { -webkit-appearance: none; background: #f1f1f1 url(../images/calendar-icn.svg) no-repeat; background-size: 16px; background-position: 210px 16px; width: 240px; }
 .datepicker { padding: 20px; }
 .datepicker th { background: #f1f1f1; }
 .datepicker th, .datepicker td { padding: 5px 10px; border: 1px solid #eee; text-align: center; }
@@ -434,7 +434,9 @@ ul.restu_menu li a.active:after { content: ''; display: block; width: 100%; heig
 .addcart-wrap h3 { margin: 30px 0 0; font-size: 22px; }
 .addcart-wrap p{ margin:10px 0; font-size:16px; }
 .pref_wrap{ display:flex; justify-content:space-between; }
-
+.location_icon b{ display:block; }
+#deliver_to .location_icon { position: relative; padding-right: 70px; }
+#deliver_to .location_icon .chbtn { background: #f1f1f1; position: absolute; top: 1px; right: 0; padding: 4px 10px; border-radius: 20px; font-size: 12px; cursor: pointer; }
 .addcart-wrap .grey{ color:#888888; }
 .addcart-wrap .orange-text{ color:#FC6143; font-weight:600; }
 
@@ -822,13 +824,6 @@ body.myorder-page{ background:#f1f1f1; }
 
 
 
-.dropdown-menu .inner {
-    padding: 20px;
-    width: 330px;
-}
-
-
-
 .only_mobile { position: relative; padding-top: 26px; }
 .only_mobile .addr-wrap { margin: 0; }
 .show_filter { display: block; width: 60px; height: 42px; background: url(../images/filter_icon.svg) no-repeat; position: absolute; top: 20px; right: 0; z-index: 2; cursor: pointer; background-size: 20px; background-position: 18px 12px; display: none; }
@@ -870,43 +865,22 @@ body.resturant_details-page.active_filter .filter-content { display: block; }
 
 
 
-
-
-/*
-#datetim-picker{
-	width: 400px;
-	border: 2px solid #f00;
-	padding: 20px;
-}
-
-#datetim-picker .date{
-	border: 1px solid #f00;
-	padding: 10px;
-	text-align: center;
-	border-radius: 8px;
-
-}
-#datetim-picker .swiper-slide input:checked + .date{
-	border: 1px solid #00f;
-}
-
-#datetim-picker .date h4,
-#datetim-picker .date p{
-	margin: 0;
-}
-
-
-#datetim-picker .swiper-button-next, 
-#datetim-picker .swiper-button-prev {
-    top: 56px;
-}
-
-*/
-
-
-
-
-
-
+#datetim-picker{box-shadow: 0px 0px 10px rgb(0 0 0 / 30%);}
+#datetim-picker { width: 400px; padding: 20px; }
+#datetim-picker .date_box { display: block; cursor: pointer; }
+#datetim-picker .date_box input { position: absolute; opacity: 0; pointer-events: none; }
+#datetim-picker .date_box span { display: block; border: 2px solid #eee; padding: 10px; text-align: center; border-radius: 8px; opacity: .8; }
+#datetim-picker .date_box b { display: block; }
+#datetim-picker .date_box input:checked + span { border: 2px solid #FC6143; opacity: 1; }
+#datetim-picker .swiper-button-next, #datetim-picker .swiper-button-prev { top: 35px; }
+#datetim-picker .time { margin-top: 20px; }
+#datetim-picker .time p { margin: 0; }
+#datetim-picker .time label { display: block; padding: 18px 10px; border-bottom: 1px solid #ccc; cursor: pointer; position: relative; }
+#datetim-picker .time p:last-child label { border-bottom: none; }
+#datetim-picker .time input { position: absolute; opacity: 0; pointer-events: none; }
+#datetim-picker .time label span:after { content: ''; display: block; width: 16px; height: 16px; border: 2px solid #8d8d8d; border-radius: 20px; position: absolute; top: 20px; right: 20px; }
+#datetim-picker .time input:checked + span:after { border: 2px solid #FC6143; }
+#datetim-picker .time label span:before { display: block; width: 8px; height: 8px; background: #FC6143; border-radius: 20px; position: absolute; top: 24px; right: 24px; }
+#datetim-picker .time input:checked + span:before { content: ''; }
 
 

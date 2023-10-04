@@ -364,17 +364,89 @@
                             <div class="dropdown">
                                 <input id="date_time" class="form-control" placeholder="Schedule" type="text" data-bs-toggle="dropdown" aria-expanded="false" />
                                   <div id="datetim-picker" class="dropdown-menu">
-                                    <div class="inner">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.
-                                    </div>
+
+<div class="inner">
+        <div class="swiper dateslide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <label class="date_box">
+                        <input name="date" type="radio" value="1 Oct" checked />
+                        <span><b>Tomorrow</b>1 oct</span>
+                    </label>
+                </div>                
+                <div class="swiper-slide">
+                    <label class="date_box">
+                        <input name="date" type="radio" value="2 Oct" />
+                        <span><b>Sun</b>2 Oct</span>
+                    </label>
+                </div>
+                <div class="swiper-slide">
+                    <label class="date_box">
+                        <input name="date" type="radio" value="3 Oct" />
+                        <span><b>Mon</b>3 Oct</span>
+                    </label>
+                </div>
+                <div class="swiper-slide">
+                    <label class="date_box">
+                        <input name="date" type="radio" value="4 Oct" />
+                        <span><b>Tue</b>4 Oct</span>
+                    </label>
+                </div>                
+                <div class="swiper-slide">
+                    <label class="date_box">
+                        <input name="date" type="radio" value="5 Oct" />
+                        <span><b>Wed</b>5 Oct</span>
+                    </label>
+                </div>
+
+                
+                
+                
+                
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div class="time">
+            <p>
+                <label>
+                    <input name="time" type="radio" value="12:45AM-1:15AM" />
+                    <span>12:45 AM - 1:15 AM</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="time" type="radio" value="01:00AM-2:15AM" />
+                    <span>12:45 AM - 1:15 AM</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="time" type="radio" value="02:30AM-3:20AM"/>
+                    <span>12:45 AM - 1:15 AM</span>
+                </label>
+            </p>
+        </div>
+    </div>
+    
                                   </div>
                             </div>
                         </div>
 
 
 
-
+<script type="text/javascript">
+$('.date_box input').change(function(){
+    $('#date_time').val('');
+});
+$('.time input').change(function(){
+    var date = $('.date_box input:checked').val();
+    if($(this).is(':checked')){
+      var time= $(this).val();
+   } 
+    $('#date_time').val(date+', '+time);
+});
+</script>
 
 
 <!--                         <div id="time-wrap">
