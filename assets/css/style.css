@@ -506,7 +506,17 @@ border-top-right-radius: 20px; padding: 30px; }
 .order-item .servi-info{ padding:20px 30px 0; }
 .order-item h4 { margin: 0; font-size: 16px; }
 .order-item .item.sub_total { padding-top: 20px; }
-.order-summery .agree-wrap{ padding-top: 20px; }
+.order-summery .agree-wrap{ padding-bottom: 20px; }
+
+#thank_you h4 { color: #000; text-align: center; border-bottom: 1px solid #c9c9c9; padding-bottom: 16px; margin: 0 -23px; }
+#thank_you p { text-align: center; padding: 10px 40px; color: #707070; }
+#thank_you .modal-dialog { max-width: 360px; position: relative; overflow: hidden; padding: 0px 18px; border-radius: 10px; }
+#thank_you .left-brd, #thank_you .right-brd { position: absolute; top: -45px; width: 26px; }
+#thank_you .left-brd { left: 0; }
+#thank_you .right-brd { right: 0; }
+#thank_you .modal-content { border: none; }
+
+
 
 #deliver_to .modal-dialog .btn-close { background: #FC6143 url(../images/closebtn.svg) no-repeat; background-size: 24px; background-position: 8px 7px; opacity: 1; width: 32px; height: 32px; border-radius: 50px; position: absolute; top: 30px; right: 26px; cursor: pointer; z-index: 3; }
 #deliver_to .btn{ border-radius:12px; }
@@ -709,6 +719,16 @@ body.myorder-page{ background:#f1f1f1; }
 .gift-page .order-summery .allergy-info { text-align: center; }
 
 
+
+
+
+
+
+
+
+
+
+
 /* ------ Move ----- */
 .moveX { -moz-animation: moveX 20s infinite linear; animation: moveX 20s infinite ease; }
 .moveY { -moz-animation: moveY 15s infinite linear; animation: moveY 20s infinite ease; }
@@ -850,40 +870,43 @@ body.resturant_details-page.active_filter .filter-content { display: block; }
 
 
 
-#thank_you h4 {
-    color: #000;
-    text-align: center;
-    border-bottom: 1px solid #c9c9c9;
-    padding-bottom: 16px;
-    margin: 0 -23px;
-}
-#thank_you p {
-    text-align: center;
-    padding: 10px 40px;
-    color: #707070;
 
-}
-#thank_you .modal-dialog{
-	max-width: 360px;
-	position: relative;
-	overflow: hidden;
-	padding: 0px 18px;
-	border-radius: 10px;
+
+/*
+#datetim-picker{
+	width: 400px;
+	border: 2px solid #f00;
+	padding: 20px;
 }
 
-#thank_you .left-brd, #thank_you .right-brd {
-    position: absolute;
-    top: -45px;
-    width: 26px;
+#datetim-picker .date{
+	border: 1px solid #f00;
+	padding: 10px;
+	text-align: center;
+	border-radius: 8px;
+
 }
-#thank_you .left-brd{
-	left: 0;
+#datetim-picker .swiper-slide input:checked + .date{
+	border: 1px solid #00f;
 }
-#thank_you .right-brd {
-	right: 0;
+
+#datetim-picker .date h4,
+#datetim-picker .date p{
+	margin: 0;
 }
-#thank_you .modal-content{
-	border:none;
+
+
+#datetim-picker .swiper-button-next, 
+#datetim-picker .swiper-button-prev {
+    top: 56px;
 }
+
+*/
+
+
+
+
+
+
 
 
