@@ -866,7 +866,7 @@ body.resturant_details-page.active_filter .filter-content { display: block; }
 #datetim-picker .date_box b { display: block; }
 #datetim-picker .date_box input:checked + span { border: 2px solid #FC6143; opacity: 1; }
 #datetim-picker .swiper-button-next, #datetim-picker .swiper-button-prev { top: 35px; }
-#datetim-picker .time { margin-top: 20px; height: 310px; overflow: auto; padding-right: 10px; }
+#datetim-picker .time { margin-top: 20px; height: 240px; overflow: auto; padding-right: 10px; }
 #datetim-picker .time p { margin: 0; }
 #datetim-picker .time label { display: block; padding: 18px 10px; border-bottom: 1px solid #ccc; cursor: pointer; position: relative; }
 #datetim-picker .time p:last-child label { border-bottom: none; }
