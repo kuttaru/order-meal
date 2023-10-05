@@ -383,7 +383,7 @@ ul.dropdown-menu {box-shadow: 0px 4px 10px rgb(0 0 0 / 20%);}
 .top_filter .flexrow{ display:flex; }
 .top_filter #datepicker{ margin-left:20px; margin-right:20px; }
 .top_filter .form-control { border-radius: 30px; padding: 12px 22px; }
-#date_time { -webkit-appearance: none; background: #f1f1f1 url(../images/calendar-icn.svg) no-repeat; background-size: 16px; background-position: 210px 16px; width: 240px; }
+#date_time { -webkit-appearance: none; background: #f1f1f1 url(../images/calendar-icn.svg) no-repeat; background-size: 16px; background-position: 93% 17px; width: 240px; }
 .datepicker { padding: 20px; }
 .datepicker th { background: #f1f1f1; }
 .datepicker th, .datepicker td { padding: 5px 10px; border: 1px solid #eee; text-align: center; }
@@ -866,7 +866,7 @@ body.resturant_details-page.active_filter .filter-content { display: block; }
 #datetim-picker .date_box b { display: block; }
 #datetim-picker .date_box input:checked + span { border: 2px solid #FC6143; opacity: 1; }
 #datetim-picker .swiper-button-next, #datetim-picker .swiper-button-prev { top: 35px; }
-#datetim-picker .time { margin-top: 20px; }
+#datetim-picker .time { margin-top: 20px; height: 310px; overflow: auto; padding-right: 10px; }
 #datetim-picker .time p { margin: 0; }
 #datetim-picker .time label { display: block; padding: 18px 10px; border-bottom: 1px solid #ccc; cursor: pointer; position: relative; }
 #datetim-picker .time p:last-child label { border-bottom: none; }
