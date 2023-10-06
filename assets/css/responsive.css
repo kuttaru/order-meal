@@ -205,7 +205,7 @@
     .img_form .form-wrap h3 br{ display:none; }
      .myorder-tab #ordertab { justify-content: left;}
     #footer ul li a { color: rgb(255 255 255 / 65%); }
-
+    #datetim-picker {width: 100%;}
 
 }
 
