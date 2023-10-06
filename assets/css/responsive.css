@@ -206,6 +206,11 @@
      .myorder-tab #ordertab { justify-content: left;}
     #footer ul li a { color: rgb(255 255 255 / 65%); }
     #datetim-picker {width: 100%;}
+    #datetim-picker .date_box {font-size: 12px;}
+    #datetim-picker .time label {padding: 12px 10px;}
+    #datetim-picker .time label span:after{ top:16px; }
+    #datetim-picker .time label span:before{ top:20px }
+    #datetim-picker .date_box span {padding: 6px;}
 
 }
 
