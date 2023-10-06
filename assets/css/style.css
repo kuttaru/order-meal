@@ -752,15 +752,6 @@ body.myorder-page{ background:#f1f1f1; }
 
 
 
-/*=================*/
-
-.prdtSwiper { padding: 0 10px }
-.swiper-button-next:after, .swiper-button-prev:after { content: normal; }
-.swiper-button-next, .swiper-button-prev { background: url(../images/slider_arow.svg) no-repeat; top: 100px; width: 36px; height: 36px; background-size: 35px; }
-.swiper-button-prev { left: 0; background-position: 0px -54px; }
-.swiper-button-next { right: 0px; }
-.swiper-button-disabled { display: none; }
-
 
 .cart-wrap .prdt-item .num select {
     display: block;
@@ -859,13 +850,13 @@ body.resturant_details-page.active_filter .filter-content { display: block; }
 
 
 #datetim-picker{box-shadow: 0px 0px 10px rgb(0 0 0 / 30%);}
-#datetim-picker { width: 400px; padding: 20px; }
+#datetim-picker { width: 420px; padding: 20px; }
 #datetim-picker .date_box { display: block; cursor: pointer; }
 #datetim-picker .date_box input { position: absolute; opacity: 0; pointer-events: none; }
 #datetim-picker .date_box span { display: block; border: 2px solid #eee; padding: 10px; text-align: center; border-radius: 8px; opacity: .8; }
 #datetim-picker .date_box b { display: block; }
 #datetim-picker .date_box input:checked + span { border: 2px solid #FC6143; opacity: 1; }
-#datetim-picker .swiper-button-next, #datetim-picker .swiper-button-prev { top: 35px; }
+
 #datetim-picker .time { margin-top: 20px; height: 240px; overflow: auto; padding-right: 10px; }
 #datetim-picker .time p { margin: 0; }
 #datetim-picker .time label { display: block; padding: 18px 10px; border-bottom: 1px solid #ccc; cursor: pointer; position: relative; }
@@ -881,3 +872,19 @@ body.resturant_details-page.active_filter .filter-content { display: block; }
 .form-control {
     min-height: 50px;
 }
+
+
+
+.swiper-horizontal {
+
+    position: relative;
+}
+
+.dateslide { padding: 0 32px; }
+#datetim-picker .swiper-button-next, #datetim-picker .swiper-button-prev { top: 0px; width: 30px; height: 100%; background-color: #fff; margin: 0; }
+.swiper-button-next:after, .swiper-button-prev:after { content: ''; display: block; width: 30px; height: 30px; background: url(../images/slider_arow.svg) no-repeat; top: 100px; background-size: 23px; background-position: 5px 3px; }
+.swiper-button-prev:after { background-position: 0px -34px; }
+.swiper-button-next { left: 0; right: auto; }
+#datetim-picker .swiper-button-prev { left: 0; }
+.swiper-button-next { right: 0px; left: auto; }
+.swiper-button-disabled { display: none; }

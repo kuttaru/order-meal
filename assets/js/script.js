@@ -37,7 +37,7 @@
 
 var swiper = new Swiper(".dateslide", {
   slidesPerView: 3,
-  spaceBetween: 14,
+  spaceBetween: 6,
   // loop: true,
   pagination: {
     el: ".swiper-pagination",
@@ -49,10 +49,10 @@ var swiper = new Swiper(".dateslide", {
   },
   breakpoints: {
       40: {
-        slidesPerView: 3,
+        slidesPerView: 2,
       },
       740: {
-        slidesPerView: 3.5,
+        slidesPerView: 3,
       }
     }
 
