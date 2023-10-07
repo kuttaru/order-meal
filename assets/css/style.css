@@ -86,7 +86,7 @@ input::-webkit-inner-spin-button {-webkit-appearance: none;}
 #header .hdr_frm { display: flex; }
 #header .sin_wrap { display: flex; }
 
-#header .btn{ font-weight:bold;padding:14px 20px }
+#header .btn{ font-weight:bold;}
 #header .blk-sign a{ background:none; color:#000; border:none; }
 
 .main-nav li a { position: relative; padding: 16px 20px; border-bottom: 1px solid rgb(0 0 0 / 24%); padding-left: 50px; }
@@ -187,7 +187,7 @@ ul.dropdown-menu {box-shadow: 0px 4px 10px rgb(0 0 0 / 20%);}
 #banner h3 { font-weight: normal; margin: 0; }
 .find-rest { position: relative; margin: 28px 0; max-width: 550px}
 .find-rest .btn-wrap { position: absolute; top: 0; right: 0; z-index: 3; }
-.find-rest .form-control { height: 54px; border-radius: 50px; padding-left: 50px; background:#fff url(../images/search_icon.svg) no-repeat; background-position: 24px 18px; font-weight: bold; padding-right: 280px; }
+.find-rest .form-control { height: 54px; border-radius: 50px; padding-left: 50px; background:#fff url(../images/search_icon.svg) no-repeat; background-position: 24px 20px; font-weight: bold; padding-right: 280px; }
 .find-rest .btn-wrap .btn { height: 54px; border-radius: 25px; border-top-left-radius: 0px; border-bottom-left-radius: 0px; padding: 0 23px; background: #000; font-weight: bold; }
 .find-rest .btn-wrap .loc-me { cursor: pointer; background: url(../images/location_icon.svg) no-repeat; background-position: 10px 18px; font-weight: bold; padding: 15px 0; display: inline-block; padding-left: 30px; padding-right: 10px; }
 /* ----- slider ----- */
@@ -427,23 +427,24 @@ ul.restu_menu li a.active:after { content: ''; display: block; width: 100%; heig
 #addtocart .modal-dialog { max-width: 710px; border-radius: 20px; overflow: hidden; }
 #addtocart .modal-dialog img{ width:100%; display:block; }
 #addtocart .modal-dialog .btn-close { background: #FC6143 url(../images/closebtn.svg) no-repeat; background-size: 24px; background-position: 8px 7px; opacity: 1; width: 32px; height: 32px; border-radius: 50px; position: absolute; top: 30px; right: 26px; cursor: pointer; z-index: 3; }
-.addcart-wrap .item { padding: 16px 40px; border-bottom:1px solid #DBD9D9; }
+.addcart-wrap .item { padding: 8px 40px; border-bottom:1px solid #DBD9D9; }
 .modal-content .imgwrap { position: relative; }
 .modal-content .imgwrap .info-grn { background: #5CF676; color: #000; font-weight: bold; position: absolute; bottom: 20px; right: 20px; z-index: 2; padding: 4px 14px; border-radius: 20px; }
 
 .addcart-wrap .item:last-child { border-bottom:none;margin-bottom:20px; }
 .addcart-wrap h3 { margin: 30px 0 0; font-size: 22px; }
-.addcart-wrap p{ margin:10px 0; font-size:16px; }
+.addcart-wrap p{ margin:10px 0; font-size:16px; color:#707070 }
 .pref_wrap{ display:flex; justify-content:space-between; }
-.location_icon b{ display:block; }
+.location_icon b{ display:block; color:#000; }
 #deliver_to .location_icon { position: relative; padding-right: 70px; }
+#deliver_to .act_adrs { cursor:pointer; }
 #deliver_to .location_icon .chbtn { background: #f1f1f1; position: absolute; top: 1px; right: 0; padding: 4px 10px; border-radius: 20px; font-size: 12px; cursor: pointer; }
 .addcart-wrap .grey{ color:#888888; }
 .addcart-wrap .orange-text{ color:#FC6143; font-weight:600; }
 
 .phone_icon, .location_icon, .time_icon { background: url(../images/retur_icons.svg) no-repeat; padding-left: 40px; background-size: 22px; }
 .phone_icon { background-position: 0px 4px; }
-.location_icon { background-position: -1px -78px; }
+.location_icon { background-position: -1px -73px; }
 
 .form-control.location_icon { background-position: 0px -74px }
 .form-control.location_icon:focus { border-color: #fff; box-shadow: none; }
@@ -463,14 +464,21 @@ p.choose span { background: #FC6143; color: #fff; padding: 5px 18px; border-radi
 body.cart-page{ background:#f1f1f1; }
 body.cart-page #main-content{ padding:80px 0 }
 .personal-details { background: #fff; border-radius: 20px;padding: 30px; margin-right: 20px; }
-.personal-details h3 { font-size: 22px; margin-top: 0; }
-.deli-head { display: flex; justify-content: space-between; margin-top: 24px; margin-bottom: 40px; }
+.personal-details h3 { font-size: 22px; margin-top: 20px; }
+.deli-head { display: flex; justify-content: space-between; margin: 10px 0;}
 .deli-head h3 { margin: 10px 0px; }
 .deli-head .switch { width: 170px; }
-.cart-details .loc_wrap { background: #f1f1f1; margin-top: 35px; margin-bottom: 54px; padding:1px;padding-left: 17px;}
-.cart-details .location_icon { padding: 10px 0; padding-left: 44px; background-position: 0px -72px;margin:4px 0; }
+.cart-details .loc_wrap { background: #f1f1f1; margin: 20px 0; padding:1px;padding-left: 17px;}
+.cart-details .location_icon { padding: 10px 0; padding-left: 44px; background-position: 0px -65px;margin:4px 0; }
+
+.cart-restu { padding-bottom: 10px; }
+.cart-restu .resturant-details { display: flex; }
+.cart-restu .restur-logo img { width: 60px; }
+.cart-restu h2 { margin: 0; font-size: 20px; padding-left: 16px; }
+.cart-details .schedule-wrap { padding-bottom: 20px; }
+
 .person-form { padding-bottom: 40px;}
-.person-form h3 { margin-bottom: 44px; }
+.person-form h3 { margin-bottom: 10px; }
 .bank_choose { margin-bottom: 26px; }
 .bank_choose label { padding-left: 50px; }
 .bank_choose label span { font-size: 18px; font-weight: 500; }
@@ -489,7 +497,9 @@ border-top-right-radius: 20px; padding: 30px; }
 .order-summery .item { display: flex; justify-content: space-between; }
 .item.sub_total { padding-bottom: 12px; }
 .servi-info { font-size: 12px; }
-.item.total-wrap { margin-top: 20px; color: #FC6143; margin-bottom: 24px; }
+.item.total-wrap { margin: 0; color: #FC6143; }
+.total-wrap h4{margin: 10px 0}
+.order-summery h4.paytitle{margin: 10px 0}
 .order-item .btn-wrap { margin-bottom: 27px; }
 .order-summery .btn-wrap .btn { width: 100%; padding: 23px; border-radius: 20px; font-size:18px; font-weight:bold; }
 .allergy-info p a { color: #FC6143; font-size: 16px; }
@@ -820,23 +830,7 @@ body.resturant_details-page.active_filter .filter-content { display: block; }
 
 
 
-.cart-restu{
-	padding-bottom: 30px;
-}
 
-.cart-restu .resturant-details{
-	display: flex;
-}
-.cart-restu .restur-logo img{
-	width: 60px;
-}
-.cart-restu h2 {
-    margin: 0;
-    font-size: 20px;
-    padding-left: 16px;
-}
-
-.cart-details .schedule-wrap{ padding-bottom:40px; }
 
 .schedule-wrap #date_time {
     border: 1px solid #FC6143;

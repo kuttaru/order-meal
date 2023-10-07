@@ -85,16 +85,30 @@
                 <div class="item">
                     <h3>Deliver to</h3>
                 </div>
-                <div class="item">
-                    <p class="location_icon"><b>Chand Indian Resturant</b> Beach Road, Torbay <span class="chbtn">Change</span></p>
+                <div class="item" data-bs-dismiss="modal">
+                    <p class="location_icon act_adrs"><b>Address</b> Beach Road, Torbay <!-- <span class="chbtn">Edit</span>--> </p>
                 </div>                
-                <div class="item">
-                    <p class="location_icon">Now <span class="chbtn">Schedule</span></p>
+                <div class="item" data-bs-dismiss="modal">
+                    <p class="location_icon act_adrs"><b>Test Address</b> Test Road, Torbay</p>
                 </div>                
-                <div class="item done-btn">
+                <div class="item" data-bs-dismiss="modal">
+                    <p class="location_icon act_adrs"><b>New Address</b> New Road, Torbay</p>
+                </div>                
+
+
+
+
+
+
+
+
+
+
+
+
+<!--                 <div class="item done-btn">
                     <button class="btn full">Done</button>
-                    
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -137,7 +151,10 @@
                         </label></div>
                     </div>
                     <div class="loc_wrap" data-bs-toggle="modal" data-bs-target="#deliver_to">
-                        <p class="location_icon">1028 Beach Road, Torbay</p>
+                        <p class="location_icon new_adrs">
+                            <b>Address</b> Ipusm Road, Torbay
+
+                        </p>
                     </div>
                     <h3>Delivery Estimate</h3>
                     <div class="schedule-wrap">
@@ -261,8 +278,18 @@
 
 
 <script type="text/javascript">
+
+$("body").on('click', '.act_adrs', function () {
+    var adrs =$(this).html();
+      $('.new_adrs').html(adrs);
+    });
+
+
+
+
 $('.date_box input').change(function(){
     $('#date_time').val('');
+    $('.time input').prop('checked', false);
 });
 $('.time input').change(function(){
     var date = $('.date_box input:checked').val();
@@ -337,7 +364,7 @@ $('.time input').change(function(){
 
 
 
-                 <h4>Choose Payment Method</h4>
+                 <h4 class="paytitle">Choose Payment Method</h4>
                     <div class="radio_wrap bank_choose">
                         <label>
                             <input name="group1" type="radio" checked="">

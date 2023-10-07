@@ -423,6 +423,7 @@
 <script type="text/javascript">
 $('.date_box input').change(function(){
     $('#date_time').val('');
+    $('.time input').prop('checked', false);
 });
 $('.time input').change(function(){
     var date = $('.date_box input:checked').val();
