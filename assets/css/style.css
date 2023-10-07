@@ -143,6 +143,7 @@ input::-webkit-inner-spin-button {-webkit-appearance: none;}
 
 #main-menu .btn-close { position: absolute; top: 20px; right: 20px; cursor: pointer; }
 #main-menu ul li a { font-weight: bold; display: block; }
+#main-menu ul li a:hover { color:#FC6143; }
 
 /* ==== Menu ========= */
 #cart-bag .modal-dialog { margin: 0; background: #fff;  position: fixed; top: 0; right: 0; height:100%;transform: translate(0, 0); }
@@ -875,7 +876,7 @@ body.resturant_details-page.active_filter .filter-content { display: block; }
 
 
 
-.swiper-horizontal {
+#datetim-picker .swiper-horizontal {
 
     position: relative;
 }
