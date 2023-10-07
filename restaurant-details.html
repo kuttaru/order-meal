@@ -50,7 +50,7 @@
                 <div class="hdr_frm">
                   
                     <div class="addr-wrap">
-                        <input type="text" value="Auckland, Fri Aug 3, 12:00 pm - 12:45 pm" class="form-control addr_inp">
+                        <input type="text" id="adrs_time" value="Auckland, 1 Oct, 10:05AM" class="form-control addr_inp" data-bs-toggle="modal" data-bs-target="#time_adrs">
                     </div>
                     <div class="find-restu">
                         <input type="text" placeholder="Find Restaurants" class="form-control find_res">
@@ -96,6 +96,142 @@
         </div>
     </div>
 </div>
+
+
+<div class="modal fade" id="time_adrs" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+
+<div class="adrspop">
+    <div class="input-field">
+        <input id="new-adrs" class="location_icon form-control" placeholder="Address" type="text">
+    </div>
+</div>
+
+
+
+<div id="datetim-picker">
+    <div class="inner">
+        <div class="swiper dateslide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <label class="date_box">
+                        <input name="date" type="radio" value="1 Oct" checked />
+                        <span><b>Tomorrow</b>1 oct</span>
+                    </label>
+                </div>
+                <div class="swiper-slide">
+                    <label class="date_box">
+                        <input name="date" type="radio" value="2 Oct" />
+                        <span><b>Sun</b>2 Oct</span>
+                    </label>
+                </div>
+                <div class="swiper-slide">
+                    <label class="date_box">
+                        <input name="date" type="radio" value="3 Oct" />
+                        <span><b>Mon</b>3 Oct</span>
+                    </label>
+                </div>
+                <div class="swiper-slide">
+                    <label class="date_box">
+                        <input name="date" type="radio" value="4 Oct" />
+                        <span><b>Tue</b>4 Oct</span>
+                    </label>
+                </div>
+                <div class="swiper-slide">
+                    <label class="date_box">
+                        <input name="date" type="radio" value="5 Oct" />
+                        <span><b>Wed</b>5 Oct</span>
+                    </label>
+                </div>
+                
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        
+        <div class="time">
+            <p>
+                <label>
+                    <input name="time" type="radio" value="10:00AM" />
+                    <span>10:00AM</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="time" type="radio" value="10:05AM" />
+                    <span>10:05AM</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="time" type="radio" value="10:10AM" />
+                    <span>10:10AM</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="time" type="radio" value="10:15AM" />
+                    <span>10:15AM</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="time" type="radio" value="10:20AM" />
+                    <span>10:20AM</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="time" type="radio" value="10:25AM" />
+                    <span>10:25AM</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="time" type="radio" value="10:30AM" />
+                    <span>10:30AM</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="time" type="radio" value="10:35AM" />
+                    <span>10:35AM</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input name="time" type="radio" value="10:40AM" />
+                    <span>10:40AM</span>
+                </label>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+    <div class="done-btn">
+        <button data-bs-dismiss="modal" class="btn full">Done</button>
+    </div>
+
+
+
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
 
 
 <script type="text/javascript">
@@ -425,13 +561,26 @@ $('.date_box input').change(function(){
     $('#date_time').val('');
     $('.time input').prop('checked', false);
 });
+
 $('.time input').change(function(){
     var date = $('.date_box input:checked').val();
     if($(this).is(':checked')){
       var time= $(this).val();
    } 
     $('#date_time').val(date+', '+time);
+    var adrs= $('#new-adrs').val();
+    $('#adrs_time').val(adrs+', '+date+', '+time);
 });
+
+
+
+
+
+
+
+
+
+
 </script>
 
 

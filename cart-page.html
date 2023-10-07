@@ -85,15 +85,38 @@
                 <div class="item">
                     <h3>Deliver to</h3>
                 </div>
-                <div class="item" data-bs-dismiss="modal">
-                    <p class="location_icon act_adrs"><b>Address</b> Beach Road, Torbay <!-- <span class="chbtn">Edit</span>--> </p>
+
+<!--                 <div class="new_adrs">
+                    <div class="adrspop">
+                        <div class="input-field">
+                            <input id="new-adrs" class="location_icon form-control" placeholder="Address" type="text">
+                        </div>
+                    </div>
+                </div>      --> 
+
+
+
+                <div class="item">
+                    <p class="location_icon act_adrs"><b>Address</b> Beach Road, Torbay  <span class="chbtn"></span> </p>
                 </div>                
-                <div class="item" data-bs-dismiss="modal">
-                    <p class="location_icon act_adrs"><b>Test Address</b> Test Road, Torbay</p>
+                <div class="item">
+                    <p class="location_icon act_adrs"><b>Address 2</b> Test Road, Torbay</p>
                 </div>                
-                <div class="item" data-bs-dismiss="modal">
+                <div class="item">
                     <p class="location_icon act_adrs"><b>New Address</b> New Road, Torbay</p>
-                </div>                
+                </div>
+
+                <div class="new_adrs">
+                    <div class="adrspop">
+                        <div class="input-field">
+                            <input id="new-adrs" class="location_icon form-control" placeholder="Address" type="text">
+                        </div>
+                        <div class="done-btn">
+                            <button data-bs-dismiss="modal" class="btn full">Done</button>
+                        </div>
+
+                    </div>
+                </div>            
 
 
 
@@ -151,10 +174,9 @@
                         </label></div>
                     </div>
                     <div class="loc_wrap" data-bs-toggle="modal" data-bs-target="#deliver_to">
-                        <p class="location_icon new_adrs">
-                            <b>Address</b> Ipusm Road, Torbay
 
-                        </p>
+                        <input id="adrs_input" class="location_icon form-control" placeholder="Address" type="text"/>
+
                     </div>
                     <h3>Delivery Estimate</h3>
                     <div class="schedule-wrap">
@@ -279,10 +301,25 @@
 
 <script type="text/javascript">
 
-$("body").on('click', '.act_adrs', function () {
-    var adrs =$(this).html();
-      $('.new_adrs').html(adrs);
-    });
+$("body").on('click', '.chbtn', function () {
+    $(".new_adrs").addClass('active');
+});
+$("body").on('click', '.adrspop .btn', function () {
+    var new_adr = $("#new-adrs").val();
+    console.log(new_adr);
+    $("#adrs_input").val(new_adr);
+    $(".new_adrs").removeClass('active');
+});
+
+
+
+
+
+
+// $("body").on('click', '.act_adrs', function () {
+//     var adrs =$(this).html();
+//     $('.new_adrs').html(adrs);
+// });
 
 
 

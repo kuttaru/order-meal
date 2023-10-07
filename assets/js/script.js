@@ -78,7 +78,7 @@ var swiper = new Swiper(".dateslide", {
 
 
 
-$('#datetim-picker').on('click', function(event){
+$('.dropdown-menu').on('click', function(event){
     event.stopPropagation();
 });
 

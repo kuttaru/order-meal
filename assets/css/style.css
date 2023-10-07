@@ -428,6 +428,7 @@ ul.restu_menu li a.active:after { content: ''; display: block; width: 100%; heig
 #addtocart .modal-dialog img{ width:100%; display:block; }
 #addtocart .modal-dialog .btn-close { background: #FC6143 url(../images/closebtn.svg) no-repeat; background-size: 24px; background-position: 8px 7px; opacity: 1; width: 32px; height: 32px; border-radius: 50px; position: absolute; top: 30px; right: 26px; cursor: pointer; z-index: 3; }
 .addcart-wrap .item { padding: 8px 40px; border-bottom:1px solid #DBD9D9; }
+.addcart-wrap .item:first-child { border-bottom:none; }
 .modal-content .imgwrap { position: relative; }
 .modal-content .imgwrap .info-grn { background: #5CF676; color: #000; font-weight: bold; position: absolute; bottom: 20px; right: 20px; z-index: 2; padding: 4px 14px; border-radius: 20px; }
 
@@ -438,7 +439,7 @@ ul.restu_menu li a.active:after { content: ''; display: block; width: 100%; heig
 .location_icon b{ display:block; color:#000; }
 #deliver_to .location_icon { position: relative; padding-right: 70px; }
 #deliver_to .act_adrs { cursor:pointer; }
-#deliver_to .location_icon .chbtn { background: #f1f1f1; position: absolute; top: 1px; right: 0; padding: 4px 10px; border-radius: 20px; font-size: 12px; cursor: pointer; }
+#deliver_to .location_icon .chbtn { background: url(../images/edit.svg) no-repeat; position: absolute; top: 6px; right: 0; font-size: 12px; cursor: pointer; height: 36px; width: 30px; background-size: 18px; background-position: 7px 0px; }
 .addcart-wrap .grey{ color:#888888; }
 .addcart-wrap .orange-text{ color:#FC6143; font-weight:600; }
 
@@ -448,6 +449,8 @@ ul.restu_menu li a.active:after { content: ''; display: block; width: 100%; heig
 
 .form-control.location_icon { background-position: 0px -74px }
 .form-control.location_icon:focus { border-color: #fff; box-shadow: none; }
+#adrs_input.form-control.location_icon{background-color: #f1f1f1;}
+
 
 
 .time_icon { background-position: 0px -152px; }
@@ -851,7 +854,6 @@ body.resturant_details-page.active_filter .filter-content { display: block; }
 #datetim-picker .date_box span { display: block; border: 2px solid #eee; padding: 10px; text-align: center; border-radius: 8px; opacity: .8; }
 #datetim-picker .date_box b { display: block; }
 #datetim-picker .date_box input:checked + span { border: 2px solid #FC6143; opacity: 1; }
-
 #datetim-picker .time { margin-top: 20px; height: 240px; overflow: auto; padding-right: 10px; }
 #datetim-picker .time p { margin: 0; }
 #datetim-picker .time label { display: block; padding: 18px 10px; border-bottom: 1px solid #ccc; cursor: pointer; position: relative; }
@@ -861,25 +863,84 @@ body.resturant_details-page.active_filter .filter-content { display: block; }
 #datetim-picker .time input:checked + span:after { border: 2px solid #FC6143; }
 #datetim-picker .time label span:before { display: block; width: 8px; height: 8px; background: #FC6143; border-radius: 20px; position: absolute; top: 24px; right: 24px; }
 #datetim-picker .time input:checked + span:before { content: ''; }
+#datetim-picker .swiper-horizontal {position: relative;}
+#datetim-picker .swiper-button-next, #datetim-picker .swiper-button-prev { top: 0px; width: 30px; height: 100%; background-color: #fff; margin: 0; }
+#datetim-picker .swiper-button-prev { left: 0; }
 
 
 
-.form-control {
-    min-height: 50px;
-}
 
 
 
-#datetim-picker .swiper-horizontal {
 
-    position: relative;
-}
+
+
+
+
+
+
+
 
 .dateslide { padding: 0 32px; }
-#datetim-picker .swiper-button-next, #datetim-picker .swiper-button-prev { top: 0px; width: 30px; height: 100%; background-color: #fff; margin: 0; }
+.form-control {min-height: 50px;}
+
+
 .swiper-button-next:after, .swiper-button-prev:after { content: ''; display: block; width: 30px; height: 30px; background: url(../images/slider_arow.svg) no-repeat; top: 100px; background-size: 23px; background-position: 5px 3px; }
 .swiper-button-prev:after { background-position: 0px -34px; }
 .swiper-button-next { left: 0; right: auto; }
-#datetim-picker .swiper-button-prev { left: 0; }
+
 .swiper-button-next { right: 0px; left: auto; }
 .swiper-button-disabled { display: none; }
+
+
+
+
+
+
+
+
+.new_adrs {
+    position: fixed;
+    background: rgb(0 0 0 / 50%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    display: none;
+}
+.new_adrs.active {
+    display: block;
+}
+
+.adrspop {
+    max-width: 440px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: var(--bs-modal-margin);
+
+}
+#new-adrs.location_icon {
+    background-color: #f1f1f1;
+    background-position: 12px -66px;
+    padding-left: 50px;
+}
+
+
+
+#time_adrs #datetim-picker{
+	width: auto;
+	box-shadow: none;
+}
+#time_adrs .adrspop{
+	max-width: none;
+	margin: 0;
+	padding: 40px 40px 0;
+}
+
+#time_adrs .done-btn{
+	padding: 20px 40px 20px;
+
+}
