@@ -142,9 +142,9 @@
       <b>New Address</b> New Road, Torbay <span class="chbtn"></span>
     </p>
   </div>
-  <div class="item btn-wrp">
+  <div class="btn-wrp">
     <div class="done-btn">
-      <button data-bs-dismiss="modal" class="btn full">Done</button>
+      <button  class="btn full clspop">Done</button>
     </div>
   </div>
   <div class="new_adrs">
@@ -153,7 +153,7 @@
         <input id="new-adrs" class="location_icon form-control" placeholder="Address" type="text">
       </div>
       <div class="adr-done">
-        <button class="btn full">Done</button>
+        <button class="btn full ">Done</button>
       </div>
     </div>
   </div>
@@ -176,7 +176,7 @@
         <p class="location_icon">Time </p>
         <span class="grybtn">Schedule</span>
 
-        <div class="smpopup adres-mdl">
+        <div class="smpopup time-mdl">
             <div class="smcontent">
             <div class="clspop"></div>
 
@@ -315,31 +315,6 @@
 
 
 
-
-
-
-
-<script type="text/javascript">
-(function($) {
-  $(document).ready(function() {
-    $('.cartbag').hover(function() {
-      $('#cart-bag').modal('show');
-    });
-
-    $(document.body).on('click', '.adrtime-wrap .grybtn' ,function(){
-        $(this).next('.smpopup').addClass("show");
-    });    
-    $(document.body).on('click', '.adrtime-wrap .clspop' ,function(){
-        $('.smpopup').removeClass("show");
-    });
-
-
-
-
-
-  });
-})(jQuery);
-</script>
 
 
 <div class="modal fade" id="cart-bag" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -654,20 +629,65 @@
 
 
 <script type="text/javascript">
-$('.date_box input').change(function(){
-    $('#date_time').val('');
-    $('.time input').prop('checked', false);
-});
 
-$('.time input').change(function(){
-    var date = $('.date_box input:checked').val();
-    if($(this).is(':checked')){
-      var time= $(this).val();
-   } 
-    $('#date_time').val(date+', '+time);
-    var adrs= $('#new-adrs').val();
-    $('#adrs_time').val(adrs+', '+date+', '+time);
-});
+
+
+
+(function($) {
+  $(document).ready(function() {
+    $('.cartbag').hover(function() {
+      $('#cart-bag').modal('show');
+    });
+
+    $(document.body).on('click', '.adrtime-wrap .grybtn' ,function(){
+        $(this).next('.smpopup').addClass("show");
+    });    
+    $(document.body).on('click', '.adrtime-wrap .clspop' ,function(){
+        $('.smpopup').removeClass("show");
+    });
+
+
+
+    $('.date_box input').change(function(){
+        $('#date_time').val('');
+        $('.time input').prop('checked', false);
+    });
+
+    $('.time input').change(function(){
+        var date = $('.date_box input:checked').val();
+        if($(this).is(':checked')){
+          var time= $(this).val();
+       } 
+        $('#date_time').val(date+', '+time);
+        var adrs= $('#new-adrs').val();
+        $('#adrs_time').val(adrs+', '+date+', '+time);
+    });
+
+
+    $('#new-adrs').keyup(function(){
+        var adrs= $(this).val();
+        $('#adrs_time').val(adrs);
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+  });
+})(jQuery);
+
+
+
+
+
+
 
 
 
