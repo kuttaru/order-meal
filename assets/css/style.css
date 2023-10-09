@@ -901,7 +901,7 @@ body.resturant_details-page.active_filter .filter-content { display: block; }
 
 .new_adrs {
     position: fixed;
-    background: rgb(0 0 0 / 50%);
+    background: rgb(0 0 0 / 25%);
     width: 100%;
     height: 100%;
     top: 0;
