@@ -936,7 +936,7 @@ body.resturant_details-page.active_filter .filter-content { display: block; }
 	padding-top: 20px;
 }
 
-.adrtime-wrap .item .location_icon{ min-height:40px; }
+.adrtime-wrap .item .location_icon{ min-height:50px; }
 .adrtime-wrap .item { position:relative; padding-right:100px; min-height:40px; }
 .addcart-wrap .item:last-child{ margin-bottom:0; }
 .adrtime-wrap .grybtn{
@@ -971,11 +971,13 @@ body.resturant_details-page.active_filter .filter-content { display: block; }
 	width: auto;
 	box-shadow: none;
 }
+
+/*
 #time_adrs .adrspop{
 	max-width: none;
 	margin: 0;
 	padding: 40px 40px 0;
-}
+}*/
 
 #time_adrs .done-btn{
 	padding: 20px 40px 20px;
@@ -1039,3 +1041,23 @@ body.resturant_details-page.active_filter .filter-content { display: block; }
 
 
 .time-mdl #datetim-picker{ padding:0; padding-top:20px }
+
+
+
+
+
+.smcontent .location_icon .chbtn {
+    background: url(../images/edit.svg) no-repeat;
+    position: absolute;
+    top: 6px;
+    right: 0;
+    font-size: 12px;
+    cursor: pointer;
+    height: 36px;
+    width: 30px;
+    background-size: 18px;
+    background-position: 7px 0px;
+}
+
+
+

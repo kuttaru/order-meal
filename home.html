@@ -285,6 +285,20 @@
         <button data-bs-dismiss="modal" class="btn full">Done</button>
       </div>
     </div>
+
+<div class="new_adrs ">
+  <div class="adrspop">
+    <div class="input-field">
+      <input id="new-adrs" class="location_icon form-control" placeholder="Address" type="text">
+    </div>
+    <div class="adr-done">
+      <button class="btn full">Done</button>
+    </div>
+  </div>
+</div>
+
+
+
   </div>
 </div>
 
@@ -329,6 +343,17 @@
         var adrs= $(this).val();
         $('#adrs_time').val(adrs);
     });
+
+
+    $("body").on('click', '.chbtn', function () {
+        $(".new_adrs").addClass('active');
+    });
+    $("body").on('click', '.adr-done', function () {
+        $(".new_adrs").removeClass('active');
+    });
+
+
+
 
   });
 })(jQuery);
