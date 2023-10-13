@@ -733,9 +733,6 @@ body.myorder-page{ background:#f1f1f1; }
 .gift-page .order-summery .servi-info { padding: 0; text-align: center; }
 .gift-page .order-summery .item.total-wrap { margin: 0; display: block; text-align: center; color: #000; }
 .gift-page .order-summery .allergy-info { text-align: center; }
-
-
-.cart-wrap .prdt-item .num select { display: block; appearance: none; background: #f1f1f1 url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns=!string!viewBox=!string!fill=!string!stroke=!string!stroke-width=!string!stroke-linecap=!string!stroke-linejoin=!string!%3e%3cpolyline points=!string!%3e%3c/polyline%3e%3c/svg%3e") no-repeat; background-position: 32px 7px; background-size: 1em; width: 54px; padding-right: 20px; }
 .resturant_details-page .filter-content { display: none; }
 #ordertab::-webkit-scrollbar { display: none; }
 #ordertab { -ms-overflow-style: none; scrollbar-width: none; }
