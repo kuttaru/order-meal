@@ -163,14 +163,14 @@ input::-webkit-inner-spin-button {-webkit-appearance: none;}
 .cart-wrap .restdetails p { margin: 6px 0; }
 .cart-wrap .restdetails .dpmenu { display: block; width: 34px; height: 34px; border: 1px solid #f00; position: absolute; top: 0; right: 0; border-radius: 50%; }
 .cart-wrap .cartitem { display: flex; justify-content: space-between;  padding-bottom: 30px; }
-.cart-wrap .prdt-info { margin-top: 30px; position: relative; padding-right: 35%; min-height: 80px; margin-bottom: 4px; }
+.cart-wrap .prdt-info { margin-top: 20px; position: relative; padding-right: 35%; min-height: 80px; margin-bottom: 4px; }
 .cart-wrap .prdt-info .imgwrap { width: 30%; position: absolute; top: 0; right: 0; }
 .cart-wrap .prdt-info h3 { font-size: 18px; font-weight: normal; margin: 0; }
 .cart-wrap .prdt-info p { margin: 0; }
 .cart-wrap .prdt-item .itemnum { display: flex; justify-content: space-between; }
 .cart-wrap .prdt-item .num select { border: none; background: #f1f1f1; padding: 4px 10px; border-radius: 14px; text-align: center; }
 .cart-wrap .order-note { background: #f1f1f1; margin-top: 24px; border-radius: 20px; padding: 14px 20px; position: relative; padding-right: 50px; }
-.cart-wrap .order-note input { width: 100%; background: none; border: none; }
+.cart-wrap .order-note textarea { width: 100%; background: none; border: none; height: 20px;}
 .cart-wrap .order-note p { margin: 0; }
 .cart-wrap .order-note label { font-size: 18px; }
 .cart-wrap .sbt-total { display: flex; justify-content: space-between;   padding-top: 33px; margin-bottom: 10px; }
@@ -813,7 +813,7 @@ body.landing-page { padding-top: 0; }
 body.fixed-header #header { -webkit-animation: scrl_menu .4s ease; -moz-animation: scrl_menu .4s ease; animation: scrl_menu .4s ease; }
 body.fixed-header #header.header_transparent { position: fixed; background: #fff; box-shadow: 0px 0px 3px rgb(0 0 0 / 40%); }
 body.fixed-header #header { position: fixed; }
-
+.itemnum .price { padding-top: 4px; }
 /* ------ Move ----- */
 .moveX { -moz-animation: moveX 20s infinite linear; animation: moveX 20s infinite ease; }
 .moveY { -moz-animation: moveY 15s infinite linear; animation: moveY 20s infinite ease; }
@@ -859,12 +859,27 @@ body.fixed-header #header { position: fixed; }
 }
 
 
-.delete-item {
+.prdt-item{
+	position: relative;
+	padding-right: 40px;
+}
+.prdt-item .delete-item {
 	width:20px;
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 20px;
+	right: 0;
+	cursor: pointer;
 }
-.cart-wrap .prdt-info{
-	padding-left: 30px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+

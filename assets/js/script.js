@@ -86,7 +86,7 @@ var swiper = new Swiper(".dateslide", {
 
 
 
-$('.dropdown-menu').on('click', function(event){
+$('.dropdown-menu .dateslide').on('click', function(event){
     event.stopPropagation();
 });
 
