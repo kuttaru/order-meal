@@ -9,6 +9,14 @@
   });
 
 
+    $(window).scroll(function(){
+        if ($(window).scrollTop() >= 250) {
+            $('body').addClass('fixed-header');
+        }
+        else {
+            $('body').removeClass('fixed-header');
+        }
+    });
 
 
     
