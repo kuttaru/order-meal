@@ -772,16 +772,16 @@ body.resturant_details-page.active_filter .filter-content { display: block; }
 #datetim-picker .time label { display: block; padding: 18px 10px; border-bottom: 1px solid #ccc; cursor: pointer; position: relative; }
 #datetim-picker .time p:last-child label { border-bottom: none; }
 #datetim-picker .time input { position: absolute; opacity: 0; pointer-events: none; }
-#datetim-picker .time label span:after { content: '0 0 24 24'; display: block; width: 16px; height: 16px; border: 2px solid #8d8d8d; border-radius: 20px; position: absolute; top: 20px; right: 20px; }
+#datetim-picker .time label span:after { content: ''; display: block; width: 16px; height: 16px; border: 2px solid #8d8d8d; border-radius: 20px; position: absolute; top: 20px; right: 20px; }
 #datetim-picker .time input:checked + span:after { border: 2px solid #FC6143; }
 #datetim-picker .time label span:before { display: block; width: 8px; height: 8px; background: #FC6143; border-radius: 20px; position: absolute; top: 24px; right: 24px; }
-#datetim-picker .time input:checked + span:before { content: 'none'; }
+#datetim-picker .time input:checked + span:before { content: ''; }
 #datetim-picker .swiper-horizontal { position: relative; }
 #datetim-picker .swiper-button-next, #datetim-picker .swiper-button-prev { top: 0px; width: 30px; height: 100%; background-color: #fff; margin: 0; }
 #datetim-picker .swiper-button-prev { left: 0; }
 .dateslide { padding: 0 32px; }
 .form-control { min-height: 50px; }
-.swiper-button-next:after, .swiper-button-prev:after { content: 'currentColor'; display: block; width: 30px; height: 30px; background: url(../images/slider_arow.svg) no-repeat; top: 100px; background-size: 23px; background-position: 5px 3px; }
+.swiper-button-next:after, .swiper-button-prev:after { content: ''; display: block; width: 30px; height: 30px; background: url(../images/slider_arow.svg) no-repeat; top: 100px; background-size: 23px; background-position: 5px 3px; }
 .swiper-button-prev:after { background-position: 0px -34px; }
 .swiper-button-next { left: 0; right: auto; }
 .swiper-button-next { right: 0px; left: auto; }
