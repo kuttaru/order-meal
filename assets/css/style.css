@@ -860,7 +860,32 @@ body.fixed-header #header { position: fixed; }
 
 
 
+.myorder-tab #ordertab i.ordernw_login {
+    background-position: 0px -212px;
+}
+.myorder-tab #ordertab li:hover i.ordernw_login {
+    background-position: -60px -212px;
+}
 
+
+
+
+
+.myorder-tab #ordertab i.ordernw_logout {
+    background-position: 0px -268px;
+}
+
+
+.myorder-tab #ordertab li:hover i.ordernw_logout {
+    background-position: -60px -268px;
+}
+.myorder-tab #ordertab li:hover i.ordernw_logout {
+    background-position: -60px -268px;
+}
+
+.myorder-tab #ordertab li:hover i.myprofile_icn {
+    background-position: -62px -53px;
+}
 
 
 
