@@ -922,7 +922,15 @@ body.fixed-header #header { position: fixed; }
     background-position: -62px -53px;
 }
 
+.mob-filter{ display:none; }
 
 
+.mob-filter .hdr_frm{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 20px;
+	margin-top: 0;
+}
+.mob-filter .addr-wrap{ width:100%; padding-top:20px; margin:0 }
 
-
+.filter-wrap.sticky-wrap{ top:90px }
