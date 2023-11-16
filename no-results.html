@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Order Meal">
+    <title>Restaurant page</title>
+    <link rel="icon" href="assets/images/favicon.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link type="text/css" rel="stylesheet" href="assets/css/swiper.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/responsive.css" />
+
+    <script type="text/javascript" src="assets/js/jquery-3.7.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+
+
+    <script type="text/javascript" src="assets/js/swiper.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+
+
+</head>
+
+
+<body class="resturant_details-page" ng-app="">
+    
+
+
+<div id="header" >
+    <div class="container">
+        <div class="flexrow">
+            <div class="logo-wrap">
+                <div class="hamburger_menu" data-bs-toggle="modal" data-bs-target="#main-menu"><hr/><hr/><hr/></div>
+                <div class="logo"><a href="/"><img src="assets/images/logo.svg" alt=""/></a></div>
+            </div>
+            <div class="right-section">
+                <div class="hdr_frm">
+                  
+                    <div class="addr-wrap">
+                        <input type="text" id="adrs_time" value="Auckland, Sat 1 Oct, 10:05AM" class="form-control addr_inp" data-bs-toggle="modal" data-bs-target="#time_adrs">
+                    </div>
+                    <div class="find-restu">
+                        <input type="text" placeholder="Find Restaurants" class="form-control find_res">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="sin_wrap">
+
+                <div class="cartbag" data-bs-toggle="modal" data-bs-target="#cart-bag" >
+                    <span class="cart-count">$99</span>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="main-menu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <span  class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+            <ul class="main-nav">
+                <li><a href="/home.html" class="home">Home</a></li>
+                <li><a href="/about.html" class="about">About Us</a></li>
+                <li><a href="/contact.html" class="om">Contact Order Meal</a></li>
+                <li><a href="/blogs.html" class="blog">Our Blog</a></li>
+                <li><a href="/services.html" class="srvice">Our Services</a></li>
+                <li><a href="/add-restaurant.html" class="rest">Add your Restaurant</a></li>
+                <li><a href="/driver-form.html" class="signup">Signup for Driver</a></li>
+                <li><a href="/giftcard.html" class="gift">Buy OM Gift Cards</a></li>
+                <li><a href="/feedback.html" class="fdback">Feedback</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade" id="cart-bag" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <span class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
+
+
+
+<div class="cart-wrap">
+    <div class="restdetails">
+        <h3>Chand torbay, Beach Road</h3>
+        <p>Pickup at 1028 Beach Road torbay</p>
+
+ <div id="drpdown" data-bs-toggle="dropdown" ><hr/><hr/><hr/></div>
+<div class="dropdown">
+  <ul class="dropdown-menu" aria-labelledby="drpdown">
+    <li><a class="dropdown-item" href="#">Option 1</a></li>
+    <li><a class="dropdown-item" href="#">Option 2</a></li>
+    <li><a class="dropdown-item" href="#">Option 3</a></li>
+  </ul>
+</div>
+
+
+    </div>
+
+    <div class="cartitem">
+        <div class="">1 Item</div>
+        <div class="">Subtotal: NZ$32.75</div>
+    </div>
+
+<div class="scrl_wrp">
+
+
+
+    <div class="crt_item">
+
+        <div class="prdt-item">
+            <div class="delete-item"><img src="assets/images/delete.svg"></div>
+            <div class="prdt-info">
+                <h3>Holy Smoke Chicken Burg</h3>
+                <p>Choice of Add Ons: Side of Fries, Make it a Double</p>
+                <div class="imgwrap"><img src="assets/images/food/food.jpg" class="roundimg"></div>
+            </div>
+            <div class="itemnum">
+                <div class="cartnum">
+                    
+                    <div class="count_input">
+                        <input type="number" class="form-control" value="1">
+                        <span class="increase number_btn">+</span>
+                        <span class="decrease number_btn">-</span>
+                    </div>
+                </div>
+                <div class="price">NZ$32.75</div>
+            </div>
+        </div>
+
+
+        
+        <div class="prdt-item">
+            <div class="delete-item"><img src="assets/images/delete.svg"></div>
+            <div class="prdt-info">
+                <h3>Holy Smoke Chicken Burg</h3>
+                <p>Choice of Add Ons: Side of Fries, Make it a Double</p>
+                <div class="imgwrap"><img src="assets/images/food/food.jpg" class="roundimg"></div>
+            </div>
+            <div class="itemnum">
+                <div class="cartnum">
+                    
+                    <div class="count_input">
+                        <input type="number" class="form-control" value="1">
+                        <span class="increase number_btn">+</span>
+                        <span class="decrease number_btn">-</span>
+                    </div>
+                </div>
+                <div class="price">NZ$32.75</div>
+            </div>
+        </div>
+
+
+        
+        <div class="prdt-item">
+            <div class="delete-item"><img src="assets/images/delete.svg"></div>
+            <div class="prdt-info">
+                <h3>Holy Smoke Chicken Burg</h3>
+                <p>Choice of Add Ons: Side of Fries, Make it a Double</p>
+                <div class="imgwrap"><img src="assets/images/food/food.jpg" class="roundimg"></div>
+            </div>
+            <div class="itemnum">
+                <div class="cartnum">
+                    
+                    <div class="count_input">
+                        <input type="number" class="form-control" value="1">
+                        <span class="increase number_btn">+</span>
+                        <span class="decrease number_btn">-</span>
+                    </div>
+                </div>
+                <div class="price">NZ$32.75</div>
+            </div>
+        </div>
+
+
+        
+        <div class="prdt-item">
+            <div class="delete-item"><img src="assets/images/delete.svg"></div>
+            <div class="prdt-info">
+                <h3>Holy Smoke Chicken Burg</h3>
+                <p>Choice of Add Ons: Side of Fries, Make it a Double</p>
+                <div class="imgwrap"><img src="assets/images/food/food.jpg" class="roundimg"></div>
+            </div>
+            <div class="itemnum">
+                <div class="cartnum">
+                    
+                    <div class="count_input">
+                        <input type="number" class="form-control" value="1">
+                        <span class="increase number_btn">+</span>
+                        <span class="decrease number_btn">-</span>
+                    </div>
+                </div>
+                <div class="price">NZ$32.75</div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+        <div class="order-note">
+            <label>Add an order note</label>
+            <p><textarea class="materialize-textarea" placeholder="Utensils, Special instruction, etc."></textarea></p>
+            <div class="addbtn"></div>
+        </div>
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+</div>
+
+
+    <div class="sbt-total">
+        <h3>Subtotal</h3>
+        <h3 class="price">NZ$32.70</h3>
+        
+    </div>
+    <div class="btn-wrap">
+        <div class="checkout_btn"><p><a href="/cart-page.html" class="btn grey full">Go to checkout</a></p></div>
+
+        <p><a href="/home.html" class="btn full">Add Items</a></p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+</div>
+
+
+
+<div id="restaurant-banner">
+    <div class="imgwrap"><img src="assets/images/resturant-banner.png" /></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="main-content">
+    <div class="container">
+        <div class="noresult-wrap">
+            <img src="assets/images/sad-face.png" class="sad-face">
+           
+
+            <h2>Sorry, We couldn't find any result</h2>
+             <img src="assets/images/no-result.png" class="noresult-men">
+
+
+
+        </div>
+        
+    </div>
+</div>
+
+
+
+<div id="footer">
+    <div class="container">
+        <div class="flexrow links_row">
+            <div class="appwrap">
+                <div class="imgwrap"><img src="assets/images/logo-white.svg" alt=""></div>
+                <div class="get-app">
+                    <a href="#"><img src="assets/images/gpay.png" alt=""></a>
+                    <a href="#"><img src="assets/images/ios.png" alt=""></a>
+                </div>
+            </div>
+            <div class="links_wrap quick-links">
+                <h3>Quick Links</h3>
+                <ul class="qu_links">
+                    <li><a href="/about.html">About Us</a></li>
+                    <li><a href="/contact.html">Contact Order Meal</a></li>
+                    <li><a href="/blogs.html">Our Blog</a></li>
+                    <li><a href="/services.html">Our Services</a></li>
+                    <li><a href="/add-restaurant.html">Add your Restaurant</a></li>
+                    <li><a href="/driver-form.html">Signup for Driver</a></li>
+                    <li><a href="/giftcard.html">Buy OM Gift Cards</a></li>
+                    <li><a href="/feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <ul>
+                    <li class="fb"><a href="#"><img src="assets/images/facebook.png" alt="" /></a></li>
+                    <li><a href="#"><img src="assets/images/insta.png" alt="" /></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="flexrow cities_row">
+            <div class="appwrap">
+                <div class="paycars">
+                    <a href="#"><img src="assets/images/visa.png" alt=""></a>
+                    <a href="#"><img src="assets/images/mastercard.png" alt=""></a>
+                    <a href="#"><img src="assets/images/americanexpress.png" alt=""></a>
+                    <a href="#"><img src="assets/images/golepay.png" alt=""></a>
+                    <a href="#"><img src="assets/images/apple_pay.png" alt=""></a>
+                    <a href="#"><img src="assets/images/windcave.png" alt=""></a>
+                </div>
+            </div>
+            <div class="links_wrap top-citys">
+                <h3>Our Top Cities</h3>
+                <ul class="city_links">
+                    <li><a href="#">Auckland</a></li>
+                    <li><a href="#">Christchurch</a></li>
+                    <li><a href="#">Wellington</a></li>
+                    <li><a href="#">Hamilton</a></li>
+                    <li><a href="#">Tauranga</a></li>
+                    <li><a href="#">Lower Hutt</a></li>
+                    <li><a href="#">Dunedin</a></li>
+                    <li><a href="#">Northland</a></li>
+                    <li><a href="#">Bay of Plenty</a></li>
+                    <li><a href="#">Rodney</a></li>
+                    <li><a href="#">Hauraki</a></li>
+                    <li><a href="#">Rotorua</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="copyright">
+        <div class="container">
+            <ul>
+                <li><a href="/privacy.html">Privacy Policy</a></li>
+                <li><a href="/terms.html">Terms and Conditions</a></li>
+                <li><a href="/feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+
+</html>

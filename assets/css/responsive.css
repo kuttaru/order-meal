@@ -212,6 +212,9 @@
     #datetim-picker .time label span:before{ top:20px }
     #datetim-picker .date_box span {padding: 6px;}
 
+    .noresult-men { position: relative; width: 60%; bottom:0px; right: 0; margin-left: auto;    margin-bottom: -170px; }
+    .sad-face { width: 160px; }
+
 }
 
 @media (max-width:480px) {
