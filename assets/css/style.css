@@ -20,7 +20,7 @@ h5 { font-size: 1.1rem; margin: 1.0933333333rem 0 .656rem 0 }
 h6 { font-size: 1rem; margin: .7666666667rem 0 .46rem 0 }
 a { color: #000 }
 ul{ padding:0; margin:0; list-style:none; }
-
+.hide{ display:none !important; }
 .form-control:focus { border-color: #fc6143; outline: 0; box-shadow: 0 0 0 .25rem rgb(252 97 67 / 30%); }
 img{ max-width:100%; display:block; }
 .middle { display: flex; justify-content: center; flex-direction: column; }
@@ -69,7 +69,7 @@ input::-webkit-inner-spin-button {-webkit-appearance: none;}
 #header.header_transparent { background: none; position: absolute; width: 100%; top: 0; left: 0; box-shadow: none; z-index:9; }
 .signbtn a { text-decoration: none; font-weight: bold; padding:10px; display: inline-block; }
 .signbtn a.brd-right{ position:relative; }
-.signbtn a.brd-right:before { content: ''; display: block; width: 2px; height: 17px; background: #000; position: absolute; top: 11px; right: 0; }
+.signbtn a.brd-right:before { content: ''; display: block; width: 2px; height: 17px; background: #000; position: absolute; top: 12px; right: 0; }
 .btn.grey{ background:#f1f1f1; color:#000; }
 
 /*----- header -------*/
@@ -452,7 +452,7 @@ ul.restu_menu li a.active:after { content: ''; display: block; width: 100%; heig
 
 .phone_icon, .location_icon, .time_icon { background: url(../images/retur_icons.svg) no-repeat; padding-left: 40px; background-size: 22px; }
 .phone_icon { background-position: 0px 4px; }
-.location_icon { background-position: -1px -73px; }
+.location_icon { background-position: -1px -75px; background-size: 21px; }
 
 .form-control.location_icon { background-position: 0px -74px }
 .form-control.location_icon:focus { border-color: #fff; box-shadow: none; }
@@ -934,3 +934,6 @@ body.fixed-header #header { position: fixed; }
 .mob-filter .addr-wrap{ width:100%; padding-top:20px; margin:0 }
 
 .filter-wrap.sticky-wrap{ top:90px }
+.opening-hours-wrapper .flexrow { padding-bottom: 12px; }
+.opening-hours-wrapper .week { font-weight: bold; min-width: 100px; }
+
