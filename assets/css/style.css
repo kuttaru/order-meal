@@ -937,3 +937,186 @@ body.fixed-header #header { position: fixed; }
 .opening-hours-wrapper .flexrow { padding-bottom: 12px; }
 .opening-hours-wrapper .week { font-weight: bold; min-width: 100px; }
 
+
+
+/* ================================================================================================================================================================================================== */
+
+
+
+
+
+/* =========== Detail page ============= */
+.details-main .inner { background: #fff; border-radius: 20px; overflow: hidden;  margin-bottom: 60px}
+.details-side .inner { margin-left: 10px;  }
+
+.details-side .shadow-box{border-radius: 20px; margin-bottom: 20px; box-shadow: 0px 0px 6px #c9c9c9; background: #fff;}
+
+
+.details-wrap { position: relative; z-index: 1; margin-top: -62px; }
+.details-main .inner { border-radius: 20px; box-shadow: 0px 0px 6px #c9c9c9}
+
+.details-main .nav-tabs { border-bottom: 1px solid #e2e2e2; padding-left: 40px; }
+.details-main .nav-tabs li.nav-item { }
+.details-main .nav-tabs li.nav-item a { border: none; color: #000; padding: 0px 25px; }
+.details-main .nav-tabs li.nav-item a.active { background: none; }
+.details-main .nav-tabs li.nav-item a b { font-weight: normal; display: block; padding: 20px 0; border-bottom: 1px solid #e2e2e2; }
+.details-main .nav-tabs li.nav-item a.active b { border-bottom: 1px solid #FC6143; color: #FC6143; }
+
+
+
+
+#overview-wrap h2 { padding: 30px 40px; border-bottom: 1px solid #e2e2e2; margin: 0; }
+.details-main .content { padding: 20px 40px; }
+#overview-wrap .top-tag { display: flex; }
+#overview-wrap .top-tag a { display: block; border: 1px solid #000; margin-left: 15px; border-radius: 26px; padding: 5px 14px; margin-top: -5px; }
+#overview-wrap .desp { padding: 20px 0 10px; }
+#photos-wrap h4 { margin: 0; padding: 0 40px; border-bottom: 1px solid #e2e2e2; padding-bottom: 28px; }
+.gallery-wrap { display: flex; margin: 0 -6px; padding-top: 20px }
+.gallery-wrap img { border-radius: 20px; padding: 6px }
+.gallery-wrap .one { width: 50%; }
+.gallery-wrap .two { width: 50%; }
+.gallery-wrap .two { display: block; column-count: 2; column-gap: 0px; }
+.gallery-wrap a { display: block; position: relative; }
+.gallery-wrap a b { background: rgb(0 0 0 / 50%); position: absolute; width: calc(100% - 12px); height: calc(100% - 12px); left: 6px; top: 6px; border-radius: 14px; display: flex; justify-content: center; flex-direction: column; text-align: center; color: #fff; font-weight: normal; font-size: 13px; }
+
+.full-width { width: 100%; }
+
+
+.menu-wrap h4.title { padding: 26px 40px 36px; border-bottom: 1px solid #e2e2e2; }
+.menu-wrap h4 { padding: 34px 40px; border-bottom: 1px solid #e2e2e2; margin: 0; }
+.menu-wrap p { display: flex; justify-content: space-between; padding: 10px 40px; margin: 0 }
+.menu-wrap p b { font-weight: normal; }
+.menu-wrap p.item { border-bottom: 1px solid #e2e2e2; padding: 30px 40px; }
+.menu-wrap h4.title { padding: 26px 40px 36px; border-bottom: 1px solid #e2e2e2; }
+.menu-wrap h4 { padding: 34px 40px; border-bottom: 1px solid #e2e2e2; margin: 0; }
+.menu-wrap .combo { padding: 20px 0; }
+
+
+#details-faq h2 { margin: 0; padding: 12px 40px 0; }
+#details-faq .accordion-item .acd-title { padding: 37px 40px; border-top: 1px solid #e2e2e2; }
+#details-faq .accordion-item:first-child .acd-title { border-top: none; }
+#details-faq .accordion-body { padding: 4px 40px; }
+#details-faq .accordion-item .acd-title .clps_icon { top: 44px; }
+#details-faq .accordion-item .acd-title.collapsed .clps_icon { top: 39px; }
+.details-side .inner h3 { font-size: 22px; padding: 26px 30px 11px; margin: 0; border-bottom: 1px solid #e2e2e2; }
+.details-side .form-control { background-color: #fff; padding-left: 0; }
+.details-side .input-field { margin: 0; padding: 24px 30px 10px; }
+.details-side .row { margin: 0; padding: 12px 30px 10px; border-bottom: 1px solid #e2e2e2; }
+.details-side .btn-wrap { margin: 0; padding: 12px 30px 10px; }
+.details-side .row .input-field { padding: 0; border-bottom: none; padding-right: 10px; }
+.details-side select.form-control:focus {box-shadow:none;}
+
+
+.gallery-full { display: flex; flex-wrap: wrap; padding: 20px 40px; }
+.gallery-full a { width: 33.33%; padding: 6px; display:block; }
+
+
+.form-control.tel-icon { background: url(../images/details-icon.svg) no-repeat; padding-left: 50px; background-position: 17px -280px; }
+.form-control.loc-icon { background: url(../images/details-icon.svg) no-repeat; padding-left: 50px; background-position: 17px -318px; }
+.pickup-delivery .form-control { background-color:#f1f1f1; border-radius:20px }
+.pickup-delivery .input-field { padding-top: 18px; }
+.details-side .pickup-delivery h3 { margin-bottom: 10px; }
+.details-side .pickup-delivery { padding-bottom: 30px; }
+.map-wrap .imgwrap { padding: 12px; }
+.map-wrap .imgwrap img { border-radius: 12px; }
+
+
+.addition-info .item{padding: 20px 32px; position:relative; }
+.addition-info .item p{ margin:0 }
+.addition-info .icon { width: 25px; height: 30px; position: absolute; top: 23px; left: 0px; background: url(../images/details-icon.svg) no-repeat; }
+.addition-info .icon-road { background-position: 0px 4px; }
+.addition-info .icon-hour { background-position: 1px -41px; }
+.addition-info .icon-cuisin { background-position: 0px -81px; }
+.addition-info .icon-dining { background-position: 0px -123px; }
+.addition-info .icon-parking { background-position: 0px -166px; }
+.addition-info .icon-payment { background-position: 1px -209px; }
+.addition-info .icon-adition { background-position: 0px -252px; }
+.addition-info a{ color:#FC6143; }
+.view-link {padding: 0px 32px; font-weight: bold;}
+
+/* ======== Payment ========= */
+
+.payment-page {background: #f1f1f1;}
+.payment-page #main-content { padding-top: 90px; }
+.payment-page #main-content .container { max-width: 1020px; }
+.payment-main { background: #fff; border-top-left-radius: 20px;
+border-top-right-radius: 20px; }
+.payment-side { margin-left: 10px; padding: 30px; background:#fff; border-radius:20px; }
+
+.almost-done { padding: 38px 30px 10px; }
+.almost-done h3 { font-size: 22px; }
+.almost-done h3.orange-text { font-weight: normal; margin-top: 24px; }
+.almost-done ul { display: flex; }
+.almost-done ul li { padding-left: 30px; margin-right: 10px; background: url(../images/date-time.svg) no-repeat; }
+.almost-done ul li.calendar { background-position: 7px 5px; }
+.almost-done ul li.time { background-position: 8px -48px; }
+.almost-done ul li.person { background-position: 8px -104px; }
+.almost-done h4 { border-top: 1px solid #e2e2e2; border-bottom: 1px solid #e2e2e2; font-weight: normal; margin: 32px -30px 0px; padding: 22px 30px 25px; }
+.almost-done h4 b { color: #FC6143; }
+
+.dinner-details { padding: 0px 30px;border-bottom:1px solid #e2e2e2; }
+.dinner-details h3 { font-size: 22px; margin: 22px 0 40px; }
+
+.bank_choose label { padding-left: 50px; }
+.bank_choose label span { font-size: 18px; font-weight: 500; }
+.bank_choose p { color: #707070; font-size: 12px; margin: 0; }
+.bank_choose .card_icon { background: url(../images/credit-card.svg) no-repeat; padding-left: 40px; background-position: 3px 6px; display: block; }
+.bank_choose .bank_icon { background: url(../images/bank.svg) no-repeat; padding-left: 40px; display: block; background-position:3px 1px; }
+
+.paymethod { padding: 10px 30px }
+.paymethod h3 { font-size: 22px }
+.payment-main .btn-wrap { padding: 40px 30px 10px; }
+.payment-main .btn-wrap .btn { height: 70px; font-weight: bold; font-size: 18px; border-radius: 20px; }
+
+.know-before h3 { font-size: 22px; margin: 18px 0 0; }
+.order_bg{ margin-bottom:80px }
+.order_bg img{ width:100%; }
+
+
+#thank_you h4 { color: #000; text-align: center; border-bottom: 1px solid #c9c9c9; padding-bottom: 16px; margin: 0 -23px; }
+#thank_you p { text-align: center; padding: 10px 40px; color: #707070; }
+#thank_you .modal-dialog { max-width: 360px; position: relative; overflow: hidden; padding: 0px 18px; border-radius: 10px; }
+#thank_you .left-brd, #thank_you .right-brd { position: absolute; top: -45px; width: 26px; }
+#thank_you .left-brd { left: 0; }
+#thank_you .right-brd { right: 0; }
+#thank_you .modal-content { border: none; }
+
+
+/* ======== Banner Date ======== */
+.datepeo-wrap { padding: 20px }
+.datepeo-wrap h2 { text-al }
+.datepeo-wrap .date-people { display: flex; max-width: 930px; margin: 0 auto; }
+.date-people .input-field { margin-bottom: 0 }
+.datepeo-wrap .date-people .date-time { display: flex; background: #fff; border-radius: 12px; overflow: hidden; padding: 0px 8px; margin-right: 12px; }
+.date-people .form-control { background: #fff url(../images/banner-filter.svg) no-repeat; padding-left: 50px; height: 70px; font-size: 14px; }
+.date-people #datepicker { background-position: 14px 23px; }
+.date-people .time-sel { background-position: 12px -41px; border-left: 1px solid #e2e2e2; border-right: 1px solid #e2e2e2; }
+.date-people .peop-sel { background-position: 15px -109px; }
+.date-people .loc-sel { background-position: 14px -174px; border-radius: 12px; width:275px }
+.date-people .btn { height: 70px; border-radius: 12px; font-weight: bold; }
+.date-people .btn-wrap { padding-left: 12px; }
+.date-people .form-control:focus { box-shadow: none; }
+.page-banner { position: relative; }
+.page-banner .datepeo-wrap { position: absolute; width: 100%; height: 100%; top: 0; left: 0; display: flex; justify-content: center; flex-direction: column; }
+.datepeo-wrap .heading { text-align: center; color: #fff; margin-bottom: 26px; }
+.datepeo-wrap .heading h2 { margin: 0; }
+.datepeo-wrap .heading h4 { margin: 0; font-weight: normal; font-size: 20px; margin-bottom: 12px; }
+/* ========= ui-datepicker ============ */
+#ui-datepicker-div { background: #fff; width: 300px; padding: 20px; box-shadow:0px 0px 10px rgb(0 0 0 / 20%); position:absolute; top:0 }
+#ui-datepicker-div  .ui-datepicker-title { text-align: center; font-weight: bold; padding: 10px 40px; }
+#ui-datepicker-div th { text-align: center; font-weight: normal; }
+#ui-datepicker-div td { border: 1px solid #e2e2e2; margin: 0; line-height: normal; padding: 0; }
+#ui-datepicker-div td span, #ui-datepicker-div td a { display: block; padding: 8px 6px; text-align: center; }
+#ui-datepicker-div td span { color: #b1b1b1; }
+#ui-datepicker-div a.ui-state-highlight { background: #e2e2e2; }
+#ui-datepicker-div .ui-state-active { background: #FC6143; color: #fff; }
+#ui-datepicker-div .ui-datepicker-header { position: relative; }
+#ui-datepicker-div .ui-datepicker-header .ui-datepicker-prev, #ui-datepicker-div .ui-datepicker-header .ui-datepicker-next { position: absolute; display: block; width: 40px; height: 40px; overflow: hidden; text-indent: -999px; top: 0; cursor: pointer; background: url(../images/arrow.svg) no-repeat; background-size: 70px; }
+#ui-datepicker-div .ui-datepicker-header .ui-datepicker-prev { left: 0; background-position: 14px 14px; }
+#ui-datepicker-div .ui-datepicker-header .ui-datepicker-next { right: 0; background-position: -47px 14px; }
+
+
+
+
+
+

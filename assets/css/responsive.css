@@ -173,6 +173,7 @@
 
 /* ==================== Mobile =============== */
 @media (max-width:740px) {
+    body {padding-top: 60px;}
     .meal-slider .slide1 { right: -30%; }
     #cart-bag .modal-content { width: 320px; padding: 6px;    padding-top: 30px; }
     .cart-wrap .restdetails { margin-top: 10px; margin-bottom: 10px; padding-right: 10px; }
@@ -213,10 +214,12 @@
     #datetim-picker .time label span:after{ top:16px; }
     #datetim-picker .time label span:before{ top:20px }
     #datetim-picker .date_box span {padding: 6px;}
+    
 
     .noresult-men { position: relative; width: 60%; bottom:0px; right: 0; margin-left: auto;    margin-bottom: -170px; }
     .sad-face { width: 160px; }
     #header .hdr_frm{ display:none; }
+    .resturant-cnt {padding-top: 10px;}
 
 }
 
